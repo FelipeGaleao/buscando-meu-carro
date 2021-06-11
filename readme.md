@@ -1,4 +1,4 @@
-# Searching-my-car
+# buscando-meu-carro
 🗣📖 Este repositório contém uma aplicação desenvolvida em Python que realiza a captação das informações (webscrapping) dos veículos disponibilizadas no site do ShopCar. O objetivo será alimentar um BI com informações referente aos carros disponíveis para venda no Mato Grosso do Sul. 
 <hr>
 
