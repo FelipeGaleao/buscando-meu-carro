@@ -33,44 +33,6 @@ dag = DAG(
 )
 
 
-
-
-
-## Tasks => TODO: Resolver o problema do diretório de tasks para deixar o arquivo principal da dag menos poluído
-
-
-# def extract_webmotors_page(index):
-#     import requests
-#     import pandas as pd 
-#     import json 
-#     headers = {
-#     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36',
-#     }
-#     req_veiculos = requests.get("https://www.webmotors.com.br/api/search/car?url=https://www.webmotors.com.br/carros%2Fms%3Fanunciante%3DConcession%25C3%25A1ria%257CLoja%26estadocidade%3DMato%2520Grosso%2520do%2520Sul", params="actualPage=" + str(index), headers=headers)
-#     req_veiculos = json.loads(req_veiculos.text)
-#     dados_veiculos = pandas.DataFrame()
-#     try:
-#         req_veiculos = req_veiculos['SearchResults']
-#         json_str = json.dumps(req_veiculos)
-#         veiculos = pandas.read_json(json_str)
-#         tabela_especificacoes = pandas.json_normalize(veiculos['Specification'])
-#         veiculos = veiculos.join(other= tabela_especificacoes)
-
-#         tabela_precos = pandas.json_normalize(veiculos['Prices'])
-#         veiculos = veiculos.join(other= tabela_precos)
-        
-#         tabela_vendedor = pandas.json_normalize(veiculos['Seller'])
-#         veiculos = veiculos.join(other= tabela_vendedor)
-#         dados_veiculos = pandas.concat([dados_veiculos, veiculos])
-#     except:
-#         print(f"Ocorreu um erro na página {index}")
-        
-#     dados_veiculos = dados_veiculos.drop(labels=['Prices', 'Channels', 'VehicleAttributes', 'Media', 'Specification', 'Seller'], axis=1)
-#     if(index == 1):
-#        dados_veiculos.to_csv('raw/anuncios_webmotors.csv')
-#     else:
-#        dados_veiculos.to_csv('raw/anuncios_webmotors.csv', mode='a', headers='false')
-
 def extract_shopcar_page(pagina):
     import pandas 
     import json 
