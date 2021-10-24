@@ -1,0 +1,4 @@
+/airflow/logs
+/airflow/.local/
+/airflow/.cache/
+*.pyc

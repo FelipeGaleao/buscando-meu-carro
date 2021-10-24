@@ -1,0 +1,6 @@
+/airflow/.cache
+/airflow/.config
+/airflow/logs
+/airflow/airflow-webserver.pid
+/airflow/airflow.db
+.env
