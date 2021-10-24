@@ -28,6 +28,7 @@ services:
             - ./staging:/usr/local/airflow/staging
             - ./raw:/usr/local/airflow/raw
             - ./trusted:/usr/local/airflow/trusted
+            - ./requirements.txt:/requirements.txt
 
 
             # - ./plugins:/usr/local/airflow/plugins
