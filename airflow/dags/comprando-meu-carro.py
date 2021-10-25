@@ -3,13 +3,13 @@ from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 import logging
 import os 
-import sys 
+import sys
 
 ## Import tasks folder
 sys.path.insert(0,os.path.abspath(os.path.dirname(__file__)))
 sys.path.append('/opt/airflow/dags')
 
-from tasks import extract
+from tasks import extract, transform
 
 dag_id = 'CMC-extract-data-from-portals'
 
@@ -28,12 +28,13 @@ default_args = {
 dag = DAG(
     dag_id = dag_id,
     default_args = default_args,
-    max_active_runs=16,
-    concurrency = 64,
+    max_active_runs=128,
+    concurrency = 128,
     schedule_interval="0 2 * * *"
 )
 
-for i in range(1, 593):
+
+for i in range(1, 591):
     # scrapping_webmotors = PythonOperator(
     #             task_id="EXTRACT_DATA_WEBMOTORS_PAGE_{}".format(i),
     #             python_callable = extract_webmotors_page,
@@ -42,10 +43,19 @@ for i in range(1, 593):
     #             },
     #             dag=dag)
     
-    scrapping_shopcar_page = PythonOperator(
+    extract_shopcar_page = PythonOperator(
                 task_id="EXTRACT_DATA_SHOPCAR_PAGE_{}".format(i),
                 python_callable = extract.extract_shopcar_page,
                 op_kwargs = {
                     "pagina" : i,
                 },
                 dag=dag)
+    
+    
+    
+    transform_shopcar_dataset = PythonOperator(
+                    task_id="TRANSFORM_SHOPCAR_DATASET",
+                    python_callable = transform.transform_shopcar_dataset,
+                    dag=dag)
+
+    extract_shopcar_page >> transform_shopcar_dataset
