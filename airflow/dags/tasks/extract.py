@@ -1,4 +1,33 @@
-
+def extract_olx_veiculos(pagina):
+    url = f"https://ms.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios?o={pagina}&re=39"
+    request_headers = {
+        'User-Agent':
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) '
+        'AppleWebKit/537.36 (KHTML, like Gecko) '
+        'Chrome/50.0.2661.102 '
+        'Safari/537.36 '
+    }
+    res = requests.get(url, headers=request_headers)
+    soup = BeautifulSoup(res.text)
+    anuncios = soup.find(id='ad-list')
+    link_anuncio = anuncios.find_all("a")
+    for anuncio in link_anuncio:
+        res = requests.get(
+            anuncio['href'], headers=request_headers, stream=True)
+        soup = BeautifulSoup(res.content, features="html.parser")
+        data = soup.find(id="initial-data")['data-json']
+        data = json.loads(data)
+        data = data['ad']
+        propriedades = data['properties']
+        df_propriedades_veiculos = pd.DataFrame(data=propriedades)
+        df_propriedades_veiculos = pd.pivot(
+            df_propriedades_veiculos, columns='name', values='value')
+        df_propriedades_veiculos['id'] = 1
+        df_propriedades_veiculos['anuncio_id_olx'] = data['listId']
+        df_propriedades_veiculos['link_anuncio_olx'] = anuncio['href']
+        df_propriedades_veiculos = df_propriedades_veiculos.reset_index().groupby('id').agg("first")
+        df_propriedades_veiculos.to_csv('./raw/scrapping_olx_veiculos_ms.csv', mode='a', header=False, encoding='latin')
+        
 def extract_shopcar_page(pagina):
     import pandas 
     import json 
@@ -52,7 +81,9 @@ def extract_shopcar_page(pagina):
         
     carros_df = pandas.DataFrame(carro_dados)
     carros_df.columns = ['Modelo', 'Ano', 'Cor',' Combustível','KM', 'Preco', 'Link', 'Vendedor', 'Cidade']
-    if(pagina > 2):
-        carros_df.to_csv('./raw/scrapping_anuncios_shopcar.csv', mode='a', header=False)
-    else:
-        carros_df.to_csv('./raw/scrapping_anuncios_shopcar.csv', header=True)
+    carros_df.to_csv('./raw/scrapping_anuncios_shopcar.csv', mode='a', header=False, encoding='latin')
+
+    # if(pagina > 2):
+    #     carros_df.to_csv('./raw/scrapping_anuncios_shopcar.csv', mode='a', header=False, encoding='latin')
+    # else:
+    #     carros_df.to_csv('./raw/scrapping_anuncios_shopcar.csv', header=True,  encoding='latin')

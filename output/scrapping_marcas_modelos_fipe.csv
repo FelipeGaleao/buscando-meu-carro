@@ -2,14 +2,14 @@
 0,Acura,1,Integra GS 1.8,1
 1,Acura,1,Legend 3.2/3.5,2
 2,Acura,1,NSX 3.0,3
-3,Agrale,2,MARRU√Å 2.8 12V 132cv TDI Diesel,4
-4,Agrale,2,MARRU√Å AM 100 2.8  CS TDI Diesel,4564
-5,Agrale,2,MARRU√Å AM 100 2.8 CD TDI Diesel,4563
-6,Agrale,2,MARRU√Å AM 150 2.8  CS TDI Diesel,4566
-7,Agrale,2,MARRU√Å AM 150 2.8 CD TDI Diesel,4565
-8,Agrale,2,MARRU√Å AM 200 2.8  CD TDI Diesel,4567
-9,Agrale,2,MARRU√Å AM 200 2.8 CS TDI Diesel,4568
-10,Agrale,2,MARRU√Å AM 50 2.8 140cv TDI Diesel,4569
+3,Agrale,2,MARRU¡ 2.8 12V 132cv TDI Diesel,4
+4,Agrale,2,MARRU¡ AM 100 2.8  CS TDI Diesel,4564
+5,Agrale,2,MARRU¡ AM 100 2.8 CD TDI Diesel,4563
+6,Agrale,2,MARRU¡ AM 150 2.8  CS TDI Diesel,4566
+7,Agrale,2,MARRU¡ AM 150 2.8 CD TDI Diesel,4565
+8,Agrale,2,MARRU¡ AM 200 2.8  CD TDI Diesel,4567
+9,Agrale,2,MARRU¡ AM 200 2.8 CS TDI Diesel,4568
+10,Agrale,2,MARRU¡ AM 50 2.8 140cv TDI Diesel,4569
 11,Alfa Romeo,3,145 Elegant 1.7/1.8 16V,5
 12,Alfa Romeo,3,145 Elegant 2.0 16V,6
 13,Alfa Romeo,3,145 Quadrifoglio 2.0,7
@@ -33,13 +33,13 @@
 31,Asia Motors,5,AM-825 Super Luxo 4.0 Diesel,25
 32,Asia Motors,5,Hi-Topic SLX/SDX/DLX Full Diesel,26
 33,Asia Motors,5,Hi-Topic STD Diesel,27
-34,Asia Motors,5,Hi-Topic Van 2.7 Diesel (furg√£o),28
+34,Asia Motors,5,Hi-Topic Van 2.7 Diesel (furg„o),28
 35,Asia Motors,5,Jipe Rocsta GT 4x4 2.2 Diesel,29
-36,Asia Motors,5,Topic Carga 2.7 Diesel (furg√£o),30
+36,Asia Motors,5,Topic Carga 2.7 Diesel (furg„o),30
 37,Asia Motors,5,Topic Luxo Diesel,31
 38,Asia Motors,5,Topic Super Luxo Diesel,32
 39,Asia Motors,5,Towner Coach Full,33
-40,Asia Motors,5,Towner Furg√£o,34
+40,Asia Motors,5,Towner Furg„o,34
 41,Asia Motors,5,Towner Glass Van,35
 42,Asia Motors,5,Towner Luxo,36
 43,Asia Motors,5,Towner Multiuso 5p,37
@@ -174,7 +174,7 @@
 172,Audi,6,A5 Ambit. Sport. 2.0 TFSI S tronic,8001
 173,Audi,6,A5 Attraction Sportb. 2.0 TFSI S tronic,8002
 174,Audi,6,A5 Cabriolet 2.0 TFSI Quattro Stronic,6082
-175,Audi,6,A5 Coup√™ 2.0 TFSI Quattro Stronic,6083
+175,Audi,6,A5 CoupÍ 2.0 TFSI Quattro Stronic,6083
 176,Audi,6,A5 Sportb. 2.0 16V TFSI Quat. S-tronic,6084
 177,Audi,6,A5 Sportb. Perf. 2.0 TFSI Quat. S-tronic,8564
 178,Audi,6,A5 Sportb. Prestige 2.0 16V TFSI S-troni,8565
@@ -231,10 +231,10 @@
 229,Audi,6,A8 6.3 W12 48V Quattro Tiptronic,5717
 230,Audi,6,Allroad 2.7 30V Quattro Turbo Tiptronic,128
 231,Audi,6,Avant RS2,129
-232,Audi,6,E-TRON Performa. Black Aut. (El√©trico),9077
-233,Audi,6,E-TRON Performace Aut. (El√©trico),9078
-234,Audi,6,E-TRON Sportb. Perf.Black Aut.(El√©trico),9186
-235,Audi,6,E-TRON Sportback Perf. Aut. (El√©trico),9187
+232,Audi,6,E-TRON Performa. Black Aut. (ElÈtrico),9077
+233,Audi,6,E-TRON Performace Aut. (ElÈtrico),9078
+234,Audi,6,E-TRON Sportb. Perf.Black Aut.(ElÈtrico),9186
+235,Audi,6,E-TRON Sportback Perf. Aut. (ElÈtrico),9187
 236,Audi,6,Q3 1.4 TFSI/TFSI Flex S-tronic 5p,7255
 237,Audi,6,Q3 2.0 TFSI Quat. 170/180cv S-tronic 5p,6044
 238,Audi,6,Q3 2.0 TFSI Quat. 211/220cv S-tronic 5p,6045
@@ -276,7 +276,7 @@
 274,Audi,6,RS4 2.9 Avant V6 TFSI Quattro Tiptronic,8628
 275,Audi,6,RS4 4.2 Avant 32V FSI Quattro S-tronic,6487
 276,Audi,6,RS5 4.2 FSI V8 450cv Quattro S-Tron. 2p,5410
-277,Audi,6,RS5 Coup√™ 2.9 V6 TFSI Quattro Tiptronic,8629
+277,Audi,6,RS5 CoupÍ 2.9 V6 TFSI Quattro Tiptronic,8629
 278,Audi,6,RS5 Sportback 2.9 V6 TFSI Quattro Tip.,9247
 279,Audi,6,RS6 4.0 Avant TFSI BI-TB Quattro Tip. 5p,6690
 280,Audi,6,RS6 4.2 450cv BI-TB Quattro Tiptronic 4p,131
@@ -295,7 +295,7 @@
 293,Audi,6,S4 4.2 Avant V8 40V 344cv Quattro Tipt.,136
 294,Audi,6,S4 4.2 V8 40V 344cv Quattro Tiptronic,137
 295,Audi,6,S5 Cabriolet 3.0 TFSI Quattro Stronic,6087
-296,Audi,6,S5 Coup√™ 3.0 TFSI Quattro Stronic,6088
+296,Audi,6,S5 CoupÍ 3.0 TFSI Quattro Stronic,6088
 297,Audi,6,S5 Sportback 3.0 TFSI Quattro Stronic,6089
 298,Audi,6,S6 2.2 20V TB,138
 299,Audi,6,S6 2.2 Avant 20V TB,139
@@ -340,7 +340,7 @@
 338,BMW,7,130i 3.0 24V 265cv 5p,3879
 339,BMW,7,130iA 3.0 24V 265cv 3p,4473
 340,BMW,7,130iA 3.0 24V 265cv 5p,4199
-341,BMW,7,135iA Coup√© 3.0 24V 306cv,4961
+341,BMW,7,135iA CoupÈ 3.0 24V 306cv,4961
 342,BMW,7,218i Gran Coupe Sport GP 1.5 Bi-Turbo,9036
 343,BMW,7,220i Tourer Active Flex 2.0 TB Aut.,7448
 344,BMW,7,225i Active Tourer Sport 2.0 TB Aut.,7129
@@ -359,8 +359,8 @@
 357,BMW,7,320iA 2.0 Turbo/ActiveFlex 16V/GP  4p,6090
 358,BMW,7,320iA GT Sport 2.0 Turbo 16V 184cv 5p,6609
 359,BMW,7,320iA Modern/Sport TB 2.0/A.Flex/GP 4p,6091
-360,BMW,7,323Ci Coup√™,163
-361,BMW,7,323CiA Coup√™,164
+360,BMW,7,323Ci CoupÍ,163
+361,BMW,7,323CiA CoupÍ,164
 362,BMW,7,323i 2.5 24V,165
 363,BMW,7,323i Confort,166
 364,BMW,7,323i Sport,167
@@ -379,7 +379,7 @@
 377,BMW,7,325i/iA Cabrio,180
 378,BMW,7,325iA,181
 379,BMW,7,325iA 2.5 24V Protection,182
-380,BMW,7,325iA Coup√© 2.5 24V 2p,183
+380,BMW,7,325iA CoupÈ 2.5 24V 2p,183
 381,BMW,7,325iA Touring,3955
 382,BMW,7,328i Exclusive 2.8 24V,184
 383,BMW,7,328i Touring/Sport,185
@@ -396,7 +396,7 @@
 394,BMW,7,328iA Touring/Sport,190
 395,BMW,7,330Ci Cabriolet,191
 396,BMW,7,330CiA Cabriolet,192
-397,BMW,7,330e M Sport 2.0 Turbo H√≠brido Aut.,9079
+397,BMW,7,330e M Sport 2.0 Turbo HÌbrido Aut.,9079
 398,BMW,7,330i M Sport 2.0 TB 16V 4p,8630
 399,BMW,7,330i MotorSport 3.0 24V 4p,193
 400,BMW,7,330i Sport 2.0 TB 16V 4p,8688
@@ -414,7 +414,7 @@
 412,BMW,7,428i Gran Coupe Sport 2.0 TB 245cv,7085
 413,BMW,7,430i Cab. Sport Limited Ed.2.0 TB 2p,7728
 414,BMW,7,430i Cabriolet Sport 2.0 TB 252cv 2p,7875
-415,BMW,7,430i Gran Coup√© M Sport TB 5p,7729
+415,BMW,7,430i Gran CoupÈ M Sport TB 5p,7729
 416,BMW,7,435iA M Sport Coupe 3.0 24V 306cv 2p,6691
 417,BMW,7,520i 2.0 16V,196
 418,BMW,7,525i/iA,197
@@ -424,7 +424,7 @@
 422,BMW,7,528iA High,200
 423,BMW,7,528iA M Sport 2.0 Turbo 16V 245cv 4p,6514
 424,BMW,7,528iA Touring,201
-425,BMW,7,530e M Sport 2.0 Turbo H√≠brido Aut.,8543
+425,BMW,7,530e M Sport 2.0 Turbo HÌbrido Aut.,8543
 426,BMW,7,530i M Sport 2.0 Turbo 252cv Aut.,7918
 427,BMW,7,530i Security,8816
 428,BMW,7,530i/iA,202
@@ -462,7 +462,7 @@
 460,BMW,7,740iL/iLA Highline 4.4 32V,218
 461,BMW,7,740iLA Protection,219
 462,BMW,7,745iA 4.4 V8 32V 333cv,220
-463,BMW,7,745Le M Sport Sedan 3.0 V6 H√≠brido Aut.,8881
+463,BMW,7,745Le M Sport Sedan 3.0 V6 HÌbrido Aut.,8881
 464,BMW,7,750i,221
 465,BMW,7,750i M Sport Sedan 4.4 V8 450cv Aut.,7147
 466,BMW,7,750iA,222
@@ -477,12 +477,12 @@
 475,BMW,7,850Ci/CiA 5.4 24V,228
 476,BMW,7,850CSi 5.6 24V,229
 477,BMW,7,850i 5.0 24V,230
-478,BMW,7,i3 Bev 170cv Aut. (El√©trico),8817
-479,BMW,7,i3 Bev Connected 170cv Aut. (El√©trico),8818
-480,BMW,7,i3 Bev Full 170cv Aut. (El√©trico),8819
-481,BMW,7,i3 Rex E Drive 170cv Aut.(El√©trico),7023
-482,BMW,7,i3 Rex E Drive Connected Aut. (El√©trico),8734
-483,BMW,7,i3 Rex E Drive Full 170cv Aut.(El√©trico),7024
+478,BMW,7,i3 Bev 170cv Aut. (ElÈtrico),8817
+479,BMW,7,i3 Bev Connected 170cv Aut. (ElÈtrico),8818
+480,BMW,7,i3 Bev Full 170cv Aut. (ElÈtrico),8819
+481,BMW,7,i3 Rex E Drive 170cv Aut.(ElÈtrico),7023
+482,BMW,7,i3 Rex E Drive Connected Aut. (ElÈtrico),8734
+483,BMW,7,i3 Rex E Drive Full 170cv Aut.(ElÈtrico),7024
 484,BMW,7,i8 e-Drive 1.5 TB 12V  Aut.,7025
 485,BMW,7,i8 Roadster e-Drive 1.5 TB 12V Aut.,8984
 486,BMW,7,M 135i 3.0 24V 320cv,6416
@@ -494,14 +494,14 @@
 492,BMW,7,M2 Competition 3.0 Bi-Turbo 410cv Aut.,8439
 493,BMW,7,M2 Coupe 3.0 Bi-Turbo 24V 370cv,7611
 494,BMW,7,M2 CS Coupe 3.0 Bi-Turbo 450cv,9339
-495,BMW,7,M235i XDRIVE Gran Coup√© 2.0 Aut.,9104
+495,BMW,7,M235i XDRIVE Gran CoupÈ 2.0 Aut.,9104
 496,BMW,7,M240i Coupe 3.0 24V 340cv 2p,7857
 497,BMW,7,M3 3.2 24V,232
 498,BMW,7,M3 Cabrio 3.0 24V,233
 499,BMW,7,M3 Cabrio 4.0 32V,4919
-500,BMW,7,M3 Coup√™ 3.0 24V 255cv,234
-501,BMW,7,M3 Coup√™ 3.0 V6 24V 282cv,235
-502,BMW,7,M3 Coup√™ 4.0 32V,4527
+500,BMW,7,M3 CoupÍ 3.0 24V 255cv,234
+501,BMW,7,M3 CoupÍ 3.0 V6 24V 282cv,235
+502,BMW,7,M3 CoupÍ 4.0 32V,4527
 503,BMW,7,M3 CS Sedan 3.0 Bi-Turbo 460cv 4p,8661
 504,BMW,7,M3 Sedan 3.0 Bi-Turbo 24V 4p,7130
 505,BMW,7,M3 Sedan 4.0 32V,4823
@@ -519,8 +519,8 @@
 517,BMW,7,M6 Coupe 4.4 Bi-Turbo V8 32V,6460
 518,BMW,7,M6 Gran Coupe 4.4 Bi-Turbo V8 32V 560cv,6635
 519,BMW,7,M760Li xDrive 6.6 V12 585cv Aut.,8735
-520,BMW,7,M8 Gran Coup√© Comp.First ED. 4.4 V8 32V,9188
-521,BMW,7,M850i XDrive Coup√© 4.4 V8 530cv Aut.,8736
+520,BMW,7,M8 Gran CoupÈ Comp.First ED. 4.4 V8 32V,9188
+521,BMW,7,M850i XDrive CoupÈ 4.4 V8 530cv Aut.,8736
 522,BMW,7,X1 SDRIVE 18i 2.0 16V 4x2 Aut.,5269
 523,BMW,7,X1 SDRIVE 20i 2.0/2.0 TB Acti.Flex Aut.,6230
 524,BMW,7,X1 SDRIVE 20i M S. 2.0 25 Anos TB Flex,9226
@@ -542,8 +542,8 @@
 540,BMW,7,X3 XDRIVE 20i 2.0/X-Line Bi-TB Flex Aut.,6417
 541,BMW,7,X3 XDRIVE 28i 2.0 Turbo 245cv Aut.,6294
 542,BMW,7,X3 XDRIVE 28i 3.0 258cv,5608
-543,BMW,7,X3 XDRIVE 30e Turbo H√≠brido Aut.,9189
-544,BMW,7,X3 XDRIVE 30e X-Line Turbo H√≠brido Aut.,9190
+543,BMW,7,X3 XDRIVE 30e Turbo HÌbrido Aut.,9189
+544,BMW,7,X3 XDRIVE 30e X-Line Turbo HÌbrido Aut.,9190
 545,BMW,7,X3 XDRIVE 30i X-Line 2.0 Turbo 252cv Aut,8233
 546,BMW,7,X3 XDRIVE 35i/M-Sport 3.0 306cv Bi-Turbo,5497
 547,BMW,7,X4 M Competition 3.0 Bi-TB 510cv Aut.,8985
@@ -565,7 +565,7 @@
 563,BMW,7,X5 XDRIVE 30d M Sport 3.0 265cv Dies Aut,8662
 564,BMW,7,X5 XDRIVE 35i 3.0 306cv Bi-Turbo,5356
 565,BMW,7,X5 XDRIVE 35i Full 3.0 306cv Bi-Turbo,6911
-566,BMW,7,X5 XDRIVE 45e 3.0 M.Sport H√≠brido Aut.,9007
+566,BMW,7,X5 XDRIVE 45e 3.0 M.Sport HÌbrido Aut.,9007
 567,BMW,7,X5 XDRIVE 50i 4.4  Bi-Turbo,5357
 568,BMW,7,X5 XDRIVE 50i M Sport 4.4 Bi-Turbo,6710
 569,BMW,7,X5 XDRIVE 50i Security 4.4 Bi-Turbo,5590
@@ -584,7 +584,7 @@
 582,BMW,7,Z3 Roadster 1.9 Mec.,249
 583,BMW,7,Z3 Roadster 2.8,4887
 584,BMW,7,Z3 Roadster M 3.2,250
-585,BMW,7,Z4 Coup√© M 3.2 V6 24V 343cv,4243
+585,BMW,7,Z4 CoupÈ M 3.2 V6 24V 343cv,4243
 586,BMW,7,Z4 M40i 3.0 340cv Aut.,8777
 587,BMW,7,Z4 Roadster 2.0 150cv 2p,4185
 588,BMW,7,Z4 Roadster 3.0 V6 24V Aut.,251
@@ -601,49 +601,49 @@
 599,Bugre,123,Buggy VII/VII BIG/VII Flex,5190
 600,Cadillac,10,Deville/Eldorado 4.9,258
 601,Cadillac,10,Seville 4.6,259
-602,Caoa Chery/Chery,161,ARRIZO 5 RT 1.5 Turbo Flex Aut.,9039
-603,Caoa Chery/Chery,161,ARRIZO 5 RTS 1.5 Turbo Flex Aut.,9040
-604,Caoa Chery/Chery,161,ARRIZO 5 RX 1.5 16V Turbo Flex Aut.,8513
-605,Caoa Chery/Chery,161,ARRIZO 5 RXS 1.5 Turbo Flex Aut.,9262
-606,Caoa Chery/Chery,161,ARRIZO 5 RXT 1.5 16V Turbo Flex Aut.,8514
-607,Caoa Chery/Chery,161,ARRIZO 5e (El√©trico),9299
-608,Caoa Chery/Chery,161,ARRIZO 6 GSX 1.5 Turbo Flex Aut.,9106
-609,Caoa Chery/Chery,161,Celer Hatch 1.5 16V Flex 5p,6379
-610,Caoa Chery/Chery,161,Celer Hatch ACT 1.5 16V Flex 5p,7222
-611,Caoa Chery/Chery,161,Celer Sedan 1.5 16V Flex 5p,6380
-612,Caoa Chery/Chery,161,Celer Sedan ACT 1.5 16V Flex 5p,7223
-613,Caoa Chery/Chery,161,CIELO 1.6 16V 119cv  5p,5208
-614,Caoa Chery/Chery,161,CIELO Sedan 1.6 16V 119cv  4p,5209
-615,Caoa Chery/Chery,161,Face 1.3 16V/1.3 16V Flex.Mec.,5210
-616,Caoa Chery/Chery,161,QQ 1.0  ACT FL 12V/1.0 12V Flex  5p,7224
-617,Caoa Chery/Chery,161,QQ 1.0 ACT 12V 69cv 5p,7089
-618,Caoa Chery/Chery,161,QQ 1.0 Look FL 12V/1.0 12V Flex 5p,7225
-619,Caoa Chery/Chery,161,QQ 1.0 SMILE 12V Flex 5p,7902
-620,Caoa Chery/Chery,161,QQ 1.1/1.0 12V 69cv 5p,5534
-621,Caoa Chery/Chery,161,S-18 1.3 16V Flex Mec. 5p,5740
-622,Caoa Chery/Chery,161,Tiggo 2 ACT 1.5 16V Flex Aut.5p,8339
-623,Caoa Chery/Chery,161,Tiggo 2 ACT 1.5 16V Flex Mec. 5p,8278
-624,Caoa Chery/Chery,161,Tiggo 2 Look 1.5 16V Flex Aut.5p,8340
-625,Caoa Chery/Chery,161,Tiggo 2 Look 1.5 16V Flex Mec. 5p,8279
-626,Caoa Chery/Chery,161,Tiggo 2.0 16V Aut. 5p,6661
-627,Caoa Chery/Chery,161,Tiggo 2.0 16V Mec. 5p,5021
-628,Caoa Chery/Chery,161,Tiggo 5X T 1.5 16V Turbo Flex Aut.,8571
-629,Caoa Chery/Chery,161,Tiggo 5X TXS 1.5 16V Turbo Flex Aut.,8572
-630,Caoa Chery/Chery,161,Tiggo 7 T 1.5 16V Turbo Flex Aut.,8586
-631,Caoa Chery/Chery,161,Tiggo 7 TXS 1.5 16V Turbo Flex Aut.,8587
-632,Caoa Chery/Chery,161,Tiggo 8 TXS 1.6 16V TGDi Aut.,9162
+602,Caoa Chery,161,ARRIZO 5 RT 1.5 Turbo Flex Aut.,9039
+603,Caoa Chery,161,ARRIZO 5 RTS 1.5 Turbo Flex Aut.,9040
+604,Caoa Chery,161,ARRIZO 5 RX 1.5 16V Turbo Flex Aut.,8513
+605,Caoa Chery,161,ARRIZO 5 RXS 1.5 Turbo Flex Aut.,9262
+606,Caoa Chery,161,ARRIZO 5 RXT 1.5 16V Turbo Flex Aut.,8514
+607,Caoa Chery,161,ARRIZO 5e (ElÈtrico),9299
+608,Caoa Chery,161,ARRIZO 6 GSX 1.5 Turbo Flex Aut.,9106
+609,Caoa Chery,161,Celer Hatch 1.5 16V Flex 5p,6379
+610,Caoa Chery,161,Celer Hatch ACT 1.5 16V Flex 5p,7222
+611,Caoa Chery,161,Celer Sedan 1.5 16V Flex 5p,6380
+612,Caoa Chery,161,Celer Sedan ACT 1.5 16V Flex 5p,7223
+613,Caoa Chery,161,CIELO 1.6 16V 119cv  5p,5208
+614,Caoa Chery,161,CIELO Sedan 1.6 16V 119cv  4p,5209
+615,Caoa Chery,161,Face 1.3 16V/1.3 16V Flex.Mec.,5210
+616,Caoa Chery,161,QQ 1.0  ACT FL 12V/1.0 12V Flex  5p,7224
+617,Caoa Chery,161,QQ 1.0 ACT 12V 69cv 5p,7089
+618,Caoa Chery,161,QQ 1.0 Look FL 12V/1.0 12V Flex 5p,7225
+619,Caoa Chery,161,QQ 1.0 SMILE 12V Flex 5p,7902
+620,Caoa Chery,161,QQ 1.1/1.0 12V 69cv 5p,5534
+621,Caoa Chery,161,S-18 1.3 16V Flex Mec. 5p,5740
+622,Caoa Chery,161,Tiggo 2 ACT 1.5 16V Flex Aut.5p,8339
+623,Caoa Chery,161,Tiggo 2 ACT 1.5 16V Flex Mec. 5p,8278
+624,Caoa Chery,161,Tiggo 2 Look 1.5 16V Flex Aut.5p,8340
+625,Caoa Chery,161,Tiggo 2 Look 1.5 16V Flex Mec. 5p,8279
+626,Caoa Chery,161,Tiggo 2.0 16V Aut. 5p,6661
+627,Caoa Chery,161,Tiggo 2.0 16V Mec. 5p,5021
+628,Caoa Chery,161,Tiggo 5X T 1.5 16V Turbo Flex Aut.,8571
+629,Caoa Chery,161,Tiggo 5X TXS 1.5 16V Turbo Flex Aut.,8572
+630,Caoa Chery,161,Tiggo 7 T 1.5 16V Turbo Flex Aut.,8586
+631,Caoa Chery,161,Tiggo 7 TXS 1.5 16V Turbo Flex Aut.,8587
+632,Caoa Chery,161,Tiggo 8 TXS 1.6 16V TGDi Aut.,9162
 633,CBT Jipe,11,Javali 3.0 4x4 Diesel,260
 634,CHANA,136,Cargo 1.0 8V 53cv (Pick-Up),4392
 635,CHANA,136,Cargo CD 1.0 8V 53cv (Pick-Up),4393
 636,CHANA,136,Cargo CE 1.0 8V 53cv (Pick-Up),4394
 637,CHANA,136,Family 1.0 8V 53cv (Perua),4395
-638,CHANA,136,Utility 1.0 8V 53cv  (Furg√£o),4396
+638,CHANA,136,Utility 1.0 8V 53cv  (Furg„o),4396
 639,CHANGAN,182,MINI STAR CD 1.0 8V 53cv (Pick-Up),5872
 640,CHANGAN,182,MINI STAR CE 1.0 8V 53cv (Pick-Up),5873
 641,CHANGAN,182,MINI STAR CS 1.0 8V 53cv (Pick-Up),5874
-642,CHANGAN,182,MINI STAR CSB 1.0 8V 53cv (Pick-Up B√°u),5875
+642,CHANGAN,182,MINI STAR CSB 1.0 8V 53cv (Pick-Up B·u),5875
 643,CHANGAN,182,MINI STAR Family 1.0 8V 53cv (MiniVan),5876
-644,CHANGAN,182,MINI STAR Utility 1.0 8V 53cv (Furg√£o),5877
+644,CHANGAN,182,MINI STAR Utility 1.0 8V 53cv (Furg„o),5877
 645,Chrysler,12,300 C 3.5 V6 249cv,4528
 646,Chrysler,12,300 C 3.6 V6 Aut.,5878
 647,Chrysler,12,300 C 5.7 V8 16V 340cv Aut.,3881
@@ -673,217 +673,217 @@
 671,Chrysler,12,Stratus LE 2.0,278
 672,Chrysler,12,Stratus LX 2.0 Mec,279
 673,Chrysler,12,Stratus LX 2.5 Aut,280
-674,Chrysler,12,Stratus LX 2.5 Convers√≠vel Aut,281
+674,Chrysler,12,Stratus LX 2.5 ConversÌvel Aut,281
 675,Chrysler,12,TOWN & COUNTRY Limited 3.8 /3.6 V6 Aut.,4623
 676,Chrysler,12,TOWN & COUNTRY Touring 3.6 V6 Aut.,5720
 677,Chrysler,12,Vision 3.5 24V,282
-678,Citro√´n,13,AIRCROSS 100 Anos 1.6 Flex 16V Aut.,8737
-679,Citro√´n,13,AIRCROSS BUSINESS 1.6 Flex 16V 5p Mec.,8045
-680,Citro√´n,13,AIRCROSS Exc. ATACA. 1.6 Flex 16V 5p Aut,6418
-681,Citro√´n,13,AIRCROSS Exc. ATACA. 1.6 Flex 16V 5p Mec,6419
-682,Citro√´n,13,AIRCROSS Exclusive 1.6 Flex 16V 5p Aut.,5609
-683,Citro√´n,13,AIRCROSS Exclusive 1.6 Flex 16V 5p Mec.,5337
-684,Citro√´n,13,AIRCROSS Feel 1.6 Flex 16V 5p Aut.,7420
-685,Citro√´n,13,AIRCROSS Feel 1.6 Flex 16V 5p Mec.,7421
-686,Citro√´n,13,AIRCROSS GL 1.6 Flex 16V 5p Mec.,5338
-687,Citro√´n,13,AIRCROSS GLX 1.6 Flex 16V 5p Aut.,5610
-688,Citro√´n,13,AIRCROSS GLX 1.6 Flex 16V 5p Mec.,5339
-689,Citro√´n,13,AIRCROSS GLX ATACAMA 1.6 Flex 16V 5p Aut,6420
-690,Citro√´n,13,AIRCROSS GLX ATACAMA 1.6 Flex 16V 5p Mec,6421
-691,Citro√´n,13,AIRCROSS Live 1.5 Flex 8V 5p Mec.,7422
-692,Citro√´n,13,AIRCROSS Live 1.6 Flex 16V 5p Aut.,7423
-693,Citro√´n,13,AIRCROSS Live 1.6 Flex 16V 5p Mec.,7962
-694,Citro√´n,13,AIRCROSS Live Bus. 1.6 Flex 5p Aut.(PCD),8390
-695,Citro√´n,13,AIRCROSS SALOMON 1.5 Flex 8V 5p Mec.,7903
-696,Citro√´n,13,AIRCROSS SALOMON 1.6 Flex 16V 5p Aut.,7897
-697,Citro√´n,13,AIRCROSS SALOMON EXCLUSIVE 1.6 Flex Aut.,7090
-698,Citro√´n,13,AIRCROSS SALOMON EXCLUSIVE 1.6 Flex Mec.,7091
-699,Citro√´n,13,AIRCROSS SALOMON TENDANCE 1.6 Flex Aut.,7092
-700,Citro√´n,13,AIRCROSS SALOMON TENDANCE 1.6 Flex Mec.,7093
-701,Citro√´n,13,AIRCROSS Shine 1.6 Flex 16V 5p Aut.,7424
-702,Citro√´n,13,AIRCROSS Start 1.5 Flex 8V 5p Mec.,7425
-703,Citro√´n,13,AIRCROSS Start 1.6 Flex 16V 5p Mec.,7963
-704,Citro√´n,13,AIRCROSS TENDANCE 1.6 Flex 16V 5p Aut.,6770
-705,Citro√´n,13,AIRCROSS TENDANCE 1.6 Flex 16V 5p Mec.,6771
-706,Citro√´n,13,AX GTi,283
-707,Citro√´n,13,Berlingo Furg√£o 1.6 16V Flex 5P,8391
-708,Citro√´n,13,Berlingo MultSpace GLX 1.6 16V 110cv 4p,285
-709,Citro√´n,13,Berlingo MultSpace GLX 1.8i 3p,284
-710,Citro√´n,13,Berlingo MultSpace GLX 1.8i 4p,286
-711,Citro√´n,13,BX 1.6S 16V,287
-712,Citro√´n,13,BX GTi 1.9,288
-713,Citro√´n,13,C3 100 Anos 1.6 16V Flex Aut.,8738
-714,Citro√´n,13,C3 Attra/Origine Pack 1.5 Flex 8V 5p Mec,6835
-715,Citro√´n,13,C3 Attraction 1.6 Flex 16V 5p Aut.,7964
-716,Citro√´n,13,C3 Attraction Pure Tech 1.2 Flex 12V Mec,7585
-717,Citro√´n,13,C3 Excl. 1.6 VTi Flex Start 16V 5p Aut.,6152
-718,Citro√´n,13,C3 Excl. 1.6 VTi Flex Start 16V 5p Mec.,6153
-719,Citro√´n,13,C3 Excl./Excl.Solar./Sonora 1.6 Flex Aut,4761
-720,Citro√´n,13,C3 Exclus./Excl.Solaris 1.6 Flex 16V Mec,289
-721,Citro√´n,13,C3 Exclusive 1.4 Flex 8V 5p,4315
-722,Citro√´n,13,C3 Exclusive 1.5 Flex 8V 5p Mec.,6772
-723,Citro√´n,13,C3 Exclusive Bus. 1.6 Flex 5p Aut.(PCD),8392
-724,Citro√´n,13,C3 GLX 1.4/ GLX Sonora 1.4 Flex 8V 5p,290
-725,Citro√´n,13,C3 GLX 1.6 Flex 16V 5p  Aut.,4762
-726,Citro√´n,13,C3 GLX 1.6/ 1.6 Flex 16V 5p,291
-727,Citro√´n,13,C3 Ocimar Versolato 1.6 16V 110cv 5p,292
-728,Citro√´n,13,C3 Origine 1.5 Flex 8V 5p Mec.,6154
-729,Citro√´n,13,C3 Origine Pure Tech 1.2 Flex 12V Mec,7586
-730,Citro√´n,13,C3 Picasso Excl. 1.6 Flex 16V 5p Aut.,5611
-731,Citro√´n,13,C3 Picasso Exclusive 1.6 Flex 16V 5p Mec,5551
-732,Citro√´n,13,C3 Picasso GL 1.5 Flex 8V Mec.,6092
-733,Citro√´n,13,C3 Picasso GL 1.6 Flex 16V 5p Mec.,5552
-734,Citro√´n,13,C3 Picasso GLX 1.5 Flex 8V 5p Mec.,6093
-735,Citro√´n,13,C3 Picasso GLX 1.6 Flex 16V 5p Aut.,5612
-736,Citro√´n,13,C3 Picasso GLX 1.6 Flex 16V 5p Mec.,5553
-737,Citro√´n,13,C3 Picasso Origine 1.5 Flex 8V Mec.,6773
-738,Citro√´n,13,C3 Picasso Tendance 1.5 Flex 8V 5p Mec.,6774
-739,Citro√´n,13,C3 Picasso Tendance 1.6 Flex 16V 5p Aut.,6775
-740,Citro√´n,13,C3 Start 1.2 Flex 12V 5p,8003
-741,Citro√´n,13,C3 Style Ed. Pure Tech 1.2 Flex 12V Mec.,7730
-742,Citro√´n,13,C3 Style Edition 1.6 Flex 16V Aut.,7731
-743,Citro√´n,13,C3 Tendance 1.5 Flex 8V 5p Mec.,6155
-744,Citro√´n,13,C3 Tendance 1.6 VTi Flex Start 16V Aut.,6776
-745,Citro√´n,13,C3 Tendance Pure Tech 1.2 Flex 12V Mec.,7587
-746,Citro√´n,13,C3 Urban Trail 1.6 Flex 16V 5p Aut.,8341
-747,Citro√´n,13,C3 Urban Trail P.Tech 1.2 Flex 12V Mec.,8882
-748,Citro√´n,13,C3 X-BOX ONE 1.6 VTi Flex 16V 5p Mec.,6777
-749,Citro√´n,13,C3 XTR 1.4 Flex 8V 5p,4302
-750,Citro√´n,13,C3 XTR 1.6 Flex 16V 5p,4054
-751,Citro√´n,13,C4 CACTUS 100 Anos 1.6 TB 16V Flex Aut.,8739
-752,Citro√´n,13,C4 CACTUS C-SERIES 1.6 16V Flex Aut.,9207
-753,Citro√´n,13,C4 CACTUS FEEL 1.6 16V Flex Aut.,8466
-754,Citro√´n,13,C4 CACTUS FEEL 1.6 16V Flex Mec.,8467
-755,Citro√´n,13,C4 CACTUS FEEL Bus. 1.6 Flex Aut.(PCD),8468
-756,Citro√´n,13,C4 CACTUS FEEL Pack 1.6 16V Flex Aut.,8469
-757,Citro√´n,13,C4 CACTUS LIVE 1.6 16V Flex Aut.,9191
-758,Citro√´n,13,C4 CACTUS LIVE 1.6 16V Flex Mec.,8470
-759,Citro√´n,13,C4 CACTUS SHINE 1.6 Turbo Flex Aut.,8471
-760,Citro√´n,13,C4 CACTUS SHINE Pack 1.6 Turbo Flex Aut.,8472
-761,Citro√´n,13,C4 Competition 1.6 Flex 16V 5p Mec.,6574
-762,Citro√´n,13,C4 Competition 2.0 Flex 16V 5p Aut.,6559
-763,Citro√´n,13,C4 Excl./Excl. Solar. 2.0 Flex 16V Mec.,4888
-764,Citro√´n,13,C4 Excl.2.0/2.0 Solaris Flex 16V 5p Aut.,4845
-765,Citro√´n,13,C4 GLX 1.6 Flex 16V 5p Mec.,4846
-766,Citro√´n,13,C4 GLX 2.0 Flex 16V 5p Aut.,4847
-767,Citro√´n,13,C4 GLX 2.0 Flex 16V 5p Mec.,4889
-768,Citro√´n,13,C4 LOUNGE 100 Anos 1.6 16V TB Flex Aut.,8740
-769,Citro√´n,13,C4 LOUNGE Exclusive 1.6 Turbo 4p Aut.,6575
-770,Citro√´n,13,C4 LOUNGE Exclusive 1.6 Turbo Flex Aut.,7094
-771,Citro√´n,13,C4 LOUNGE Exclusive 2.0 Flex 4p Aut.,6576
-772,Citro√´n,13,C4 LOUNGE Feel 1.6 Turbo Flex Aut.,8234
-773,Citro√´n,13,C4 LOUNGE Live 1.6 Turbo Flex Aut.,8515
-774,Citro√´n,13,C4 LOUNGE Live Bus. 1.6 Flex Aut.(PCD),8393
-775,Citro√´n,13,C4 LOUNGE Orig.Business 1.6 TB Flex Aut.,7658
-776,Citro√´n,13,C4 LOUNGE Origine 1.6 Turbo Flex  Aut.,7684
-777,Citro√´n,13,C4 LOUNGE Origine 1.6 Turbo Flex Mec.,7685
-778,Citro√´n,13,C4 LOUNGE Origine 2.0 Flex 4p Aut.,7370
-779,Citro√´n,13,C4 LOUNGE Origine 2.0 Flex 4p Mec.,6577
-780,Citro√´n,13,C4 LOUNGE S 1.6 Turbo Flex Aut.,7787
-781,Citro√´n,13,C4 LOUNGE Shine 1.6 Turbo Flex Aut.,8235
-782,Citro√´n,13,C4 LOUNGE Tendance 1.6 Turbo 4p Aut,6884
-783,Citro√´n,13,C4 LOUNGE Tendance 1.6 Turbo Flex Aut.,7118
-784,Citro√´n,13,C4 LOUNGE Tendance 2.0 Flex 4p Aut.,6578
-785,Citro√´n,13,C4 LOUNGE Tendance 2.0 Flex 4p Mec.,6579
-786,Citro√´n,13,C4 PAL.Excl/Excl(Tech.) 2.0/2.0 Flex Aut,4397
-787,Citro√´n,13,C4 PALLAS Exclusive 2.0/2.0 Flex 16V Mec,4398
-788,Citro√´n,13,C4 PALLAS GLX 2.0/ 2.0 Flex Aut.,4399
-789,Citro√´n,13,C4 PALLAS GLX 2.0/2.0 Flex 16V Mec.,4400
-790,Citro√´n,13,C4 Picasso Grand 2.0 16V 143cv Aut,4667
-791,Citro√´n,13,C4 Picasso Intensive 1.6 Turbo 16V Aut.,7426
-792,Citro√´n,13,C4 Picasso Seduction 1.6 Turbo 16V Aut.,7427
-793,Citro√´n,13,C4 Picasso/Pic. La Luna 2.0 16V  Aut.,4824
-794,Citro√´n,13,C4 Rock You 1.6 Flex 16V 5p Mec.,6580
-795,Citro√´n,13,C4 Tendance 1.6 Flex 16V 5p Mec.,6737
-796,Citro√´n,13,C4 Tendance 2.0 Flex 16V 5p Aut.,6738
-797,Citro√´n,13,C4 VTR 2.0 16V 143cv,4159
-798,Citro√´n,13,C5 3.0 24V 210cv 4p Aut.,293
-799,Citro√´n,13,C5 Exclusive 2.0 16V 138cv 4p Mec.,294
-800,Citro√´n,13,C5 Exclusive 2.0 16V 4p Aut.,295
-801,Citro√´n,13,C5 Exclusive Break 2.0 16V 138cv 5p Mec.,296
-802,Citro√´n,13,C5 Exclusive Break 2.0 16V Aut.,297
-803,Citro√´n,13,C5 Tourer Exclusive 2.0 16V 5p Aut.,4937
-804,Citro√´n,13,C6 Exclusive 3.0 V6 24V 215cv Aut.,4328
-805,Citro√´n,13,C8 Exclusive 2.0 16V 138cv 5p Aut.,298
-806,Citro√´n,13,DS3 1.6 Turbo 16V 3p Mec.,6050
-807,Citro√´n,13,DS3 Sport Chic 1.6 TB 16V 3p Mec.,7067
-808,Citro√´n,13,DS4 1.6 Chic Turbo 16V 5p Aut.,7068
-809,Citro√´n,13,DS4 1.6 So Chic Turbo 16V 5p Aut.,7069
-810,Citro√´n,13,DS4 1.6 Turbo 16V 5p Aut.,6347
-811,Citro√´n,13,DS5 1.6 Be Chic Turbo 16V 5p Aut.,7095
-812,Citro√´n,13,DS5 1.6 So Chic Turbo 16V 5p Aut.,7096
-813,Citro√´n,13,DS5 1.6 Turbo 16V 5p Aut.,6295
-814,Citro√´n,13,Evasion  GLX 2.0 16V,299
-815,Citro√´n,13,Evasion VSX Turbo,300
-816,Citro√´n,13,Grand C4 Picasso Intensive 1.6 TB Aut.,7588
-817,Citro√´n,13,Grand C4 Picasso Seduction 1.6 TB Aut.,7589
-818,Citro√´n,13,Jumper 2.0 Furg√£oTurbo Diesel,8516
-819,Citro√´n,13,Jumper 2.0 Minibus 16L Turbo Diesel,8883
-820,Citro√´n,13,Jumper 2.3 15/16Lug. TB Diesel,5103
-821,Citro√´n,13,Jumper 2.3 Furg√£o TB Diesel,5140
-822,Citro√´n,13,Jumper 2.3 Vetrato Exec. 16Lug. TB Dies.,5659
-823,Citro√´n,13,Jumper 2.3 Vetrato TB Diesel,5411
-824,Citro√´n,13,Jumper 2.5 Diesel,301
-825,Citro√´n,13,Jumper 2.8 16Lug.  Diesel,302
-826,Citro√´n,13,Jumper 2.8 Furg√£o 35C Diesel,303
-827,Citro√´n,13,Jumper 2.8 Furg√£o 35MH Diesel,304
-828,Citro√´n,13,Jumpy 1.6  Furg√£o Pack Turbo Diesel,8078
-829,Citro√´n,13,Jumpy 1.6  Furg√£o Turbo Diesel,8077
-830,Citro√´n,13,Jumpy 1.6 Minibus Turbo Diesel,8342
-831,Citro√´n,13,Jumpy VITR√â 1.6 Turbo Diesel,9192
-832,Citro√´n,13,Xantia 2.0  16V,305
-833,Citro√´n,13,Xantia Activa 2.0,306
-834,Citro√´n,13,Xantia Activa 2.0 TB,307
-835,Citro√´n,13,Xantia Activa 3.0 V6 Mec,308
-836,Citro√´n,13,Xantia Break 2.0 8V/GLX 2.0 16V Aut,309
-837,Citro√´n,13,Xantia Break GLX 2.0 16V Mec.,310
-838,Citro√´n,13,Xantia Exclusive 2.0 16V,311
-839,Citro√´n,13,Xantia Exclusive 3.0 V6,312
-840,Citro√´n,13,Xantia GLX 2.0 16V Aut.,313
-841,Citro√´n,13,Xantia GLX 2.0 16V Mec.,314
-842,Citro√´n,13,Xantia SX 1.8,315
-843,Citro√´n,13,Xantia SX 2.0 8V/16V Mec./Aut.,316
-844,Citro√´n,13,Xantia VSX 2.0,317
-845,Citro√´n,13,Xantia VSX 2.0 16V,318
-846,Citro√´n,13,XM Exclusive 12v,319
-847,Citro√´n,13,XM Exclusive 24V,320
-848,Citro√´n,13,XM Exclusive Break,321
-849,Citro√´n,13,XM Sensation 2.0 TB,322
-850,Citro√´n,13,Xsara Break Exclusive 1.6 16V 5p Aut.,323
-851,Citro√´n,13,Xsara Break Exclusive 1.6 16V 5p Mec.,324
-852,Citro√´n,13,Xsara Break Exclusive 1.8 16V,325
-853,Citro√´n,13,Xsara Break Exclusive 2.0 16V,326
-854,Citro√´n,13,Xsara Break GLX 1.6 16V 5p Aut.,327
-855,Citro√´n,13,Xsara Break GLX 1.6 16V 5p Mec.,328
-856,Citro√´n,13,Xsara Break GLX 1.8 16V,329
-857,Citro√´n,13,Xsara Break GLX/ Paris 2.0 16V,330
-858,Citro√´n,13,Xsara Exclusive 1.6 16V 5p Aut.,331
-859,Citro√´n,13,Xsara Exclusive 1.6 16V 5p Mec.,332
-860,Citro√´n,13,Xsara Exclusive 1.8 8V/16V 5p Aut.,333
-861,Citro√´n,13,Xsara Exclusive 1.8 8V/16V 5p Mec.,334
-862,Citro√´n,13,Xsara Exclusive 2.0 16V,335
-863,Citro√´n,13,Xsara GLX 1.6 16V 3p,336
-864,Citro√´n,13,Xsara GLX 1.6 16V 5p Aut.,337
-865,Citro√´n,13,Xsara GLX 1.6 16V 5p Mec.,338
-866,Citro√´n,13,Xsara GLX 1.8 16V 5p Mec.,339
-867,Citro√´n,13,Xsara GLX 1.8 16V Cup√™ Mec.,340
-868,Citro√´n,13,Xsara GLX 1.8 8V 5p Aut.,341
-869,Citro√´n,13,Xsara GLX 1.8 8V Cup√™ Aut.,342
-870,Citro√´n,13,Xsara GLX/ Paris 2.0 16V,343
-871,Citro√´n,13,Xsara Picasso Exc./Etoile 2.0 16V Mec.,344
-872,Citro√´n,13,Xsara Picasso Exclus. 1.6/ 1.6 Flex 16V,3930
-873,Citro√´n,13,Xsara Picasso Exclusive 2.0 16V Aut.,345
-874,Citro√´n,13,Xsara Picasso GLX 1.6/ 1.6 Flex 16V,347
-875,Citro√´n,13,Xsara Picasso GLX 2.0 16V  Aut.,348
-876,Citro√´n,13,Xsara Picasso GLX/Brasil/Etoile 2.0 Mec.,346
-877,Citro√´n,13,Xsara VTS 1.6 16V 3p,349
-878,Citro√´n,13,Xsara VTS 1.8 16V,350
-879,Citro√´n,13,Xsara VTS 2.0  16V Cup√™ Mec.,351
-880,Citro√´n,13,ZX Cup√™ 16V,352
-881,Citro√´n,13,ZX Dakar 2.0 16V,353
-882,Citro√´n,13,ZX Furio,354
-883,Citro√´n,13,ZX Paris 1.8,355
-884,Citro√´n,13,ZX Volcane 3p e 5p,356
+678,CitroÎn,13,AIRCROSS 100 Anos 1.6 Flex 16V Aut.,8737
+679,CitroÎn,13,AIRCROSS BUSINESS 1.6 Flex 16V 5p Mec.,8045
+680,CitroÎn,13,AIRCROSS Exc. ATACA. 1.6 Flex 16V 5p Aut,6418
+681,CitroÎn,13,AIRCROSS Exc. ATACA. 1.6 Flex 16V 5p Mec,6419
+682,CitroÎn,13,AIRCROSS Exclusive 1.6 Flex 16V 5p Aut.,5609
+683,CitroÎn,13,AIRCROSS Exclusive 1.6 Flex 16V 5p Mec.,5337
+684,CitroÎn,13,AIRCROSS Feel 1.6 Flex 16V 5p Aut.,7420
+685,CitroÎn,13,AIRCROSS Feel 1.6 Flex 16V 5p Mec.,7421
+686,CitroÎn,13,AIRCROSS GL 1.6 Flex 16V 5p Mec.,5338
+687,CitroÎn,13,AIRCROSS GLX 1.6 Flex 16V 5p Aut.,5610
+688,CitroÎn,13,AIRCROSS GLX 1.6 Flex 16V 5p Mec.,5339
+689,CitroÎn,13,AIRCROSS GLX ATACAMA 1.6 Flex 16V 5p Aut,6420
+690,CitroÎn,13,AIRCROSS GLX ATACAMA 1.6 Flex 16V 5p Mec,6421
+691,CitroÎn,13,AIRCROSS Live 1.5 Flex 8V 5p Mec.,7422
+692,CitroÎn,13,AIRCROSS Live 1.6 Flex 16V 5p Aut.,7423
+693,CitroÎn,13,AIRCROSS Live 1.6 Flex 16V 5p Mec.,7962
+694,CitroÎn,13,AIRCROSS Live Bus. 1.6 Flex 5p Aut.(PCD),8390
+695,CitroÎn,13,AIRCROSS SALOMON 1.5 Flex 8V 5p Mec.,7903
+696,CitroÎn,13,AIRCROSS SALOMON 1.6 Flex 16V 5p Aut.,7897
+697,CitroÎn,13,AIRCROSS SALOMON EXCLUSIVE 1.6 Flex Aut.,7090
+698,CitroÎn,13,AIRCROSS SALOMON EXCLUSIVE 1.6 Flex Mec.,7091
+699,CitroÎn,13,AIRCROSS SALOMON TENDANCE 1.6 Flex Aut.,7092
+700,CitroÎn,13,AIRCROSS SALOMON TENDANCE 1.6 Flex Mec.,7093
+701,CitroÎn,13,AIRCROSS Shine 1.6 Flex 16V 5p Aut.,7424
+702,CitroÎn,13,AIRCROSS Start 1.5 Flex 8V 5p Mec.,7425
+703,CitroÎn,13,AIRCROSS Start 1.6 Flex 16V 5p Mec.,7963
+704,CitroÎn,13,AIRCROSS TENDANCE 1.6 Flex 16V 5p Aut.,6770
+705,CitroÎn,13,AIRCROSS TENDANCE 1.6 Flex 16V 5p Mec.,6771
+706,CitroÎn,13,AX GTi,283
+707,CitroÎn,13,Berlingo Furg„o 1.6 16V Flex 5P,8391
+708,CitroÎn,13,Berlingo MultSpace GLX 1.6 16V 110cv 4p,285
+709,CitroÎn,13,Berlingo MultSpace GLX 1.8i 3p,284
+710,CitroÎn,13,Berlingo MultSpace GLX 1.8i 4p,286
+711,CitroÎn,13,BX 1.6S 16V,287
+712,CitroÎn,13,BX GTi 1.9,288
+713,CitroÎn,13,C3 100 Anos 1.6 16V Flex Aut.,8738
+714,CitroÎn,13,C3 Attra/Origine Pack 1.5 Flex 8V 5p Mec,6835
+715,CitroÎn,13,C3 Attraction 1.6 Flex 16V 5p Aut.,7964
+716,CitroÎn,13,C3 Attraction Pure Tech 1.2 Flex 12V Mec,7585
+717,CitroÎn,13,C3 Excl. 1.6 VTi Flex Start 16V 5p Aut.,6152
+718,CitroÎn,13,C3 Excl. 1.6 VTi Flex Start 16V 5p Mec.,6153
+719,CitroÎn,13,C3 Excl./Excl.Solar./Sonora 1.6 Flex Aut,4761
+720,CitroÎn,13,C3 Exclus./Excl.Solaris 1.6 Flex 16V Mec,289
+721,CitroÎn,13,C3 Exclusive 1.4 Flex 8V 5p,4315
+722,CitroÎn,13,C3 Exclusive 1.5 Flex 8V 5p Mec.,6772
+723,CitroÎn,13,C3 Exclusive Bus. 1.6 Flex 5p Aut.(PCD),8392
+724,CitroÎn,13,C3 GLX 1.4/ GLX Sonora 1.4 Flex 8V 5p,290
+725,CitroÎn,13,C3 GLX 1.6 Flex 16V 5p  Aut.,4762
+726,CitroÎn,13,C3 GLX 1.6/ 1.6 Flex 16V 5p,291
+727,CitroÎn,13,C3 Ocimar Versolato 1.6 16V 110cv 5p,292
+728,CitroÎn,13,C3 Origine 1.5 Flex 8V 5p Mec.,6154
+729,CitroÎn,13,C3 Origine Pure Tech 1.2 Flex 12V Mec,7586
+730,CitroÎn,13,C3 Picasso Excl. 1.6 Flex 16V 5p Aut.,5611
+731,CitroÎn,13,C3 Picasso Exclusive 1.6 Flex 16V 5p Mec,5551
+732,CitroÎn,13,C3 Picasso GL 1.5 Flex 8V Mec.,6092
+733,CitroÎn,13,C3 Picasso GL 1.6 Flex 16V 5p Mec.,5552
+734,CitroÎn,13,C3 Picasso GLX 1.5 Flex 8V 5p Mec.,6093
+735,CitroÎn,13,C3 Picasso GLX 1.6 Flex 16V 5p Aut.,5612
+736,CitroÎn,13,C3 Picasso GLX 1.6 Flex 16V 5p Mec.,5553
+737,CitroÎn,13,C3 Picasso Origine 1.5 Flex 8V Mec.,6773
+738,CitroÎn,13,C3 Picasso Tendance 1.5 Flex 8V 5p Mec.,6774
+739,CitroÎn,13,C3 Picasso Tendance 1.6 Flex 16V 5p Aut.,6775
+740,CitroÎn,13,C3 Start 1.2 Flex 12V 5p,8003
+741,CitroÎn,13,C3 Style Ed. Pure Tech 1.2 Flex 12V Mec.,7730
+742,CitroÎn,13,C3 Style Edition 1.6 Flex 16V Aut.,7731
+743,CitroÎn,13,C3 Tendance 1.5 Flex 8V 5p Mec.,6155
+744,CitroÎn,13,C3 Tendance 1.6 VTi Flex Start 16V Aut.,6776
+745,CitroÎn,13,C3 Tendance Pure Tech 1.2 Flex 12V Mec.,7587
+746,CitroÎn,13,C3 Urban Trail 1.6 Flex 16V 5p Aut.,8341
+747,CitroÎn,13,C3 Urban Trail P.Tech 1.2 Flex 12V Mec.,8882
+748,CitroÎn,13,C3 X-BOX ONE 1.6 VTi Flex 16V 5p Mec.,6777
+749,CitroÎn,13,C3 XTR 1.4 Flex 8V 5p,4302
+750,CitroÎn,13,C3 XTR 1.6 Flex 16V 5p,4054
+751,CitroÎn,13,C4 CACTUS 100 Anos 1.6 TB 16V Flex Aut.,8739
+752,CitroÎn,13,C4 CACTUS C-SERIES 1.6 16V Flex Aut.,9207
+753,CitroÎn,13,C4 CACTUS FEEL 1.6 16V Flex Aut.,8466
+754,CitroÎn,13,C4 CACTUS FEEL 1.6 16V Flex Mec.,8467
+755,CitroÎn,13,C4 CACTUS FEEL Bus. 1.6 Flex Aut.(PCD),8468
+756,CitroÎn,13,C4 CACTUS FEEL Pack 1.6 16V Flex Aut.,8469
+757,CitroÎn,13,C4 CACTUS LIVE 1.6 16V Flex Aut.,9191
+758,CitroÎn,13,C4 CACTUS LIVE 1.6 16V Flex Mec.,8470
+759,CitroÎn,13,C4 CACTUS SHINE 1.6 Turbo Flex Aut.,8471
+760,CitroÎn,13,C4 CACTUS SHINE Pack 1.6 Turbo Flex Aut.,8472
+761,CitroÎn,13,C4 Competition 1.6 Flex 16V 5p Mec.,6574
+762,CitroÎn,13,C4 Competition 2.0 Flex 16V 5p Aut.,6559
+763,CitroÎn,13,C4 Excl./Excl. Solar. 2.0 Flex 16V Mec.,4888
+764,CitroÎn,13,C4 Excl.2.0/2.0 Solaris Flex 16V 5p Aut.,4845
+765,CitroÎn,13,C4 GLX 1.6 Flex 16V 5p Mec.,4846
+766,CitroÎn,13,C4 GLX 2.0 Flex 16V 5p Aut.,4847
+767,CitroÎn,13,C4 GLX 2.0 Flex 16V 5p Mec.,4889
+768,CitroÎn,13,C4 LOUNGE 100 Anos 1.6 16V TB Flex Aut.,8740
+769,CitroÎn,13,C4 LOUNGE Exclusive 1.6 Turbo 4p Aut.,6575
+770,CitroÎn,13,C4 LOUNGE Exclusive 1.6 Turbo Flex Aut.,7094
+771,CitroÎn,13,C4 LOUNGE Exclusive 2.0 Flex 4p Aut.,6576
+772,CitroÎn,13,C4 LOUNGE Feel 1.6 Turbo Flex Aut.,8234
+773,CitroÎn,13,C4 LOUNGE Live 1.6 Turbo Flex Aut.,8515
+774,CitroÎn,13,C4 LOUNGE Live Bus. 1.6 Flex Aut.(PCD),8393
+775,CitroÎn,13,C4 LOUNGE Orig.Business 1.6 TB Flex Aut.,7658
+776,CitroÎn,13,C4 LOUNGE Origine 1.6 Turbo Flex  Aut.,7684
+777,CitroÎn,13,C4 LOUNGE Origine 1.6 Turbo Flex Mec.,7685
+778,CitroÎn,13,C4 LOUNGE Origine 2.0 Flex 4p Aut.,7370
+779,CitroÎn,13,C4 LOUNGE Origine 2.0 Flex 4p Mec.,6577
+780,CitroÎn,13,C4 LOUNGE S 1.6 Turbo Flex Aut.,7787
+781,CitroÎn,13,C4 LOUNGE Shine 1.6 Turbo Flex Aut.,8235
+782,CitroÎn,13,C4 LOUNGE Tendance 1.6 Turbo 4p Aut,6884
+783,CitroÎn,13,C4 LOUNGE Tendance 1.6 Turbo Flex Aut.,7118
+784,CitroÎn,13,C4 LOUNGE Tendance 2.0 Flex 4p Aut.,6578
+785,CitroÎn,13,C4 LOUNGE Tendance 2.0 Flex 4p Mec.,6579
+786,CitroÎn,13,C4 PAL.Excl/Excl(Tech.) 2.0/2.0 Flex Aut,4397
+787,CitroÎn,13,C4 PALLAS Exclusive 2.0/2.0 Flex 16V Mec,4398
+788,CitroÎn,13,C4 PALLAS GLX 2.0/ 2.0 Flex Aut.,4399
+789,CitroÎn,13,C4 PALLAS GLX 2.0/2.0 Flex 16V Mec.,4400
+790,CitroÎn,13,C4 Picasso Grand 2.0 16V 143cv Aut,4667
+791,CitroÎn,13,C4 Picasso Intensive 1.6 Turbo 16V Aut.,7426
+792,CitroÎn,13,C4 Picasso Seduction 1.6 Turbo 16V Aut.,7427
+793,CitroÎn,13,C4 Picasso/Pic. La Luna 2.0 16V  Aut.,4824
+794,CitroÎn,13,C4 Rock You 1.6 Flex 16V 5p Mec.,6580
+795,CitroÎn,13,C4 Tendance 1.6 Flex 16V 5p Mec.,6737
+796,CitroÎn,13,C4 Tendance 2.0 Flex 16V 5p Aut.,6738
+797,CitroÎn,13,C4 VTR 2.0 16V 143cv,4159
+798,CitroÎn,13,C5 3.0 24V 210cv 4p Aut.,293
+799,CitroÎn,13,C5 Exclusive 2.0 16V 138cv 4p Mec.,294
+800,CitroÎn,13,C5 Exclusive 2.0 16V 4p Aut.,295
+801,CitroÎn,13,C5 Exclusive Break 2.0 16V 138cv 5p Mec.,296
+802,CitroÎn,13,C5 Exclusive Break 2.0 16V Aut.,297
+803,CitroÎn,13,C5 Tourer Exclusive 2.0 16V 5p Aut.,4937
+804,CitroÎn,13,C6 Exclusive 3.0 V6 24V 215cv Aut.,4328
+805,CitroÎn,13,C8 Exclusive 2.0 16V 138cv 5p Aut.,298
+806,CitroÎn,13,DS3 1.6 Turbo 16V 3p Mec.,6050
+807,CitroÎn,13,DS3 Sport Chic 1.6 TB 16V 3p Mec.,7067
+808,CitroÎn,13,DS4 1.6 Chic Turbo 16V 5p Aut.,7068
+809,CitroÎn,13,DS4 1.6 So Chic Turbo 16V 5p Aut.,7069
+810,CitroÎn,13,DS4 1.6 Turbo 16V 5p Aut.,6347
+811,CitroÎn,13,DS5 1.6 Be Chic Turbo 16V 5p Aut.,7095
+812,CitroÎn,13,DS5 1.6 So Chic Turbo 16V 5p Aut.,7096
+813,CitroÎn,13,DS5 1.6 Turbo 16V 5p Aut.,6295
+814,CitroÎn,13,Evasion  GLX 2.0 16V,299
+815,CitroÎn,13,Evasion VSX Turbo,300
+816,CitroÎn,13,Grand C4 Picasso Intensive 1.6 TB Aut.,7588
+817,CitroÎn,13,Grand C4 Picasso Seduction 1.6 TB Aut.,7589
+818,CitroÎn,13,Jumper 2.0 Furg„oTurbo Diesel,8516
+819,CitroÎn,13,Jumper 2.0 Minibus 16L Turbo Diesel,8883
+820,CitroÎn,13,Jumper 2.3 15/16Lug. TB Diesel,5103
+821,CitroÎn,13,Jumper 2.3 Furg„o TB Diesel,5140
+822,CitroÎn,13,Jumper 2.3 Vetrato Exec. 16Lug. TB Dies.,5659
+823,CitroÎn,13,Jumper 2.3 Vetrato TB Diesel,5411
+824,CitroÎn,13,Jumper 2.5 Diesel,301
+825,CitroÎn,13,Jumper 2.8 16Lug.  Diesel,302
+826,CitroÎn,13,Jumper 2.8 Furg„o 35C Diesel,303
+827,CitroÎn,13,Jumper 2.8 Furg„o 35MH Diesel,304
+828,CitroÎn,13,Jumpy 1.6  Furg„o Pack Turbo Diesel,8078
+829,CitroÎn,13,Jumpy 1.6  Furg„o Turbo Diesel,8077
+830,CitroÎn,13,Jumpy 1.6 Minibus Turbo Diesel,8342
+831,CitroÎn,13,Jumpy VITR… 1.6 Turbo Diesel,9192
+832,CitroÎn,13,Xantia 2.0  16V,305
+833,CitroÎn,13,Xantia Activa 2.0,306
+834,CitroÎn,13,Xantia Activa 2.0 TB,307
+835,CitroÎn,13,Xantia Activa 3.0 V6 Mec,308
+836,CitroÎn,13,Xantia Break 2.0 8V/GLX 2.0 16V Aut,309
+837,CitroÎn,13,Xantia Break GLX 2.0 16V Mec.,310
+838,CitroÎn,13,Xantia Exclusive 2.0 16V,311
+839,CitroÎn,13,Xantia Exclusive 3.0 V6,312
+840,CitroÎn,13,Xantia GLX 2.0 16V Aut.,313
+841,CitroÎn,13,Xantia GLX 2.0 16V Mec.,314
+842,CitroÎn,13,Xantia SX 1.8,315
+843,CitroÎn,13,Xantia SX 2.0 8V/16V Mec./Aut.,316
+844,CitroÎn,13,Xantia VSX 2.0,317
+845,CitroÎn,13,Xantia VSX 2.0 16V,318
+846,CitroÎn,13,XM Exclusive 12v,319
+847,CitroÎn,13,XM Exclusive 24V,320
+848,CitroÎn,13,XM Exclusive Break,321
+849,CitroÎn,13,XM Sensation 2.0 TB,322
+850,CitroÎn,13,Xsara Break Exclusive 1.6 16V 5p Aut.,323
+851,CitroÎn,13,Xsara Break Exclusive 1.6 16V 5p Mec.,324
+852,CitroÎn,13,Xsara Break Exclusive 1.8 16V,325
+853,CitroÎn,13,Xsara Break Exclusive 2.0 16V,326
+854,CitroÎn,13,Xsara Break GLX 1.6 16V 5p Aut.,327
+855,CitroÎn,13,Xsara Break GLX 1.6 16V 5p Mec.,328
+856,CitroÎn,13,Xsara Break GLX 1.8 16V,329
+857,CitroÎn,13,Xsara Break GLX/ Paris 2.0 16V,330
+858,CitroÎn,13,Xsara Exclusive 1.6 16V 5p Aut.,331
+859,CitroÎn,13,Xsara Exclusive 1.6 16V 5p Mec.,332
+860,CitroÎn,13,Xsara Exclusive 1.8 8V/16V 5p Aut.,333
+861,CitroÎn,13,Xsara Exclusive 1.8 8V/16V 5p Mec.,334
+862,CitroÎn,13,Xsara Exclusive 2.0 16V,335
+863,CitroÎn,13,Xsara GLX 1.6 16V 3p,336
+864,CitroÎn,13,Xsara GLX 1.6 16V 5p Aut.,337
+865,CitroÎn,13,Xsara GLX 1.6 16V 5p Mec.,338
+866,CitroÎn,13,Xsara GLX 1.8 16V 5p Mec.,339
+867,CitroÎn,13,Xsara GLX 1.8 16V CupÍ Mec.,340
+868,CitroÎn,13,Xsara GLX 1.8 8V 5p Aut.,341
+869,CitroÎn,13,Xsara GLX 1.8 8V CupÍ Aut.,342
+870,CitroÎn,13,Xsara GLX/ Paris 2.0 16V,343
+871,CitroÎn,13,Xsara Picasso Exc./Etoile 2.0 16V Mec.,344
+872,CitroÎn,13,Xsara Picasso Exclus. 1.6/ 1.6 Flex 16V,3930
+873,CitroÎn,13,Xsara Picasso Exclusive 2.0 16V Aut.,345
+874,CitroÎn,13,Xsara Picasso GLX 1.6/ 1.6 Flex 16V,347
+875,CitroÎn,13,Xsara Picasso GLX 2.0 16V  Aut.,348
+876,CitroÎn,13,Xsara Picasso GLX/Brasil/Etoile 2.0 Mec.,346
+877,CitroÎn,13,Xsara VTS 1.6 16V 3p,349
+878,CitroÎn,13,Xsara VTS 1.8 16V,350
+879,CitroÎn,13,Xsara VTS 2.0  16V CupÍ Mec.,351
+880,CitroÎn,13,ZX CupÍ 16V,352
+881,CitroÎn,13,ZX Dakar 2.0 16V,353
+882,CitroÎn,13,ZX Furio,354
+883,CitroÎn,13,ZX Paris 1.8,355
+884,CitroÎn,13,ZX Volcane 3p e 5p,356
 885,Cross Lander,14,CL-244 2.8 132cv 4x4 TB Int. Diesel,357
 886,Cross Lander,14,CL-330 2.8 132cv 4x4 TB Int. Diesel,3964
 887,Daewoo,15,Espero 2.0,358
@@ -960,7 +960,7 @@
 958,EFFA,147,Start Picape CD 1.0 8V 5p,5661
 959,EFFA,147,Start Picape L 1.0 8V 2p,5662
 960,EFFA,147,Start Van 1.0 8V 4p,5663
-961,EFFA,147,ULC FURG√ÉO 1.0 8V 5p,4638
+961,EFFA,147,ULC FURG√O 1.0 8V 5p,4638
 962,EFFA,147,ULC PICAPE 1.0 8V 2p,4639
 963,EFFA,147,ULC PICAPE CD 1.0 8V 4p,5358
 964,EFFA,147,ULC PICAPE Longa 1.0 8V 2p,5359
@@ -968,7 +968,7 @@
 966,EFFA,147,ULC VAN 1.0 8V 5p,4640
 967,EFFA,147,V21 Pick-up CS 1.3 16V 2p,7344
 968,EFFA,147,V22 Pick-up CD 1.3 16V 4p,7345
-969,EFFA,147,V25 Furg√£o 1.3 16V 5p,9041
+969,EFFA,147,V25 Furg„o 1.3 16V 5p,9041
 970,Engesa,18,Engesa 4x4 2.5/4.1,411
 971,Engesa,18,Engesa 4x4 4.0 Diesel,412
 972,Envemo,19,Camper 2.5/GL/GLS/Master 4.1,413
@@ -1020,7 +1020,7 @@
 1018,Ferrari,20,GTC4 LUSSO T V8 610cv,8394
 1019,Ferrari,20,PORTOFINO 3.9 V8 600cv,8517
 1020,Fiat,21,147 C/ CL,437
-1021,Fiat,21,147 Furg√£o (todos),438
+1021,Fiat,21,147 Furg„o (todos),438
 1022,Fiat,21,147 Pick-Up (todas),439
 1023,Fiat,21,500 ABARTH MULTIAIR 1.4 TB 16V 3p,7097
 1024,Fiat,21,500 Cabrio Dualogic Flex 1.4 8V,6885
@@ -1093,17 +1093,17 @@
 1091,Fiat,21,Ducato Cargo Curto 2.3 16V Diesel,8204
 1092,Fiat,21,Ducato Cargo Curto 2.3 ME Diesel,5022
 1093,Fiat,21,Ducato Cargo Longo 2.3 ME Diesel,5023
-1094,Fiat,21,Ducato Cargo M√©dio 2.3 16V Diesel,8205
+1094,Fiat,21,Ducato Cargo MÈdio 2.3 16V Diesel,8205
 1095,Fiat,21,Ducato Chassi 2.3 16V Diesel,8206
 1096,Fiat,21,Ducato Combinato 2.3 ME Diesel,5024
 1097,Fiat,21,Ducato Combinato 2.8 Diesel,454
 1098,Fiat,21,Ducato Combinato 2.8 Turbo Diesel,455
 1099,Fiat,21,Ducato Executivo 2.3 16V Diesel,8395
-1100,Fiat,21,Ducato Furg√£o Maxi 2.8 Diesel,456
+1100,Fiat,21,Ducato Furg„o Maxi 2.8 Diesel,456
 1101,Fiat,21,Ducato Maxi. Curta 2.3 T.Alto ME Diesel,5025
 1102,Fiat,21,Ducato Maxi. Long. 2.3 T.Alto ME Diesel,5026
 1103,Fiat,21,Ducato MaxiCargo 2.3 16V Diesel,8207
-1104,Fiat,21,Ducato MaxiCargo/Furg√£o Maxi 2.8 TB Dies,457
+1104,Fiat,21,Ducato MaxiCargo/Furg„o Maxi 2.8 TB Dies,457
 1105,Fiat,21,Ducato MaxiMulti 2.3 16V Diesel,8208
 1106,Fiat,21,Ducato Minibus 2.3 16V Diesel,8396
 1107,Fiat,21,Ducato Minibus 2.3 ME Diesel,5027
@@ -1117,10 +1117,10 @@
 1115,Fiat,21,Ducato Multi Long. 2.3 T.Alto ME Diesel,5029
 1116,Fiat,21,Ducato Van 2.5  Diesel,462
 1117,Fiat,21,Ducato Vip Bus 2.3 16V Diesel,8398
-1118,Fiat,21,Ducato-10 Furg√£o 2.5 Diesel,463
-1119,Fiat,21,Ducato-15 2.8 Furg√£o TB Diesel,464
-1120,Fiat,21,Ducato-15 Furg√£o 2.8 Diesel,465
-1121,Fiat,21,Ducato-8 Furg√£o 2.5 Diesel,466
+1118,Fiat,21,Ducato-10 Furg„o 2.5 Diesel,463
+1119,Fiat,21,Ducato-15 2.8 Furg„o TB Diesel,464
+1120,Fiat,21,Ducato-15 Furg„o 2.8 Diesel,465
+1121,Fiat,21,Ducato-8 Furg„o 2.5 Diesel,466
 1122,Fiat,21,Duna 1.6ie,467
 1123,Fiat,21,Elba 1.6i.e/Top/CSL/ 1.6i.e/1.5 2p e 4p,468
 1124,Fiat,21,Elba CS 1.6 / 1.5 /1.3,469
@@ -1128,11 +1128,11 @@
 1126,Fiat,21,Elba Weekend 1.5 i.e. 2p e 4p,471
 1127,Fiat,21,Fiorino Endurance EVO 1.4 Flex 8V 2p,9194
 1128,Fiat,21,Fiorino Furg.1.5/1.3/1.3 Fire/1.3 F.Flex,473
-1129,Fiat,21,Fiorino Furg√£o 1.0,472
-1130,Fiat,21,Fiorino Furg√£o 1.5 mpi / i.e.,474
-1131,Fiat,21,Fiorino Furg√£o Celeb. EVO 1.4 Flex 8V 2p,6662
-1132,Fiat,21,Fiorino Furg√£o EVO 1.4 Flex 8V 2p,6663
-1133,Fiat,21,Fiorino Furg√£o Work. HARD 1.4 Flex 8V 2p,7751
+1129,Fiat,21,Fiorino Furg„o 1.0,472
+1130,Fiat,21,Fiorino Furg„o 1.5 mpi / i.e.,474
+1131,Fiat,21,Fiorino Furg„o Celeb. EVO 1.4 Flex 8V 2p,6662
+1132,Fiat,21,Fiorino Furg„o EVO 1.4 Flex 8V 2p,6663
+1133,Fiat,21,Fiorino Furg„o Work. HARD 1.4 Flex 8V 2p,7751
 1134,Fiat,21,Fiorino Pick-Up 1.0,475
 1135,Fiat,21,Fiorino Pick-Up 1.5 i.e./1.3/1.5/HD,476
 1136,Fiat,21,Fiorino Pick-Up LX (todas),477
@@ -1222,7 +1222,7 @@
 1220,Fiat,21,Palio 1.8R mpi Flex 8V 4p,3883
 1221,Fiat,21,Palio ATTRA. Best Seller 1.0 EVO Flex 5p,7180
 1222,Fiat,21,Palio ATTRA. Best Seller 1.4 EVO Flex 5p,7181
-1223,Fiat,21,Palio ATTRA./IT√ÅLIA 1.4 EVO F.Flex 8V 5p,5271
+1223,Fiat,21,Palio ATTRA./IT¡LIA 1.4 EVO F.Flex 8V 5p,5271
 1224,Fiat,21,Palio ATTRACTIVE 1.0 EVO Fire Flex 8v 5p,5721
 1225,Fiat,21,Palio Celebration 1.0 Fire Flex 8V 2p,3965
 1226,Fiat,21,Palio Celebration 1.0 Fire Flex 8V 4p,3966
@@ -1491,10 +1491,10 @@
 1489,Fiat,21,UNO ECONOMY Celeb. 1.4 EVO F. Flex 8V 2p,5666
 1490,Fiat,21,UNO ECONOMY Celeb. 1.4 EVO F. Flex 8V 4p,5667
 1491,Fiat,21,UNO EVOLUTION 1.4 Fire Flex 8V 5p,6958
-1492,Fiat,21,UNO Furg√£o 1.0 Fire Flex 8V 3p,7119
-1493,Fiat,21,Uno Furg√£o 1.3 mpi Fire/ Fire Flex 8V,640
-1494,Fiat,21,Uno Furg√£o 1.5 mpi/i.e.,641
-1495,Fiat,21,Uno Furg√£o 1.5/ 1.3,642
+1492,Fiat,21,UNO Furg„o 1.0 Fire Flex 8V 3p,7119
+1493,Fiat,21,Uno Furg„o 1.3 mpi Fire/ Fire Flex 8V,640
+1494,Fiat,21,Uno Furg„o 1.5 mpi/i.e.,641
+1495,Fiat,21,Uno Furg„o 1.5/ 1.3,642
 1496,Fiat,21,Uno Mille  ELX  2p e 4p,643
 1497,Fiat,21,Uno Mille 1.0 Electronic 4p,646
 1498,Fiat,21,Uno Mille 1.0 Fire/ F.Flex/ ECONOMY 2p,644
@@ -1558,7 +1558,7 @@
 1556,Ford,22,Contour SE/GL/ LX 2.5 24V,662
 1557,Ford,22,Corcel II GL/GT,663
 1558,Ford,22,Corcel II L,664
-1559,Ford,22,Courier 1.3i/Furg√£o,665
+1559,Ford,22,Courier 1.3i/Furg„o,665
 1560,Ford,22,Courier 1.6 L/ 1.6 Flex,666
 1561,Ford,22,Courier CLX 1.4i 16V,667
 1562,Ford,22,Courier Si 1.4i 16V,668
@@ -1623,7 +1623,7 @@
 1621,Ford,22,Escort GLX 1.6i,693
 1622,Ford,22,Escort GLX 1.8i 16V 4p,694
 1623,Ford,22,Escort GLX 1.8i 8v,695
-1624,Ford,22,Escort Guaruj√° 1.8 4p,696
+1624,Ford,22,Escort Guaruj· 1.8 4p,696
 1625,Ford,22,Escort Hobby 1.0,697
 1626,Ford,22,Escort Hobby 1.6,698
 1627,Ford,22,Escort L 1.8i / 1.8,699
@@ -1634,9 +1634,9 @@
 1632,Ford,22,Escort SW 1.9 16v,704
 1633,Ford,22,Escort SW GL 1.6 MPI,705
 1634,Ford,22,Escort XR3 1.8 / 1.6 Beneton/Form./Laser,706
-1635,Ford,22,Escort XR3 1.8 / 1.6 Convers√≠vel,707
+1635,Ford,22,Escort XR3 1.8 / 1.6 ConversÌvel,707
 1636,Ford,22,Escort XR3 2.0i,708
-1637,Ford,22,Escort XR3 2.0i Convers√≠vel,709
+1637,Ford,22,Escort XR3 2.0i ConversÌvel,709
 1638,Ford,22,Expedition 5.4 V8,710
 1639,Ford,22,Explorer Limited 4.0 4x4 V6 213cv,711
 1640,Ford,22,Explorer Limited 5.0 4x4 V8,712
@@ -1649,7 +1649,7 @@
 1647,Ford,22,F-100 Blazer 2.3,719
 1648,Ford,22,F-100 CD 2.3,720
 1649,Ford,22,F-100 Super 2.3,721
-1650,Ford,22,F-100 Super S√©rie 2.3,722
+1650,Ford,22,F-100 Super SÈrie 2.3,722
 1651,Ford,22,F-1000 CD/Blazer 3.6,723
 1652,Ford,22,F-1000 CD/Blazer 3.9 Dies.,724
 1653,Ford,22,F-1000 Lightning/ Super 4.9i,725
@@ -1657,13 +1657,13 @@
 1655,Ford,22,F-1000 S. S. Diesel / S.S. Diesel Turbo,727
 1656,Ford,22,F-1000 SR XK  Deserter Diesel,728
 1657,Ford,22,F-1000 SR XK Deserter,729
-1658,Ford,22,F-1000 Super 3.6 / Super S√©rie 3.6,730
+1658,Ford,22,F-1000 Super 3.6 / Super SÈrie 3.6,730
 1659,Ford,22,F-1000 Super CE 4.9i / 3.6,731
 1660,Ford,22,F-1000 Super Diesel / Super Diesel Turbo,732
 1661,Ford,22,F-1000 Super Diesel CE 3.9,733
-1662,Ford,22,F-1000 Super S√©rie CE 4.9/3.6,734
-1663,Ford,22,F-1000 Super S√©rie CE Diesel 3.9,735
-1664,Ford,22,F-1000 Super/ S.S√©rie 4x4 3.9 Diesel,736
+1662,Ford,22,F-1000 Super SÈrie CE 4.9/3.6,734
+1663,Ford,22,F-1000 Super SÈrie CE Diesel 3.9,735
+1664,Ford,22,F-1000 Super/ S.SÈrie 4x4 3.9 Diesel,736
 1665,Ford,22,F-1000 Tropical CD 4.9i,738
 1666,Ford,22,F-1000 Tropical CD HSD 2.5/4.3 Diesel TB,737
 1667,Ford,22,F-1000 Tropical SL/ Van 4.9i,739
@@ -1727,7 +1727,7 @@
 1725,Ford,22,Fiesta GL Class 1.0i 5p,781
 1726,Ford,22,Fiesta GLX 1.6 8V 3p,782
 1727,Ford,22,Fiesta GLX 1.6 8V 5p,783
-1728,Ford,22,Fiesta Personnalit√© 1.0 8V 66cv 5p,784
+1728,Ford,22,Fiesta PersonnalitÈ 1.0 8V 66cv 5p,784
 1729,Ford,22,Fiesta S 1.0 8V Flex 5p,6425
 1730,Ford,22,Fiesta SE 1.0 8V Flex 5p,6426
 1731,Ford,22,Fiesta SE 1.6 16V Flex 5p,5668
@@ -1736,7 +1736,7 @@
 1734,Ford,22,Fiesta SE Plus Direct 1.6 16V Flex Aut.,8008
 1735,Ford,22,Fiesta SE Style 1.6 16V Flex Mec. 5p,7753
 1736,Ford,22,Fiesta Sed. 1.6 8V Flex 4p,785
-1737,Ford,22,Fiesta Sed. Personnalit√© 1.0 8V 4p,786
+1737,Ford,22,Fiesta Sed. PersonnalitÈ 1.0 8V 4p,786
 1738,Ford,22,Fiesta Sed. Supercharger 1.0 8V 4p,787
 1739,Ford,22,Fiesta Sed. TI./TI.Plus1.6 16V Flex Aut.,6523
 1740,Ford,22,Fiesta Sedan 1.0 8V Flex 4p,4136
@@ -1801,7 +1801,7 @@
 1799,Ford,22,Fusion Titanium 2.0 GTDI Eco. Awd Aut.,6324
 1800,Ford,22,Fusion Titanium 2.0 GTDI Eco. Fwd Aut.,6382
 1801,Ford,22,Fusion Titanium Hybrid 2.0 145cv Aut.,6583
-1802,Ford,22,Ibiza 3.9 Furg√£o Diesel,811
+1802,Ford,22,Ibiza 3.9 Furg„o Diesel,811
 1803,Ford,22,Ibiza Chat./Exec. 3.9 Diesel,812
 1804,Ford,22,Ka 1.0 8V/1.0 8V ST Flex 3p,4514
 1805,Ford,22,Ka 1.0 FREESTYLE 12V Flex 5p Mec.,8744
@@ -1869,7 +1869,7 @@
 1867,Ford,22,Mustang Cobra 5.7 V8,839
 1868,Ford,22,Mustang GT Premium 5.0 V8,8238
 1869,Ford,22,Mustang GT V8,840
-1870,Ford,22,Mustang GT V8 Convers√≠vel,841
+1870,Ford,22,Mustang GT V8 ConversÌvel,841
 1871,Ford,22,Pampa 4x4 Jeep GL / L 1.6,842
 1872,Ford,22,Pampa Ghia 1.6/1.8/DUO,843
 1873,Ford,22,Pampa GL 1.6/ 1.8,844
@@ -1980,11 +1980,11 @@
 1978,Ford,22,Thunderbird SC 3.8 V6,912
 1979,Ford,22,TRANSIT Chassi 2.2 TDCI Diesel,6202
 1980,Ford,22,TRANSIT Chassi 2.4 TDCI Diesel,5247
-1981,Ford,22,TRANSIT Furg√£o 2.2 TDCI Curto Diesel,6383
-1982,Ford,22,TRANSIT Furg√£o 2.2 TDCI Longa Diesel,6296
-1983,Ford,22,TRANSIT Furg√£o 2.2 TDCI Longo Jumbo Dies,5884
-1984,Ford,22,TRANSIT Furg√£o 3330 2.4 TDCI Curto Dies.,4838
-1985,Ford,22,TRANSIT Furg√£o 3550 2.4 TDCI Longo Dies.,4839
+1981,Ford,22,TRANSIT Furg„o 2.2 TDCI Curto Diesel,6383
+1982,Ford,22,TRANSIT Furg„o 2.2 TDCI Longa Diesel,6296
+1983,Ford,22,TRANSIT Furg„o 2.2 TDCI Longo Jumbo Dies,5884
+1984,Ford,22,TRANSIT Furg„o 3330 2.4 TDCI Curto Dies.,4838
+1985,Ford,22,TRANSIT Furg„o 3550 2.4 TDCI Longo Dies.,4839
 1986,Ford,22,TRANSIT Van 3550 2.2 TDCI 14/16lug. Dies,6203
 1987,Ford,22,TRANSIT Van 3550 2.4 TDCI 14lug. Diesel,4840
 1988,Ford,22,Verona Ghia 2.0i 4p,913
@@ -2064,7 +2064,7 @@
 2062,GM - Chevrolet,23,Blazer Jimmy 4.3 V6,964
 2063,GM - Chevrolet,23,Blazer S-10 4.3 V6,965
 2064,GM - Chevrolet,23,Blazer SS-10 4.3 V6,966
-2065,GM - Chevrolet,23,BOLT EV Premier 203cv (El√©trico),9042
+2065,GM - Chevrolet,23,BOLT EV Premier 203cv (ElÈtrico),9042
 2066,GM - Chevrolet,23,Bonanza S / Luxe 4.0 Diesel Turbo,967
 2067,GM - Chevrolet,23,Bonanza S / Luxe 4.1,968
 2068,GM - Chevrolet,23,Brasinca Blazer CD 4.0 Diesel,969
@@ -2082,7 +2082,7 @@
 2080,GM - Chevrolet,23,Camaro RS 5.0 V8,980
 2081,GM - Chevrolet,23,Camaro Sport 5.0 Conv.,981
 2082,GM - Chevrolet,23,Camaro SS 6.2 V8 16V,5415
-2083,GM - Chevrolet,23,Camaro SS Convers√≠vel 6.2 V8 16V,6887
+2083,GM - Chevrolet,23,Camaro SS ConversÌvel 6.2 V8 16V,6887
 2084,GM - Chevrolet,23,Camaro Z-28 Targa/Conv. 5.7,982
 2085,GM - Chevrolet,23,Caprice 4.3 V8,983
 2086,GM - Chevrolet,23,Caprice SW 4.3 V8,984
@@ -2118,7 +2118,7 @@
 2116,GM - Chevrolet,23,Celta Super 1.0 MPFI 8V FlexPower 5p,1008
 2117,GM - Chevrolet,23,Chevette Junior 1.0,1009
 2118,GM - Chevrolet,23,Chevette L / SL / SL/e / DL / SE 1.6,1010
-2119,GM - Chevrolet,23,Chevy 500 DL / SL / SE/ Furg√£o 1.6,1011
+2119,GM - Chevrolet,23,Chevy 500 DL / SL / SE/ Furg„o 1.6,1011
 2120,GM - Chevrolet,23,Cheynne 4.3 V6,1012
 2121,GM - Chevrolet,23,Classic ADVANTAGE 1.0 VHC FlexPower 4p,6747
 2122,GM - Chevrolet,23,Classic Life/LS 1.0 VHC FlexP. 4p,4924
@@ -2135,7 +2135,7 @@
 2133,GM - Chevrolet,23,COBALT LTZ 1.4 8V FlexPower/EconoFlex 4p,5725
 2134,GM - Chevrolet,23,COBALT LTZ 1.8 8V Econo.Flex 4p Aut.,6174
 2135,GM - Chevrolet,23,COBALT LTZ 1.8 8V Econo.Flex 4p Mec.,6175
-2136,GM - Chevrolet,23,Corsa Furg√£o 1.6 MPFi Powertech 92cv,1013
+2136,GM - Chevrolet,23,Corsa Furg„o 1.6 MPFi Powertech 92cv,1013
 2137,GM - Chevrolet,23,Corsa GL 1.6 MPFI / 1.4 EFI 2p e 4p,1014
 2138,GM - Chevrolet,23,Corsa GLS 1.6 MPFI 5p,1015
 2139,GM - Chevrolet,23,Corsa GSi 16V,1016
@@ -2237,7 +2237,7 @@
 2235,GM - Chevrolet,23,Kadett GLS 1.8 EFI / SL/e 1.8,1083
 2236,GM - Chevrolet,23,Kadett GLS 2.0 MPFI,1084
 2237,GM - Chevrolet,23,Kadett GSi / GS 2.0,1085
-2238,GM - Chevrolet,23,Kadett GSi 2.0 Convers√≠vel,1086
+2238,GM - Chevrolet,23,Kadett GSi 2.0 ConversÌvel,1086
 2239,GM - Chevrolet,23,Kadett Sport 2.0 MPFI / EFI,1087
 2240,GM - Chevrolet,23,Lumina,1088
 2241,GM - Chevrolet,23,MALIBU LTZ 2.4 16V 171cv 4p,5276
@@ -2299,7 +2299,7 @@
 2297,GM - Chevrolet,23,ONIX HATCH LTZ 1.4 8V FlexPower 5p Aut.,6531
 2298,GM - Chevrolet,23,ONIX HATCH LTZ 1.4 8V FlexPower 5p Mec.,6234
 2299,GM - Chevrolet,23,ONIX HATCH PREM. 1.0 12V TB Flex 5p Aut.,8894
-2300,GM - Chevrolet,23,ONIX HATCH SELE√á√ÉO 1.0 8V Flex 5p Mec.,7259
+2300,GM - Chevrolet,23,ONIX HATCH SELE«√O 1.0 8V Flex 5p Mec.,7259
 2301,GM - Chevrolet,23,ONIX SD. P. PR. MIDNIGHT 1.0 TB Flex Aut,9212
 2302,GM - Chevrolet,23,ONIX SED. Plus PREM. 1.0 12V TB Flex Aut,8823
 2303,GM - Chevrolet,23,ONIX SEDAN Plus 1.0 12V TB Flex Aut.,8824
@@ -2441,8 +2441,8 @@
 2439,GM - Chevrolet,23,SONIC Sed. LTZ 1.6 16V FlexPower 4p Aut.,6063
 2440,GM - Chevrolet,23,SONIC Sed. LTZ 1.6 16V FlexPower 4p Mec.,6064
 2441,GM - Chevrolet,23,Sonoma CE 4.3 V6,1192
-2442,GM - Chevrolet,23,SpaceVan Furg√£o 2.1 Diesel,1193
-2443,GM - Chevrolet,23,SpaceVan Furg√£o 2.2,1194
+2442,GM - Chevrolet,23,SpaceVan Furg„o 2.1 Diesel,1193
+2443,GM - Chevrolet,23,SpaceVan Furg„o 2.2,1194
 2444,GM - Chevrolet,23,SpaceVan Passageiro 2.1Diesel,1195
 2445,GM - Chevrolet,23,SpaceVan Passageiro 2.2,1196
 2446,GM - Chevrolet,23,SPIN ACTIV 1.8 8V Econo. Flex 5p Aut.,7098
@@ -2485,7 +2485,7 @@
 2483,GM - Chevrolet,23,TRACKER Premier 1.2 Turbo 12V Flex Aut.,9048
 2484,GM - Chevrolet,23,TRACKER Premier 1.4 Turbo 16V Flex Aut,8124
 2485,GM - Chevrolet,23,Trafic Chassi Longo Diesel,1208
-2486,GM - Chevrolet,23,Trafic Furg√£o Carga 2.1 Diesel,1209
+2486,GM - Chevrolet,23,Trafic Furg„o Carga 2.1 Diesel,1209
 2487,GM - Chevrolet,23,Trafic Furgao Carga 2.2,1210
 2488,GM - Chevrolet,23,Trafic Passageiros 2.1 Diesel,1211
 2489,GM - Chevrolet,23,Trafic Passageiros 2.2,1212
@@ -2536,20 +2536,20 @@
 2534,Gurgel,24,BR-800 (todos)/Supermini,1238
 2535,Gurgel,24,Carajas Diesel,1239
 2536,Gurgel,24,Carajas/Tocantis/Xavante/Vip,1240
-2537,HAFEI,152,Towner Furg√£o 1.0 8V 48cv 5p,4771
+2537,HAFEI,152,Towner Furg„o 1.0 8V 48cv 5p,4771
 2538,HAFEI,152,Towner Jr. Pick-up 1.0 8V 48cv  CD 4p,5277
 2539,HAFEI,152,Towner Jr. Pick-up 1.0 8V 48cv  CS 2p,5278
-2540,HAFEI,152,Towner Jr. Pick-up Ba√∫ 1.0 8V 48cv 2p,5396
-2541,HAFEI,152,Towner Jr. Pick-up Ba√∫ 1.0 8V 48cv CD 4p,5592
+2540,HAFEI,152,Towner Jr. Pick-up Ba˙ 1.0 8V 48cv 2p,5396
+2541,HAFEI,152,Towner Jr. Pick-up Ba˙ 1.0 8V 48cv CD 4p,5592
 2542,HAFEI,152,Towner Passageiro 1.0 8V 48cv 7L 5p,4772
 2543,HAFEI,152,Towner Pick-Up 1.0 8V 48cv 2p,4773
-2544,HAFEI,152,Towner Pick-Up Ba√∫ 1.0 8V 48cv 2p,5397
-2545,HITECH ELECTRIC,214,e.co Cargo 10kW (El√©trico),9434
-2546,HITECH ELECTRIC,214,"e.co Cargo 7,5kW (El√©trico)",9435
-2547,HITECH ELECTRIC,214,e.co Tech2 6kW (El√©trico),9436
-2548,HITECH ELECTRIC,214,e.co Tech4 6kW (El√©trico),9437
-2549,HITECH ELECTRIC,214,e.co Truck 10kW (El√©trico),9438
-2550,HITECH ELECTRIC,214,"e.co Truck 7,5kW (El√©trico)",9439
+2544,HAFEI,152,Towner Pick-Up Ba˙ 1.0 8V 48cv 2p,5397
+2545,HITECH ELECTRIC,214,e.co Cargo 10kW (ElÈtrico),9434
+2546,HITECH ELECTRIC,214,"e.co Cargo 7,5kW (ElÈtrico)",9435
+2547,HITECH ELECTRIC,214,e.co Tech2 6kW (ElÈtrico),9436
+2548,HITECH ELECTRIC,214,e.co Tech4 6kW (ElÈtrico),9437
+2549,HITECH ELECTRIC,214,e.co Truck 10kW (ElÈtrico),9438
+2550,HITECH ELECTRIC,214,"e.co Truck 7,5kW (ElÈtrico)",9439
 2551,Honda,25,Accord Coupe EX,1241
 2552,Honda,25,Accord Sedan EX 2.0 16V 156cv Aut.,5211
 2553,Honda,25,Accord Sedan EX 2.4/2.3/ 2.2 16V,1242
@@ -2648,7 +2648,7 @@
 2646,Honda,25,Passport EX,1281
 2647,Honda,25,Passport LX,1282
 2648,Honda,25,Passport PIck-Up 4x2,1283
-2649,Honda,25,Prelude Coup√™ S 2.2,1284
+2649,Honda,25,Prelude CoupÍ S 2.2,1284
 2650,Honda,25,Prelude Si,1285
 2651,Honda,25,WR-V EX 1.5 Flexone 16V 5p Aut.,7899
 2652,Honda,25,WR-V EXL 1.5 Flexone 16V 5p Aut.,7900
@@ -2683,7 +2683,7 @@
 2681,Hyundai,26,Creta Smart 1.6 16V Flex Aut.,8521
 2682,Hyundai,26,Creta Smart Plus 1.6 16V Flex Aut.,9115
 2683,Hyundai,26,Creta Sport 2.0 16V Flex Aut.,8125
-2684,Hyundai,26,Cup√™ 2.0,1299
+2684,Hyundai,26,CupÍ 2.0,1299
 2685,Hyundai,26,Elantra 2.0 16V Flex Aut.,7756
 2686,Hyundai,26,Elantra GL,1300
 2687,Hyundai,26,Elantra GLS 1.6,1301
@@ -2706,16 +2706,16 @@
 2704,Hyundai,26,Galloper 3.0 V6 Super Luxo Aut,1313
 2705,Hyundai,26,Galloper 3.0 V6 Super Luxo Mec,1314
 2706,Hyundai,26,GENESIS 3.8 V6 24V 290cv 4p Aut.,5930
-2707,Hyundai,26,Grand Santa F√©  3.3 V6 4X4 Tiptronic,6694
+2707,Hyundai,26,Grand Santa FÈ  3.3 V6 4X4 Tiptronic,6694
 2708,Hyundai,26,H1 Starex HSV 2.4 16V 137cv  Aut.,1315
 2709,Hyundai,26,H1 Starex HSV 2.5 Diesel,1316
 2710,Hyundai,26,H1 Starex SVX 2.4 16V,4801
 2711,Hyundai,26,H1 Starex SVX 2.5 TDI 100cv Diesel,3957
 2712,Hyundai,26,H1 Starex SVX 2.6 85cv Diesel,1317
-2713,Hyundai,26,H100 DLX Furg√£o Diesel,1318
+2713,Hyundai,26,H100 DLX Furg„o Diesel,1318
 2714,Hyundai,26,H100 DLX/ Panel Diesel,1319
 2715,Hyundai,26,H100 GL Diesel,1320
-2716,Hyundai,26,H100 GL Furg√£o Extra-Longo Diesel,1321
+2716,Hyundai,26,H100 GL Furg„o Extra-Longo Diesel,1321
 2717,Hyundai,26,H100 GLS Diesel,1322
 2718,Hyundai,26,H100 GS (12 lugares),1323
 2719,Hyundai,26,H100 GS Diesel (12 lugares),1324
@@ -2855,18 +2855,18 @@
 2853,IVECO,208,DAILY CHASSI 65-170 Longo 3.0 (Die.)(E5),9018
 2854,IVECO,208,DAILY CHASSI 70-170 3.0 (Diesel)(E5),9019
 2855,IVECO,208,DAILY CITY 30S13 Chassi 2p (diesel)(E5),8345
-2856,IVECO,208,DAILY CITY 30S13 Furg√£o 2p (diesel)(E5),8346
+2856,IVECO,208,DAILY CITY 30S13 Furg„o 2p (diesel)(E5),8346
 2857,IVECO,208,DAILY CITY 30S13 Gran Furgone 2p (dies),8476
 2858,IVECO,208,DAILY CITY CH. 30-130 Longo 2.3(Die)(E5),9302
-2859,IVECO,208,"DAILY FURG√ÉO 30-130 2.3 10,8m¬≥(Die)(E5)",9049
-2860,IVECO,208,DAILY FURG√ÉO 30-130 2.3 12m¬≥ (Die)(E5),9050
-2861,IVECO,208,"DAILY FURG√ÉO 30-130 2.3 7,3m¬≥ (Die)(E5)",9051
-2862,IVECO,208,DAILY FURG√ÉO 30-130 2.3 9m¬≥ (Die)(E5),9052
-2863,IVECO,208,DAILY FURG√ÉO 55-170 3.0 12m¬≥ (Dies.)(E5),9020
-2864,IVECO,208,DAILY FURG√ÉO 55-170 3.0 16m¬≥ (Dies.)(E5),9021
-2865,JAC,177,iEV 20 68cv 5p Aut. (El√©trico),8989
-2866,JAC,177,iEV 330P CD 150cv Aut. (El√©trico),8956
-2867,JAC,177,iEV 40 115cv 5p. (El√©trico),8694
+2859,IVECO,208,"DAILY FURG√O 30-130 2.3 10,8m≥(Die)(E5)",9049
+2860,IVECO,208,DAILY FURG√O 30-130 2.3 12m≥ (Die)(E5),9050
+2861,IVECO,208,"DAILY FURG√O 30-130 2.3 7,3m≥ (Die)(E5)",9051
+2862,IVECO,208,DAILY FURG√O 30-130 2.3 9m≥ (Die)(E5),9052
+2863,IVECO,208,DAILY FURG√O 55-170 3.0 12m≥ (Dies.)(E5),9020
+2864,IVECO,208,DAILY FURG√O 55-170 3.0 16m≥ (Dies.)(E5),9021
+2865,JAC,177,iEV 20 68cv 5p Aut. (ElÈtrico),8989
+2866,JAC,177,iEV 330P CD 150cv Aut. (ElÈtrico),8956
+2867,JAC,177,iEV 40 115cv 5p. (ElÈtrico),8694
 2868,JAC,177,J2 1.4 16V 5p Mec.,6272
 2869,JAC,177,J2 1.4 JET Flex 16V 5p Mec,7100
 2870,JAC,177,J3 1.4 16V 5p Mec.,5498
@@ -2920,7 +2920,7 @@
 2918,Jaguar,28,F-Type Supercharged Conversivel 3.0 V6,6590
 2919,Jaguar,28,F-Type Supercharged Coupe 3.0 V6,6890
 2920,Jaguar,28,F-Type SVR AWD Supercharged Coupe 5.0 V8,8318
-2921,Jaguar,28,I-Pace SE EV400 AWD Aut. (El√©trico),8695
+2921,Jaguar,28,I-Pace SE EV400 AWD Aut. (ElÈtrico),8695
 2922,Jaguar,28,S-Type 3.0/ 3.0 SE V6,1352
 2923,Jaguar,28,S-Type 4.2/4.2 SE/4.0 V8 32V,1353
 2924,Jaguar,28,S-Type R 4.2 V8 32V 400cv,1354
@@ -2958,9 +2958,9 @@
 2956,Jaguar,28,XJR 4.2 V8 32V 400cv 4p,1363
 2957,Jaguar,28,XJS 4.0 24V,1364
 2958,Jaguar,28,XJS-C 6.0 V12,1365
-2959,Jaguar,28,XK-8 BR Convers√≠vel / XK-8 Convers√≠vel,1366
+2959,Jaguar,28,XK-8 BR ConversÌvel / XK-8 ConversÌvel,1366
 2960,Jaguar,28,XK-8 BR Coupe/ XK-8 Coupe,1367
-2961,Jaguar,28,XKR Convers√≠vel 4.2/5.0 32V,4437
+2961,Jaguar,28,XKR ConversÌvel 4.2/5.0 32V,4437
 2962,Jaguar,28,XKR Coupe  4.2/5.0 32V,4438
 2963,Jaguar,28,XKR-S Coupe Supercharged 5.0 32V,6753
 2964,Jaguar,28,X-Type ESTATE 3.0 24V 230cv,1368
@@ -3043,15 +3043,15 @@
 3041,JINBEI,154,TOPIC VAN STD 2.0 16V 4p,5470
 3042,JINBEI,154,VKN VAN 2.0 16V 4p,7666
 3043,JPX,30,Jipe Montez 4x4 CD Teto de Lona Diesel,1385
-3044,JPX,30,Jipe Montez 4x4 CD Teto R√≠gido Diesel,1386
+3044,JPX,30,Jipe Montez 4x4 CD Teto RÌgido Diesel,1386
 3045,JPX,30,Jipe Montez Std 4x4 Teto de Lona Diesel,1387
-3046,JPX,30,Jipe Montez Std 4x4 Teto R√≠gido Diesel,1388
+3046,JPX,30,Jipe Montez Std 4x4 Teto RÌgido Diesel,1388
 3047,JPX,30,Picape Montez 1.9 4x4 Diesel,1389
 3048,Kia Motors,31,Besta EST 2.7 Diesel (10/12lug.),1390
 3049,Kia Motors,31,Besta EST Full 2.7 Diesel (10/12lug.),1391
-3050,Kia Motors,31,Besta Furg√£o 2.2 Diesel,1392
-3051,Kia Motors,31,Besta Furg√£o 2.7 Diesel,1393
-3052,Kia Motors,31,Besta Furg√£o Grand 3.0 Diesel,1394
+3050,Kia Motors,31,Besta Furg„o 2.2 Diesel,1392
+3051,Kia Motors,31,Besta Furg„o 2.7 Diesel,1393
+3052,Kia Motors,31,Besta Furg„o Grand 3.0 Diesel,1394
 3053,Kia Motors,31,Besta GS 2.7 8V 12L Diesel,1395
 3054,Kia Motors,31,Besta GS Full 2.7 Diesel,1396
 3055,Kia Motors,31,Besta GS Grand 3.0 8V 16L Diesel,1397
@@ -3328,7 +3328,7 @@
 3326,Land Rover,33,Range Rover EVOQUE Zanzibar 2.0 Aut. 5p,7121
 3327,Land Rover,33,Range Rover HSE 4.4/ 4.6,1472
 3328,Land Rover,33,Range Rover Sport 3.6 TDV8 272cv Diesel,4385
-3329,Land Rover,33,Range Rover Sport HSE 2.0 Si4 (H√≠brido),8993
+3329,Land Rover,33,Range Rover Sport HSE 2.0 Si4 (HÌbrido),8993
 3330,Land Rover,33,Range Rover Sport HSE 2.7 190cv TB Dies.,3892
 3331,Land Rover,33,Range Rover Sport HSE 3.0 4x4 SDV6 Dies.,5145
 3332,Land Rover,33,Range Rover Sport HSE 4.4 V8 32V 295cv,3824
@@ -3343,7 +3343,7 @@
 3341,Land Rover,33,Range Rover Vogue 3.0 TDV6 Diesel Aut.,6783
 3342,Land Rover,33,Range Rover Vogue 3.6 TDV8 272cv Diesel,4332
 3343,Land Rover,33,Range Rover Vogue HSE 3.0 TDV6 Diesel,6925
-3344,Land Rover,33,Range Rover Vogue SE 2.0 Si4 (H√≠brido),9116
+3344,Land Rover,33,Range Rover Vogue SE 2.0 Si4 (HÌbrido),9116
 3345,Land Rover,33,Range Rover Vogue SE 4.4 SDV8 Dies. Aut,6393
 3346,Land Rover,33,Range Rover Vogue SE SUPERCHAR. 5.0 V8,5146
 3347,Land Rover,33,Range.R. SP.HSE Dyn.BL. 2.0 Si4(Hibrido),9305
@@ -3400,11 +3400,11 @@
 3398,Mahindra,140,SUV 2.2 4x4 (diesel) Mec.,6962
 3399,Maserati,36,222 SE/SR 2.0 V6,1483
 3400,Maserati,36,228,1484
-3401,Maserati,36,3200 GT Cup√™,1485
-3402,Maserati,36,3200 GT Cup√™ Aut.,1486
+3401,Maserati,36,3200 GT CupÍ,1485
+3402,Maserati,36,3200 GT CupÍ Aut.,1486
 3403,Maserati,36,430 2.0 V6,1487
 3404,Maserati,36,430 II 2.0 V6,1488
-3405,Maserati,36,Coup√© CC 4.2 V8 32V 390cv,1489
+3405,Maserati,36,CoupÈ CC 4.2 V8 32V 390cv,1489
 3406,Maserati,36,Ghibli 2.0 V6,1490
 3407,Maserati,36,Ghibli 3.0 V6 Aut.,6926
 3408,Maserati,36,Ghibli S Q4 3.0 V6 Aut.,6927
@@ -3454,19 +3454,19 @@
 3452,Mazda,38,MX-3 GS 1.8 V6 24V,1520
 3453,Mazda,38,MX-5 Mec,1521
 3454,Mazda,38,Navajo LX 3.0 V6,1522
-3455,Mazda,38,Proteg√© Aut.,1523
-3456,Mazda,38,Proteg√© High,1524
-3457,Mazda,38,Proteg√© Mec.,1525
+3455,Mazda,38,ProtegÈ Aut.,1523
+3456,Mazda,38,ProtegÈ High,1524
+3457,Mazda,38,ProtegÈ Mec.,1525
 3458,Mazda,38,RX 7 2.6 Turbo,1526
 3459,Mclaren,211,540C Coupe 3.8 Bi-Turbo V8,9426
-3460,Mclaren,211,570S Coup√© 3.8 Bi-Turbo V8,9427
-3461,Mclaren,211,570S GT Coup√© 3.8 Bi-Turbo V8,9428
+3460,Mclaren,211,570S CoupÈ 3.8 Bi-Turbo V8,9427
+3461,Mclaren,211,570S GT CoupÈ 3.8 Bi-Turbo V8,9428
 3462,Mclaren,211,570S Spider 3.8 Bi-Turbo V8,9429
 3463,Mclaren,211,600LT Coupe 3.8 Bi-Turbo V8,9430
 3464,Mclaren,211,720S Coupe 4.0 Bi-Turbo V8 2p,9431
 3465,Mclaren,211,720S Spider 4.0 Bi-Turbo V8 2p,9432
-3466,Mclaren,211,GT Coup√© 4.0 Bi-Turbo V8 2p,9440
-3467,Mercedes-Benz,39,180-D Pick-Up/Furg√£o 2.4 Diesel,1527
+3466,Mclaren,211,GT CoupÈ 4.0 Bi-Turbo V8 2p,9440
+3467,Mercedes-Benz,39,180-D Pick-Up/Furg„o 2.4 Diesel,1527
 3468,Mercedes-Benz,39,180-D Van 2.4 Diesel,1528
 3469,Mercedes-Benz,39,190-E 2.3,1529
 3470,Mercedes-Benz,39,230-E 2.3,1530
@@ -3514,12 +3514,12 @@
 3512,Mercedes-Benz,39,C-200 Kompressor 2.0 V6 16v 4p Aut.,1544
 3513,Mercedes-Benz,39,C-200 Kompressor Avant.1.8 16V Aut,3938
 3514,Mercedes-Benz,39,C-200 Kompressor Classic 1.8 16V Aut.,4358
-3515,Mercedes-Benz,39,C-200 Sportcoup√© Komp. 2.0 16V 163cv Aut,1545
+3515,Mercedes-Benz,39,C-200 SportcoupÈ Komp. 2.0 16V 163cv Aut,1545
 3516,Mercedes-Benz,39,C-200 Touring Komp. 2.0 16V 163cv 5p Aut,1546
 3517,Mercedes-Benz,39,C-200 Touring Komp. Avant. 1.8 16V Aut.,4662
 3518,Mercedes-Benz,39,C-220 Classic/Elegance/Sport,1547
 3519,Mercedes-Benz,39,C-230 Avantgarde 2.5 V6 24V 204cv Aut,3826
-3520,Mercedes-Benz,39,C-230 Komp. Sportcoup√© 2.3 16V 197cv Aut,1548
+3520,Mercedes-Benz,39,C-230 Komp. SportcoupÈ 2.3 16V 197cv Aut,1548
 3521,Mercedes-Benz,39,C-230 Kompressor Avantgarde,1549
 3522,Mercedes-Benz,39,C-230 Sport/ Eleg./Touring Eleg.Plus 2.3,1550
 3523,Mercedes-Benz,39,C-230 Touring Avant. 2.5 24V 204cv Aut.,3939
@@ -3540,7 +3540,7 @@
 3538,Mercedes-Benz,39,C-300 Anniversary Lim. Edit. 2.0 Aut.,7800
 3539,Mercedes-Benz,39,C-300 Avantgarde 3.0 V6 24V 231cv Aut.,5002
 3540,Mercedes-Benz,39,C-300 Cabriolet 2.0 245/258cv Aut.,7801
-3541,Mercedes-Benz,39,C-300 Coup√© Sport 2.0 16V Aut.,8780
+3541,Mercedes-Benz,39,C-300 CoupÈ Sport 2.0 16V Aut.,8780
 3542,Mercedes-Benz,39,C-300 Estate Avantgarde 2.0 245cv Aut.,7976
 3543,Mercedes-Benz,39,C-300 Sport 2.0 16V Aut.,7977
 3544,Mercedes-Benz,39,C-300 Sport 3.0 V6 231cv Aut.,5349
@@ -3550,7 +3550,7 @@
 3548,Mercedes-Benz,39,C-350 Avantgarde/ Elegance 3.5 V6 272cv,3802
 3549,Mercedes-Benz,39,C-350 CGI Sport 3.5 306cv Aut.,5730
 3550,Mercedes-Benz,39,C-350 Sport 3.5 V6 272cv,4717
-3551,Mercedes-Benz,39,C-350 Sportcoup√© 3.5 24V  272cv,3893
+3551,Mercedes-Benz,39,C-350 SportcoupÈ 3.5 24V  272cv,3893
 3552,Mercedes-Benz,39,C-350 Touring AvantGarde 3.5 24V 272cv,3894
 3553,Mercedes-Benz,39,C-36 AMG,1562
 3554,Mercedes-Benz,39,C-43 AMG,1563
@@ -3700,7 +3700,7 @@
 3698,Mercedes-Benz,39,E-63 S AMG 4MATIC 4.0 V8 612cv,8018
 3699,Mercedes-Benz,39,E-63 Touring AMG 5.5 V8 Bi-Turbo Aut.,6122
 3700,Mercedes-Benz,39,E-63 Touring AMG 6.2 V8 Aut.,5489
-3701,Mercedes-Benz,39,EQC 400 4MATIC 408CV (El√©trico),9196
+3701,Mercedes-Benz,39,EQC 400 4MATIC 408CV (ElÈtrico),9196
 3702,Mercedes-Benz,39,G-55 Kompressor AMG 5.5 V8 507cv Aut.,5151
 3703,Mercedes-Benz,39,G-63 AMG 4MATIC 4.0 V8 Bi-TB 585cv Aut.,8499
 3704,Mercedes-Benz,39,G-63 AMG 5.5 Bi-Turbo 32V 4x4 Aut.,6491
@@ -3749,7 +3749,7 @@
 3747,Mercedes-Benz,39,GLE-53 AMG 3.0 TB 4MATIC+ Hybrid,9057
 3748,Mercedes-Benz,39,GLE-63 AMG 4MATIC Coupe 5.5 V8 Aut.,7512
 3749,Mercedes-Benz,39,GLE-63 AMG 5.5 V8 557cv Aut.,7768
-3750,Mercedes-Benz,39,GLE-63 S AMG 4M+ Coup√© 4.0 Aut,9330
+3750,Mercedes-Benz,39,GLE-63 S AMG 4M+ CoupÈ 4.0 Aut,9330
 3751,Mercedes-Benz,39,GLK 220 CDI 2.2 TB 4X4 170cv Aut. Diesel,6446
 3752,Mercedes-Benz,39,GLK 220 Sport CDI 2.2 TB 4X4 Aut. Diesel,6447
 3753,Mercedes-Benz,39,GLK 280 3.0 V6 24V 4x4 231cv Aut.,4832
@@ -3825,7 +3825,7 @@
 3823,Mercedes-Benz,39,SLS-63 AMG 6.2 V8 Aut.,5641
 3824,Mercedes-Benz,39,SLS-63 AMG Roadster 6.3 V8 Aut.,5900
 3825,Mercedes-Benz,39,Sprinter 310 Chassi Diesel,1648
-3826,Mercedes-Benz,39,Sprinter 310 Furg√£o 2.5 Diesel,1649
+3826,Mercedes-Benz,39,Sprinter 310 Furg„o 2.5 Diesel,1649
 3827,Mercedes-Benz,39,Sprinter 310 Pick-Up Diesel,1650
 3828,Mercedes-Benz,39,Sprinter 310 Van Exec. 9Lug. Diesel,1651
 3829,Mercedes-Benz,39,Sprinter 310 Van Luxo/Exec. 12/14L Dies.,1652
@@ -3833,39 +3833,39 @@
 3831,Mercedes-Benz,39,Sprinter 310 Van Std. 9Lug. 2.5 Diesel,1654
 3832,Mercedes-Benz,39,Sprinter 311 Chassi 2.2 Diesel,1655
 3833,Mercedes-Benz,39,Sprinter 311 Chassi E. Longa 2.2 Diesel,7125
-3834,Mercedes-Benz,39,Sprinter 311 Furg√£o Curto 2.2 Dies,1656
-3835,Mercedes-Benz,39,Sprinter 311 Furg√£o E.Longo T.Alto Dies.,5642
-3836,Mercedes-Benz,39,Sprinter 311 Furg√£o Longo 2.2  Dies,1657
-3837,Mercedes-Benz,39,Sprinter 311 Furg√£o Longo Teto alto Dies,1658
+3834,Mercedes-Benz,39,Sprinter 311 Furg„o Curto 2.2 Dies,1656
+3835,Mercedes-Benz,39,Sprinter 311 Furg„o E.Longo T.Alto Dies.,5642
+3836,Mercedes-Benz,39,Sprinter 311 Furg„o Longo 2.2  Dies,1657
+3837,Mercedes-Benz,39,Sprinter 311 Furg„o Longo Teto alto Dies,1658
 3838,Mercedes-Benz,39,Sprinter 311 Street Luxo 2.2 16Lug. Dies,1659
 3839,Mercedes-Benz,39,Sprinter 311 Street Std. 2.2 16Lug. Dies,1660
 3840,Mercedes-Benz,39,Sprinter 311 VAN Luxo 2.2 109cv 13L Dies,1661
 3841,Mercedes-Benz,39,Sprinter 311 VAN Luxo 2.2 109cv 16L Dies,1662
 3842,Mercedes-Benz,39,Sprinter 311 VAN Std. 2.2 109cv 13L Dies,1663
 3843,Mercedes-Benz,39,Sprinter 311 VAN Std. 2.2 109cv 16L Dies,1664
-3844,Mercedes-Benz,39,Sprinter 312 Furg√£o Curto Diesel,1665
-3845,Mercedes-Benz,39,Sprinter 312 Furg√£o Longo Diesel,1666
-3846,Mercedes-Benz,39,Sprinter 312 Furg√£o Longo T.Alto Diesel,1667
+3844,Mercedes-Benz,39,Sprinter 312 Furg„o Curto Diesel,1665
+3845,Mercedes-Benz,39,Sprinter 312 Furg„o Longo Diesel,1666
+3846,Mercedes-Benz,39,Sprinter 312 Furg„o Longo T.Alto Diesel,1667
 3847,Mercedes-Benz,39,Sprinter 312 Van Exec. 10Lug. 2.5 Diesel,1668
 3848,Mercedes-Benz,39,Sprinter 312 Van Exec. 12Lug. Diesel,1669
 3849,Mercedes-Benz,39,Sprinter 312 Van Luxo 10lug.  Diesel,1670
 3850,Mercedes-Benz,39,Sprinter 312 Van Luxo 12lug. Diesel,1671
 3851,Mercedes-Benz,39,Sprinter 312 Van Luxo 15lug. Diesel,1672
 3852,Mercedes-Benz,39,Sprinter 312 Van Luxo 16lug. Diesel,1673
-3853,Mercedes-Benz,39,Sprinter 312 Van Luxo Lota√ß√£o 16lug.Dies,1674
+3853,Mercedes-Benz,39,Sprinter 312 Van Luxo LotaÁ„o 16lug.Dies,1674
 3854,Mercedes-Benz,39,Sprinter 312 Van Std 12lug. Diesel,1675
 3855,Mercedes-Benz,39,Sprinter 312 Van Std 16lug. Diesel,1676
-3856,Mercedes-Benz,39,Sprinter 312 Van Std Lota√ß√£o 16lug. Dies,1677
+3856,Mercedes-Benz,39,Sprinter 312 Van Std LotaÁ„o 16lug. Dies,1677
 3857,Mercedes-Benz,39,Sprinter 312 Van Street Luxo 15Lug.Dies.,1678
 3858,Mercedes-Benz,39,Sprinter 312 Van Street Std. 15Lug.Dies.,1679
 3859,Mercedes-Benz,39,Sprinter 312-D Chassi Diesel,1680
 3860,Mercedes-Benz,39,Sprinter 313  Chassi Ex. Longo 2.2 Dies.,7706
 3861,Mercedes-Benz,39,Sprinter 313 Chassi 2.2 129cv Diesel,1681
 3862,Mercedes-Benz,39,Sprinter 313 Chassi Longo 2.2 Diesel,7707
-3863,Mercedes-Benz,39,Sprinter 313 Furg√£o Curto 2.2 129cv Dies,1682
-3864,Mercedes-Benz,39,Sprinter 313 Furg√£o Ex. Longo T. A. Die.,7708
-3865,Mercedes-Benz,39,Sprinter 313 Furg√£o Longo 2.2 129cv Dies,1683
-3866,Mercedes-Benz,39,Sprinter 313 Furg√£o Longo T. Alto Diesel,1684
+3863,Mercedes-Benz,39,Sprinter 313 Furg„o Curto 2.2 129cv Dies,1682
+3864,Mercedes-Benz,39,Sprinter 313 Furg„o Ex. Longo T. A. Die.,7708
+3865,Mercedes-Benz,39,Sprinter 313 Furg„o Longo 2.2 129cv Dies,1683
+3866,Mercedes-Benz,39,Sprinter 313 Furg„o Longo T. Alto Diesel,1684
 3867,Mercedes-Benz,39,Sprinter 313 VAN Exec 2.2 Mec/S-Aut Dies,1685
 3868,Mercedes-Benz,39,Sprinter 313 VAN Luxo 2.2 129cv 13L.Dies,1686
 3869,Mercedes-Benz,39,Sprinter 313 VAN Luxo 2.2 129cv 16L Dies,1687
@@ -3875,19 +3875,19 @@
 3873,Mercedes-Benz,39,Sprinter 313 VAN Street Std. 16L. Dies.,1691
 3874,Mercedes-Benz,39,Sprinter 314 Chassi E.L T.B. 2.2 Dies.,8964
 3875,Mercedes-Benz,39,Sprinter 314 Chassi Longo T.B. 2.2 Dies.,8965
-3876,Mercedes-Benz,39,Sprinter 314 Furg√£o Curto T.B. 2.2 Dies.,8910
-3877,Mercedes-Benz,39,Sprinter 314 Furg√£o E.L. T.A.  2.2 Dies.,8911
-3878,Mercedes-Benz,39,Sprinter 314 Furg√£o Longo T.A. 2.2 Dies.,8912
-3879,Mercedes-Benz,39,Sprinter 314 Furg√£o Longo T.B. 2.2 Dies.,8913
+3876,Mercedes-Benz,39,Sprinter 314 Furg„o Curto T.B. 2.2 Dies.,8910
+3877,Mercedes-Benz,39,Sprinter 314 Furg„o E.L. T.A.  2.2 Dies.,8911
+3878,Mercedes-Benz,39,Sprinter 314 Furg„o Longo T.A. 2.2 Dies.,8912
+3879,Mercedes-Benz,39,Sprinter 314 Furg„o Longo T.B. 2.2 Dies.,8913
 3880,Mercedes-Benz,39,Sprinter 412-D Chassi Diesel,1692
-3881,Mercedes-Benz,39,Sprinter 413 Furg√£o Longo T.Alto Diesel,1693
+3881,Mercedes-Benz,39,Sprinter 413 Furg„o Longo T.Alto Diesel,1693
 3882,Mercedes-Benz,39,Sprinter 413 VAN Luxo 2.2 16 e 20L Dies,4534
 3883,Mercedes-Benz,39,Sprinter 413-D Chassi Curto/Longo Diesel,1694
 3884,Mercedes-Benz,39,Sprinter 415 Chassi L. 2.2 Diesel,6179
-3885,Mercedes-Benz,39,Sprinter 415 Furg√£o Curto T.B. 2.2 Dies.,6180
-3886,Mercedes-Benz,39,Sprinter 415 Furg√£o E.L.T.Alt. 2.2 Dies.,6181
-3887,Mercedes-Benz,39,Sprinter 415 Furg√£o Lon.T.Alto 2.2 Dies,6126
-3888,Mercedes-Benz,39,Sprinter 415 Furg√£o Lon.T.Bai. 2.2 Dies.,6128
+3885,Mercedes-Benz,39,Sprinter 415 Furg„o Curto T.B. 2.2 Dies.,6180
+3886,Mercedes-Benz,39,Sprinter 415 Furg„o E.L.T.Alt. 2.2 Dies.,6181
+3887,Mercedes-Benz,39,Sprinter 415 Furg„o Lon.T.Alto 2.2 Dies,6126
+3888,Mercedes-Benz,39,Sprinter 415 Furg„o Lon.T.Bai. 2.2 Dies.,6128
 3889,Mercedes-Benz,39,Sprinter 415 VAN Luxo T.A. 2.2 Diesel,6182
 3890,Mercedes-Benz,39,Sprinter 415 VAN Luxo T.B. 2.2 Diesel,6183
 3891,Mercedes-Benz,39,Sprinter 415 VAN Standard T.A. 2.2 Dies.,6184
@@ -3895,26 +3895,26 @@
 3893,Mercedes-Benz,39,Sprinter 416 Chassi Longo T.B. 2.2 Dies.,8914
 3894,Mercedes-Benz,39,Sprinter 416 F. Vidrado E.L T.A. 2.2 Die,9058
 3895,Mercedes-Benz,39,Sprinter 416 F. Vidrado L. T.A. 2.2 Die.,9083
-3896,Mercedes-Benz,39,Sprinter 416 Furg√£o Curto T.B. 2.2 Dies.,8915
-3897,Mercedes-Benz,39,Sprinter 416 Furg√£o E.L. T. A. 2.2 Dies.,8916
-3898,Mercedes-Benz,39,Sprinter 416 Furg√£o Longo T.A. 2.2 Dies.,8917
-3899,Mercedes-Benz,39,Sprinter 416 Furg√£o Longo T.B. 2.2 Dies.,8918
+3896,Mercedes-Benz,39,Sprinter 416 Furg„o Curto T.B. 2.2 Dies.,8915
+3897,Mercedes-Benz,39,Sprinter 416 Furg„o E.L. T. A. 2.2 Dies.,8916
+3898,Mercedes-Benz,39,Sprinter 416 Furg„o Longo T.A. 2.2 Dies.,8917
+3899,Mercedes-Benz,39,Sprinter 416 Furg„o Longo T.B. 2.2 Dies.,8918
 3900,Mercedes-Benz,39,Sprinter 416 VAN L. T.A. 10L 2.2 Diesel,8919
 3901,Mercedes-Benz,39,Sprinter 416 VAN L. T.A. 16L 2.2 Diesel,8920
 3902,Mercedes-Benz,39,Sprinter 416 VAN L. T.B. 10L 2.2 Diesel,8921
 3903,Mercedes-Benz,39,Sprinter 416 VAN L. T.B. 16L 2.2 Diesel,8922
 3904,Mercedes-Benz,39,Sprinter 515 Chassi E. L. 2.2 Diesel,6186
 3905,Mercedes-Benz,39,Sprinter 515 Chassi L. 2.2  Diesel,6187
-3906,Mercedes-Benz,39,Sprinter 515 Furg√£o E.L.T. Alto 2.2 Die.,6129
+3906,Mercedes-Benz,39,Sprinter 515 Furg„o E.L.T. Alto 2.2 Die.,6129
 3907,Mercedes-Benz,39,Sprinter 515 VAN 2.2 Diesel,6361
 3908,Mercedes-Benz,39,Sprinter 516 Chassi E.L. T.B. 2.2 Dies.,8923
 3909,Mercedes-Benz,39,Sprinter 516 Chassi Longo T.B. 2.2 Dies.,8924
 3910,Mercedes-Benz,39,Sprinter 516 F.Vidrado E.L. T.A. 2.2 Die,9084
-3911,Mercedes-Benz,39,Sprinter 516 Furg√£o E.L.T. Alto 2.2 Dies,8925
+3911,Mercedes-Benz,39,Sprinter 516 Furg„o E.L.T. Alto 2.2 Dies,8925
 3912,Mercedes-Benz,39,Sprinter 516 VAN E.L. T.A  20L 2.2 Dies.,9197
 3913,Mercedes-Benz,39,Sprinter 516 VAN E.L. T.A. 18L 2.2 Dies.,8966
 3914,Mercedes-Benz,39,Sprinter 516 VAN E.L. T.A. 21L 2.2 Dies.,8967
-3915,Mercedes-Benz,39,VITO 111 CDI Furg√£o 1.6 TB Diesel 4p Mec,7399
+3915,Mercedes-Benz,39,VITO 111 CDI Furg„o 1.6 TB Diesel 4p Mec,7399
 3916,Mercedes-Benz,39,VITO TOURER 119 Comf.2.0 Flex 9Lug. Mec.,7400
 3917,Mercedes-Benz,39,VITO TOURER 119 Luxo 2.0 Flex 8Lug. Mec.,7401
 3918,Mercury,40,Mystique GS 2.5 V6 Mec.,1695
@@ -3943,7 +3943,7 @@
 3941,MINI,156,COOPER Countryman S 2.0 Turbo Aut.,7907
 3942,MINI,156,COOPER Countryman S ALL4 1.6 Aut.,5472
 3943,MINI,156,COOPER Countryman S ALL4 2.0 Turbo Aut.,7908
-3944,MINI,156,COOPER Countryman S E ALL4 1.5  H√≠brido,8550
+3944,MINI,156,COOPER Countryman S E ALL4 1.5  HÌbrido,8550
 3945,MINI,156,COOPER COUPE 1.6 Aut.,5687
 3946,MINI,156,COOPER COUPE John Works 1.6 Aut.,6564
 3947,MINI,156,COOPER COUPE S 1.6 Aut.,5688
@@ -4155,7 +4155,7 @@
 4153,Mitsubishi,41,Pajero TR4 GLS 2.0 Flex 16V 4x4 Mec.,4642
 4154,Mitsubishi,41,Space Wagon GLS 2.0,1776
 4155,Mitsubishi,41,Space Wagon GLS 2.4,1777
-4156,Mitsubishi,41,Space Wagon GLXi 2.4 (Nova S√©rie),1778
+4156,Mitsubishi,41,Space Wagon GLXi 2.4 (Nova SÈrie),1778
 4157,Mitsubishi,41,Space Wagon/ GLXi 2.4,1779
 4158,Miura,42,Picape BG-Truck CD Turbo Diesel,1780
 4159,Nissan,43,350Z 3.5 V6 280cv/ 312cv 2p,1781
@@ -4218,7 +4218,7 @@
 4216,Nissan,43,KICKS SV Limited 1.6 16V Flex 5p Aut.,7839
 4217,Nissan,43,KICKS UCL 1.6 16V Flex 5p Aut.,8637
 4218,Nissan,43,King-Cab SE 4x4 3.0 V6,1798
-4219,Nissan,43,LEAF Aut. (El√©trico),8754
+4219,Nissan,43,LEAF Aut. (ElÈtrico),8754
 4220,Nissan,43,LIVINA 1.6 16V Flex Fuel 5p,4864
 4221,Nissan,43,LIVINA 1.8 16V Flex Fuel Aut.,4866
 4222,Nissan,43,LIVINA GRAND 1.8 16V Flex Fuel Aut.,4982
@@ -4509,8 +4509,8 @@
 4507,Peugeot,44,406 Break 2.0 16V,1913
 4508,Peugeot,44,406 Break 3.0 V6 24V,1914
 4509,Peugeot,44,406 Break ST 2.0,1915
-4510,Peugeot,44,406 Cup√™ 3.0 24V Aut.,1916
-4511,Peugeot,44,406 Cup√™ 3.0 24V Mec.,1917
+4510,Peugeot,44,406 CupÍ 3.0 24V Aut.,1916
+4511,Peugeot,44,406 CupÍ 3.0 24V Mec.,1917
 4512,Peugeot,44,406 Familiale 2.0 16V Aut.,1918
 4513,Peugeot,44,406 Familiale 2.0 16V Mec.,1919
 4514,Peugeot,44,406 Sedan 2.0 Aut.,1920
@@ -4554,21 +4554,21 @@
 4552,Peugeot,44,806 ST Turbo,1940
 4553,Peugeot,44,806 SV 2.0 Turbo,1941
 4554,Peugeot,44,807 2.0 16V 138cv 5p Aut.,1942
-4555,Peugeot,44,Boxer 2.3 Furg.TB Dies. Curto/M√©dio,5076
-4556,Peugeot,44,Boxer 2.3 Furg.TB Dies. M√©d/ LongoT.Alto,5077
+4555,Peugeot,44,Boxer 2.3 Furg.TB Dies. Curto/MÈdio,5076
+4556,Peugeot,44,Boxer 2.3 Furg.TB Dies. MÈd/ LongoT.Alto,5077
 4557,Peugeot,44,Boxer 2.3 LH Executive 15/16L TB Diesel,5597
 4558,Peugeot,44,Boxer 2.3 Minibus 15/16L TB Diesel.,5112
 4559,Peugeot,44,Boxer 2.5 Diesel,1943
 4560,Peugeot,44,Boxer 2.8 10Lug. Diesel,1944
-4561,Peugeot,44,Boxer 2.8 Furg. TB Dies. M√©d/LongoT.Alto,1947
-4562,Peugeot,44,Boxer 2.8 Furg√£o Dies/ TB Dies.curto/m√©d,1946
+4561,Peugeot,44,Boxer 2.8 Furg. TB Dies. MÈd/LongoT.Alto,1947
+4562,Peugeot,44,Boxer 2.8 Furg„o Dies/ TB Dies.curto/mÈd,1946
 4563,Peugeot,44,Boxer 2.8 Van Diesel/TB Diesel 15L/16L,1945
-4564,Peugeot,44,Boxer Business Furg√£o 2.0 Turbo Diesel,8527
+4564,Peugeot,44,Boxer Business Furg„o 2.0 Turbo Diesel,8527
 4565,Peugeot,44,Boxer Minibus 2.0 16L Turbo Diesel,8929
 4566,Peugeot,44,Expert Business 1.6 Turbo Diesel,8105
 4567,Peugeot,44,Expert Business Pack 1.6 Turbo Diesel,8106
 4568,Peugeot,44,Expert Minibus 1.6 Turbo Diesel,8505
-4569,Peugeot,44,Expert VITR√â 1.6 Turbo Diesel,9201
+4569,Peugeot,44,Expert VITR… 1.6 Turbo Diesel,9201
 4570,Peugeot,44,HOGGAR Active 1.4 Flex 8V 2p,6645
 4571,Peugeot,44,HOGGAR Allure 1.4 Flex 8V 2p,6646
 4572,Peugeot,44,HOGGAR ESCAPADE 1.6 Flex 16V 2p,5258
@@ -4576,8 +4576,8 @@
 4574,Peugeot,44,HOGGAR XR 1.4 Flex 8V 2p,5260
 4575,Peugeot,44,Partner  VAN 1.6  Flex 16V  5p,5282
 4576,Peugeot,44,Partner  VAN ESCAPADE 1.6 Flex 16V 5p,5283
-4577,Peugeot,44,Partner Furg√£o 1.6 16V/ 1.6 16V Flex 3p,1948
-4578,Peugeot,44,Partner Furg√£o 1.8 3p,1949
+4577,Peugeot,44,Partner Furg„o 1.6 16V/ 1.6 16V Flex 3p,1948
+4578,Peugeot,44,Partner Furg„o 1.8 3p,1949
 4579,Peugeot,44,RCZ 1.6 Turbo 16V 2p Aut.,5669
 4580,Plymouth,45,Gran Voyager LE 2.5,1950
 4581,Plymouth,45,Sundance 2.5,1951
@@ -4713,9 +4713,9 @@
 4711,Porsche,47,Panamera Turbo S E-Hybrid 4.0 680cv,8152
 4712,Porsche,47,Panamera Turbo S E-Hybrid Exec. 4.0,8356
 4713,Porsche,47,Panamera Turbo Sport Turismo 4.0,8246
-4714,Porsche,47,Taycan 4S (El√©trico),9293
-4715,Porsche,47,Taycan Turbo (El√©trico),9253
-4716,Porsche,47,Taycan Turbo S (El√©trico),9306
+4714,Porsche,47,Taycan 4S (ElÈtrico),9293
+4715,Porsche,47,Taycan Turbo (ElÈtrico),9253
+4716,Porsche,47,Taycan Turbo S (ElÈtrico),9306
 4717,RAM,185,1500 REBEL 5.7 HEMI CD V8 4x4 Aut.,9287
 4718,RAM,185,2500 LARAM. 6.7 NIGHT ED. TB CD 4x4 Die.,9215
 4719,RAM,185,2500 LARAMIE  6.7 TDI  CD 4x4 Diesel,6305
@@ -4761,30 +4761,30 @@
 4759,Renault,48,Clio Hi-Flex 1.0 16V 5p,5313
 4760,Renault,48,Clio Hi-Flex 1.6 16V 3p,2003
 4761,Renault,48,Clio Hi-Flex/ Expres. Hi-Flex 1.6 16V 5p,2004
-4762,Renault,48,Clio Privil√®ge Hi-Flex 1.0 16V 5p,3907
-4763,Renault,48,Clio Privil√®ge Hi-Flex 1.6 16V 5p,2005
+4762,Renault,48,Clio PrivilËge Hi-Flex 1.0 16V 5p,3907
+4763,Renault,48,Clio PrivilËge Hi-Flex 1.6 16V 5p,2005
 4764,Renault,48,Clio RL / Yahoo/ Authent. 1.0 8V 5p,2006
 4765,Renault,48,Clio RL 1.6 3p/5p,2007
-4766,Renault,48,Clio RL Aliz√©/ Authent. 1.6 16V 110cv 5p,2008
+4766,Renault,48,Clio RL AlizÈ/ Authent. 1.6 16V 110cv 5p,2008
 4767,Renault,48,Clio RL/ JP/Auth.1.0/1.0 Hi-Power 16V 5p,2009
 4768,Renault,48,Clio RN 1.6 3p (importado),2010
 4769,Renault,48,Clio RN 1.6 5p,2011
 4770,Renault,48,Clio RN/ Expression 1.0 5p,2013
 4771,Renault,48,Clio RN/ Expression 1.6 16V 5p,2014
-4772,Renault,48,Clio RN/Aliz√©/Expr./1.0 Hi-Power 16V 5p,2012
+4772,Renault,48,Clio RN/AlizÈ/Expr./1.0 Hi-Power 16V 5p,2012
 4773,Renault,48,Clio RT 1.6 5p,2015
 4774,Renault,48,Clio RT/ Privil. 1.0/1.0 Hi-Power 16V 5p,2016
-4775,Renault,48,Clio RT/ Privil√®ge 1.6 16V 5p,2017
-4776,Renault,48,Clio Sed RT/ Privil√®ge/ Botic 1.6 16V 4p,2018
-4777,Renault,48,Clio Sed. Aliz√© 1.6/ 1.6 Hi-Flex 16v 4p,2019
+4775,Renault,48,Clio RT/ PrivilËge 1.6 16V 5p,2017
+4776,Renault,48,Clio Sed RT/ PrivilËge/ Botic 1.6 16V 4p,2018
+4777,Renault,48,Clio Sed. AlizÈ 1.6/ 1.6 Hi-Flex 16v 4p,2019
 4778,Renault,48,Clio Sed. Authentique Hi-Flex 1.0 16V 4p,3908
 4779,Renault,48,Clio Sed. Authentique Hi-Flex 1.6 16V 4p,2020
 4780,Renault,48,Clio Sed. Expression Hi-Flex 1.0 16V 4p,3909
 4781,Renault,48,Clio Sed. Hi-Flex/Exp.Hi-Flex 1.6 16V 4p,2021
-4782,Renault,48,Clio Sed. Privil√®ge Hi-Flex 1.0 16V 4p,3910
-4783,Renault,48,Clio Sed. Privil√®ge Hi-Flex 1.6 16V 4p,2022
+4782,Renault,48,Clio Sed. PrivilËge Hi-Flex 1.0 16V 4p,3910
+4783,Renault,48,Clio Sed. PrivilËge Hi-Flex 1.6 16V 4p,2022
 4784,Renault,48,Clio Sed.RL/Auth.1.0/1.0 Hi-Power 16V 4p,2023
-4785,Renault,48,Clio Sed.RN/Aliz√©/Botic./Exp.1.0 Hi-Pow.,2024
+4785,Renault,48,Clio Sed.RN/AlizÈ/Botic./Exp.1.0 Hi-Pow.,2024
 4786,Renault,48,Clio Sed.RT/Privil.1.0/1.0 Hi-Pow.16V 4p,2025
 4787,Renault,48,Clio Sedan Authentique 1.6 16V 110cv 4p,2026
 4788,Renault,48,Clio Sedan Egeus Hi-Flex 1.0 16V 4p,3995
@@ -4827,7 +4827,7 @@
 4825,Renault,48,FLUENCE Sedan Expres. 1.6 16V FLEX Mec.,7673
 4826,Renault,48,FLUENCE Sedan GT Line 2.0 Flex Aut.,6870
 4827,Renault,48,FLUENCE Sedan GT SPORT,6276
-4828,Renault,48,FLUENCE Sedan Privil√®ge 2.0 16V FLEX Aut,5511
+4828,Renault,48,FLUENCE Sedan PrivilËge 2.0 16V FLEX Aut,5511
 4829,Renault,48,Kangoo Authentique 1.6 16V 95cv,2031
 4830,Renault,48,Kangoo Authentique Hi-Flex 1.6 16V,4309
 4831,Renault,48,Kangoo Expres.SPORTWAY 1.6/1.6 Hi-Flex,4098
@@ -4848,9 +4848,9 @@
 4846,Renault,48,KWID Life 1.0 Flex 12V 5p Mec.,8022
 4847,Renault,48,KWID OUTSIDER 1.0 Flex 12V 5p Mec.,8701
 4848,Renault,48,KWID Zen 1.0 Flex 12V 5p Mec.,8023
-4849,Renault,48,Laguna Grand Tour Privil√®ge 3.0 V6 210cv,2042
+4849,Renault,48,Laguna Grand Tour PrivilËge 3.0 V6 210cv,2042
 4850,Renault,48,Laguna Nevada RT/ RXE 2.0s 16V,2043
-4851,Renault,48,Laguna Privil√®ge 3.0 V6 24V 210cv 5p,2044
+4851,Renault,48,Laguna PrivilËge 3.0 V6 24V 210cv 5p,2044
 4852,Renault,48,Laguna RT 2.0,2045
 4853,Renault,48,Laguna RXE 2.0s 8V/16V,2046
 4854,Renault,48,Laguna V6,2047
@@ -4878,38 +4878,38 @@
 4876,Renault,48,LOGAN Iconic Flex 1.6 16V 4p Aut.,8787
 4877,Renault,48,LOGAN Intense Flex 1.6 16V 4p Aut.,8788
 4878,Renault,48,LOGAN Life Flex 1.0 12V 4p Mec.,8789
-4879,Renault,48,LOGAN Privil√®ge Hi-Flex 1.6 16V 4p,4389
-4880,Renault,48,LOGAN Privil√®ge Hi-Flex 1.6 8V 4p,4482
+4879,Renault,48,LOGAN PrivilËge Hi-Flex 1.6 16V 4p,4389
+4880,Renault,48,LOGAN PrivilËge Hi-Flex 1.6 8V 4p,4482
 4881,Renault,48,LOGAN Zen Flex 1.0 12V 4p Mec.,8790
 4882,Renault,48,LOGAN Zen Flex 1.6 16V 4p Aut.,8791
 4883,Renault,48,LOGAN Zen Flex 1.6 16V 4p Mec.,8792
 4884,Renault,48,Master 2.3 dCi Chassi 16V Diesel,6400
 4885,Renault,48,Master 2.3 dCi Executive Longo 16L Dies,6449
 4886,Renault,48,Master 2.3 dCi Extra F.Vitre 16V Diesel,6401
-4887,Renault,48,Master 2.3 dCi Extra Furg√£o 16V Diesel,6402
-4888,Renault,48,Master 2.3 dCi Furg√£o 16V Diesel,6403
+4887,Renault,48,Master 2.3 dCi Extra Furg„o 16V Diesel,6402
+4888,Renault,48,Master 2.3 dCi Furg„o 16V Diesel,6403
 4889,Renault,48,Master 2.3 dCi Grand F.Vitre16V Diesel,6404
-4890,Renault,48,Master 2.3 dCi Grand Furg√£o16V Diesel,6405
+4890,Renault,48,Master 2.3 dCi Grand Furg„o16V Diesel,6405
 4891,Renault,48,Master 2.3 dCi STD Longo 16L Diesel,6450
-4892,Renault,48,Master 2.3 dCi STD M√©dio 16L Diesel,6451
-4893,Renault,48,Master 2.3 dCi STD M√©dio Esco. 20L Dies.,6452
+4892,Renault,48,Master 2.3 dCi STD MÈdio 16L Diesel,6451
+4893,Renault,48,Master 2.3 dCi STD MÈdio Esco. 20L Dies.,6452
 4894,Renault,48,Master 2.3 dCi VIP Longo 16L Diesel,6453
-4895,Renault,48,Master 2.3 dCi Vitre Furg√£o 16V Diesel,6406
+4895,Renault,48,Master 2.3 dCi Vitre Furg„o 16V Diesel,6406
 4896,Renault,48,Master 2.5 dCi 16V 115cv 13L Diesel,2048
 4897,Renault,48,Master 2.5 dCi 16V 115cv 16L Diesel,2049
 4898,Renault,48,Master 2.5 dCi Chassi 16V 115cv Diesel,2050
 4899,Renault,48,Master 2.5 dCi Escolar 115cv 16/19L Dies,4833
 4900,Renault,48,Master 2.5 dCi Executivo 115cv 16L Dies,4834
 4901,Renault,48,Master 2.5 dCi Furg. Medio/LongoTA Dies.,2052
-4902,Renault,48,Master 2.5 dCi Furg√£oTB Curto Diesel,2051
-4903,Renault,48,Master 2.5 dCi Vitr√© 115cv Curto Diesel,5677
-4904,Renault,48,Master 2.5 dCi Vitr√© 115cv Longa Diesel,5678
+4902,Renault,48,Master 2.5 dCi Furg„oTB Curto Diesel,2051
+4903,Renault,48,Master 2.5 dCi VitrÈ 115cv Curto Diesel,5677
+4904,Renault,48,Master 2.5 dCi VitrÈ 115cv Longa Diesel,5678
 4905,Renault,48,Master 2.8 DTI 114cv 16L Diesel,2053
 4906,Renault,48,Master 2.8 DTI Chassi 114cv Diesel,2054
-4907,Renault,48,Master 2.8 DTI Furg√£o 114cv Diesel curto,2055
-4908,Renault,48,Master 2.8 DTI Furg√£o Dies.Longo Alto,2056
-4909,Renault,48,Master 2.8 Furg√£o 85cv Diesel curto,2057
-4910,Renault,48,Megane Coup√© Cabriolet Dynamique 2.0 Aut,4579
+4907,Renault,48,Master 2.8 DTI Furg„o 114cv Diesel curto,2055
+4908,Renault,48,Master 2.8 DTI Furg„o Dies.Longo Alto,2056
+4909,Renault,48,Master 2.8 Furg„o 85cv Diesel curto,2057
+4910,Renault,48,Megane CoupÈ Cabriolet Dynamique 2.0 Aut,4579
 4911,Renault,48,Megane G. Tour EXTREME 2.0 16V Aut.,4896
 4912,Renault,48,Megane G. Tour EXTREME 2.0 16V Mec.,4897
 4913,Renault,48,Megane G. Tour EXTREME Hi-Flex 1.6 Mec.,4898
@@ -4917,9 +4917,9 @@
 4915,Renault,48,Megane Grand Tour Dynamique 2.0 16V Aut.,4204
 4916,Renault,48,Megane Grand Tour Dynamique 2.0 16V Mec.,4205
 4917,Renault,48,Megane Grand Tour Expres.Hi-Flex 1.6 16V,4728
-4918,Renault,48,Megane Grand Tour Privil√®ge 2.0 16V Aut.,4677
+4918,Renault,48,Megane Grand Tour PrivilËge 2.0 16V Aut.,4677
 4919,Renault,48,Megane Hatch RN 1.6,2058
-4920,Renault,48,Megane Hatch RT 1.6/RT/Aliz√©/Exp 1.6 16V,2059
+4920,Renault,48,Megane Hatch RT 1.6/RT/AlizÈ/Exp 1.6 16V,2059
 4921,Renault,48,Megane Hatch RXE 2.0,2060
 4922,Renault,48,Megane Hatch RXE/Egeus 1.6 16V,2061
 4923,Renault,48,Megane Sed. Expression 2.0 16V Aut.,4624
@@ -4931,10 +4931,10 @@
 4929,Renault,48,Megane Sedan Dynamique 2.0 16V Mec.,4068
 4930,Renault,48,Megane Sedan Dynamique Hi-Flex 1.6 16V,3975
 4931,Renault,48,Megane Sedan Expression Hi-Flex 1.6 16V,3976
-4932,Renault,48,Megane Sedan Privil√®ge 2.0 16V Aut,2062
+4932,Renault,48,Megane Sedan PrivilËge 2.0 16V Aut,2062
 4933,Renault,48,Megane Sedan RT 2.0,2063
-4934,Renault,48,Megane Sedan RT/Aliz√© 1.6 16V,2064
-4935,Renault,48,Megane Sedan RXE/ Privil√®ge 2.0 16V Mec,2065
+4934,Renault,48,Megane Sedan RT/AlizÈ 1.6 16V,2064
+4935,Renault,48,Megane Sedan RXE/ PrivilËge 2.0 16V Mec,2065
 4936,Renault,48,Megane Sedan RXE/Egeus 2.0,2066
 4937,Renault,48,Safrane RXE,2067
 4938,Renault,48,SANDERO Auth. Plus Hi-Power 1.0 16V 5p,7289
@@ -4964,9 +4964,9 @@
 4962,Renault,48,SANDERO Intense Flex 1.6 16V 5p Aut.,8793
 4963,Renault,48,SANDERO Life Flex 1.0 12V 5p Mec.,8794
 4964,Renault,48,SANDERO NOKIA Hi-Flex 1.6 16V 5p,4666
-4965,Renault,48,SANDERO Privil√®ge Hi-Flex 1.6 16V 5p,4508
-4966,Renault,48,SANDERO Privil√®ge Hi-Flex 1.6 16V 5p Aut,5598
-4967,Renault,48,SANDERO Privil√®ge Hi-Flex 1.6 8V 5p,4509
+4965,Renault,48,SANDERO PrivilËge Hi-Flex 1.6 16V 5p,4508
+4966,Renault,48,SANDERO PrivilËge Hi-Flex 1.6 16V 5p Aut,5598
+4967,Renault,48,SANDERO PrivilËge Hi-Flex 1.6 8V 5p,4509
 4968,Renault,48,SANDERO RS Racing Spirit Flex 2.0 16V 5p,7959
 4969,Renault,48,SANDERO SPORT RS 2.0 Flex 16V 5p,7360
 4970,Renault,48,SANDERO STEP. Easy R Dyn. Flex 1.6 16V,8247
@@ -4989,34 +4989,34 @@
 4987,Renault,48,SANDERO Zen Flex 1.0 12V 5p Mec.,8795
 4988,Renault,48,SANDERO Zen Flex 1.6 16V 5p Aut.,8796
 4989,Renault,48,SANDERO Zen Flex 1.6 16V 5p Mec.,8797
-4990,Renault,48,Sc√©nic Aliz√©/ Expression 1.6 16V Mec.,2068
-4991,Renault,48,Sc√©nic Aliz√©/ Expression 2.0 16V 5p,2069
-4992,Renault,48,Sc√©nic Expression 1.6 16V Aut.,2070
-4993,Renault,48,Sc√©nic Grand Dynamique 2.0 16V 5p Aut.,4580
-4994,Renault,48,Sc√©nic Hi-Flex/Express. Hi-Flex 1.6 16V,2071
-4995,Renault,48,Sc√©nic Privil√®ge Hi-Flex 1.6 16V,2072
-4996,Renault,48,Sc√©nic Privill√®ge 1.6 16V Aut.,2073
-4997,Renault,48,Sc√©nic Privill√®ge 2.0 Plus 16V 5p Aut,2074
-4998,Renault,48,Sc√©nic RT 2.0,2075
-4999,Renault,48,Sc√©nic RT 2.0 16V 5p Aut.,2076
-5000,Renault,48,Sc√©nic RT 2.0 16V 5p Mec.,2077
-5001,Renault,48,Sc√©nic RT/Auth/Auth/Kids Hi-Flex 1.6 16V,2078
-5002,Renault,48,Sc√©nic RXE 2.0 8V,2079
-5003,Renault,48,Sc√©nic RXE Egeus 2.0,2080
-5004,Renault,48,Sc√©nic RXE/ Privil√®ge 1.6 16V Mec.,2081
-5005,Renault,48,Sc√©nic RXE/ Privil√®ge 2.0 16V 5p Aut.,2082
-5006,Renault,48,Sc√©nic RXE/ Privil√®ge 2.0 16V 5p Mec.,2083
-5007,Renault,48,Sc√©nic SPORTWAY Hi-Flex 1.6 16V 5p,3997
+4990,Renault,48,ScÈnic AlizÈ/ Expression 1.6 16V Mec.,2068
+4991,Renault,48,ScÈnic AlizÈ/ Expression 2.0 16V 5p,2069
+4992,Renault,48,ScÈnic Expression 1.6 16V Aut.,2070
+4993,Renault,48,ScÈnic Grand Dynamique 2.0 16V 5p Aut.,4580
+4994,Renault,48,ScÈnic Hi-Flex/Express. Hi-Flex 1.6 16V,2071
+4995,Renault,48,ScÈnic PrivilËge Hi-Flex 1.6 16V,2072
+4996,Renault,48,ScÈnic PrivillËge 1.6 16V Aut.,2073
+4997,Renault,48,ScÈnic PrivillËge 2.0 Plus 16V 5p Aut,2074
+4998,Renault,48,ScÈnic RT 2.0,2075
+4999,Renault,48,ScÈnic RT 2.0 16V 5p Aut.,2076
+5000,Renault,48,ScÈnic RT 2.0 16V 5p Mec.,2077
+5001,Renault,48,ScÈnic RT/Auth/Auth/Kids Hi-Flex 1.6 16V,2078
+5002,Renault,48,ScÈnic RXE 2.0 8V,2079
+5003,Renault,48,ScÈnic RXE Egeus 2.0,2080
+5004,Renault,48,ScÈnic RXE/ PrivilËge 1.6 16V Mec.,2081
+5005,Renault,48,ScÈnic RXE/ PrivilËge 2.0 16V 5p Aut.,2082
+5006,Renault,48,ScÈnic RXE/ PrivilËge 2.0 16V 5p Mec.,2083
+5007,Renault,48,ScÈnic SPORTWAY Hi-Flex 1.6 16V 5p,3997
 5008,Renault,48,STEPWAY Iconic Flex 1.6 16V Aut.,8755
 5009,Renault,48,STEPWAY Intense Flex 1.6 16V  Aut.,8756
 5010,Renault,48,STEPWAY Zen Flex 1.6 16V Mec.,8757
 5011,Renault,48,SYMBOL CONNECTION Hi-Flex 1.6 8V 4p,5402
 5012,Renault,48,SYMBOL Expression Hi-Flex 1.6 16V 4p,4868
 5013,Renault,48,SYMBOL Expression Hi-Flex 1.6 8V 4p,4926
-5014,Renault,48,SYMBOL Privil√®ge Hi-Flex 1.6 16V 4p,4869
-5015,Renault,48,Trafic Furg√£o 2.0 98cv,2084
-5016,Renault,48,Trafic Furg√£o Chassi Curto 2.2,2085
-5017,Renault,48,Trafic Furg√£o Chassi Longo 2.2,2086
+5014,Renault,48,SYMBOL PrivilËge Hi-Flex 1.6 16V 4p,4869
+5015,Renault,48,Trafic Furg„o 2.0 98cv,2084
+5016,Renault,48,Trafic Furg„o Chassi Curto 2.2,2085
+5017,Renault,48,Trafic Furg„o Chassi Longo 2.2,2086
 5018,Renault,48,Trafic Van 2.2,2087
 5019,Renault,48,Twingo 1.0 8V,2088
 5020,Renault,48,Twingo 1.2,2089
@@ -5024,9 +5024,9 @@
 5022,Renault,48,Twingo Initiale 1.0 16V 70cv,2091
 5023,Renault,48,Twingo Pack 1.0 16V 70cv,2092
 5024,Renault,48,Twingo Pack 1.0 8V,2093
-5025,Renault,48,ZOE Intense 92cv (El√©trico),8528
-5026,Renault,48,ZOE Life 92cv (El√©trico),8871
-5027,Renault,48,ZOE Ultimate 92cv (El√©trico),8553
+5025,Renault,48,ZOE Intense 92cv (ElÈtrico),8528
+5026,Renault,48,ZOE Life 92cv (ElÈtrico),8871
+5027,Renault,48,ZOE Ultimate 92cv (ElÈtrico),8553
 5028,Rolls-Royce,195,Dawn 6.6 V12 Aut.,8108
 5029,Rolls-Royce,195,Ghost 6.6 V12 Aut.,6597
 5030,Rolls-Royce,195,Ghost ll 6.6 V12 Aut.,7208
@@ -5052,9 +5052,9 @@
 5050,SHINERAY,183,X30 VAN 1.3 16V Mec.,6975
 5051,smart,157,fortwo BRABUS cabrio 1.0 72kw,5403
 5052,smart,157,fortwo BRABUS Coupe 1.0 72kw,5147
-5053,smart,157,fortwo coup√©/Brasil.Edition 1.0 mhd 71cv,5284
+5053,smart,157,fortwo coupÈ/Brasil.Edition 1.0 mhd 71cv,5284
 5054,smart,157,fortwo passion cabrio 1.0 62kw/Tritop,4902
-5055,smart,157,fortwo passion coup√© 1.0 62kw,4903
+5055,smart,157,fortwo passion coupÈ 1.0 62kw,4903
 5056,SSANGYONG,125,ACTYON 2.0 16V 141cv Diesel,4535
 5057,SSANGYONG,125,ACTYON 2.3 16V 150cv Aut.,4963
 5058,SSANGYONG,125,ACTYON SP DLX 2.2 7 4x4 178cv Dies. Aut.,8291
@@ -5153,7 +5153,7 @@
 5151,Subaru,54,Outback 2.5 4x4 Mec.,2160
 5152,Subaru,54,Outback 3.0 H6 SW 245cv Aut.,2161
 5153,Subaru,54,Outback 3.6 H6 SW Aut.,5217
-5154,Subaru,54,SVX Cup√™ 3.3 4x4 Aut,2162
+5154,Subaru,54,SVX CupÍ 3.3 4x4 Aut,2162
 5155,Subaru,54,TRIBECA 3.6 24V 270cv 5p Aut.,4688
 5156,Subaru,54,Vivio SD GLI 3p Mec.,2163
 5157,Subaru,54,XV 2.0 L 16V 4x4 Aut.,8357
@@ -5207,7 +5207,7 @@
 5205,Suzuki,55,S-CROSS 4YOU 1.6 16V Aut.,7815
 5206,Suzuki,55,Sidekick Canvas,2189
 5207,Suzuki,55,Sidekick Metal,2190
-5208,Suzuki,55,Super Carry Van/ Furg√£o 1.0,2191
+5208,Suzuki,55,Super Carry Van/ Furg„o 1.0,2191
 5209,Suzuki,55,Swift GL,2192
 5210,Suzuki,55,Swift GTi 1.3 3p,2193
 5211,Suzuki,55,Swift GTI Convers. 16V,2194
@@ -5238,8 +5238,8 @@
 5236,TAC,165,Stark 2.3 4WD 127cv TDI Diesel 3p,5192
 5237,Toyota,56,Avalon XLS 3.0,2204
 5238,Toyota,56,Band. Jipe 4x4 Sport 3.7 Diesel,2205
-5239,Toyota,56,Band.Jipe Cap.de A√ßo Chas. Curto Diesel,2206
-5240,Toyota,56,Band.Jipe Cap.de A√ßo Chas. Longo Diesel,2207
+5239,Toyota,56,Band.Jipe Cap.de AÁo Chas. Curto Diesel,2206
+5240,Toyota,56,Band.Jipe Cap.de AÁo Chas. Longo Diesel,2207
 5241,Toyota,56,Band.Jipe Capota de Lona Diesel,2208
 5242,Toyota,56,Band.Picape CD 2p Chassi Longo Diesel,2209
 5243,Toyota,56,Band.Picape CD 4p Chassi Longo Diesel,2210
@@ -5255,11 +5255,11 @@
 5253,Toyota,56,Corolla Altis Hybrid 1.8 16V Flex Aut.,8837
 5254,Toyota,56,Corolla Altis Prem. Hybrid 1.8 Flex Aut,8838
 5255,Toyota,56,Corolla ALTIS/A.Premiu. 2.0 Flex 16V Aut,9300
-5256,Toyota,56,Corolla Cross SE 1.8 16V Aut. (H√≠brido),9324
+5256,Toyota,56,Corolla Cross SE 1.8 16V Aut. (HÌbrido),9324
 5257,Toyota,56,Corolla Cross XR 2.0 16V Flex Aut.,9325
 5258,Toyota,56,Corolla Cross XRE 2.0 16V Flex Aut.,9326
-5259,Toyota,56,Corolla Cross XRV 1.8 16V Aut.(H√≠brido),9327
-5260,Toyota,56,Corolla Cross XRX 1.8 16V Aut.(H√≠brido),9328
+5259,Toyota,56,Corolla Cross XRV 1.8 16V Aut.(HÌbrido),9327
+5260,Toyota,56,Corolla Cross XRX 1.8 16V Aut.(HÌbrido),9328
 5261,Toyota,56,Corolla DX/ SW DX 1.6 16V,2220
 5262,Toyota,56,Corolla Dynamic 2.0 Flex 16V Aut.,7746
 5263,Toyota,56,Corolla Fielder SW 1.8/1.8 XEi Flex Aut.,2221
@@ -5435,20 +5435,20 @@
 5433,Troller,57,PANTANAL 3.0 TDI Elet. 4x4 CS Diesel,3979
 5434,Troller,57,RF Esport 4x4 2.0,2289
 5435,Troller,57,RF Esport T-4 4x4 2.0 Cap. Lona,2290
-5436,Troller,57,RF Esport T-4 4x4 2.0 Cap. R√≠gida,2291
+5436,Troller,57,RF Esport T-4 4x4 2.0 Cap. RÌgida,2291
 5437,Troller,57,T-4 4x4 2.8 TB Int. Cap. Lona Diesel,2292
-5438,Troller,57,T-4 4x4 2.8 TB Int. Cap. R√≠gida Diesel,2293
+5438,Troller,57,T-4 4x4 2.8 TB Int. Cap. RÌgida Diesel,2293
 5439,Troller,57,T-4 4x4 3.0 TB Int. Cap. Lona Diesel,2294
-5440,Troller,57,T-4 4x4 3.0 TB Int. Cap. R√≠gida Diesel,2295
-5441,Troller,57,T-4 4x4 3.2 20V Tdi Cap. R√≠gida Diesel,6933
-5442,Troller,57,T-4 4x4 3.2 Tdi Cap.R√≠gida Die. Aut.,9065
-5443,Troller,57,T-4 4x4 3.2 TGV tdi Cap. R√≠gida Diesel,6194
-5444,Troller,57,T-4 BOLD 4x4 3.2 Tdi Cap. R√≠gida Diesel,7816
+5440,Troller,57,T-4 4x4 3.0 TB Int. Cap. RÌgida Diesel,2295
+5441,Troller,57,T-4 4x4 3.2 20V Tdi Cap. RÌgida Diesel,6933
+5442,Troller,57,T-4 4x4 3.2 Tdi Cap.RÌgida Die. Aut.,9065
+5443,Troller,57,T-4 4x4 3.2 TGV tdi Cap. RÌgida Diesel,6194
+5444,Troller,57,T-4 BOLD 4x4 3.2 Tdi Cap. RÌgida Diesel,7816
 5445,Troller,57,T-4 Connect 4x4 3.2 Tdi Cap.Rig.Die.Aut.,9344
 5446,Troller,57,T-4 DESERT STORM 4x4 3.0 TB Int Diesel,5652
-5447,Troller,57,T-4 TRAIL 4x4 3.2 Tdi Cap. R√≠g. Diesel,8798
-5448,Troller,57,T-4 TX4 4x4 3.2 20V Cap. R√≠gido Diesel,9086
-5449,Troller,57,T-4 TX4 4x4 3.2 20V Cap.R√≠g Diesel Aut.,8970
+5447,Troller,57,T-4 TRAIL 4x4 3.2 Tdi Cap. RÌg. Diesel,8798
+5448,Troller,57,T-4 TX4 4x4 3.2 20V Cap. RÌgido Diesel,9086
+5449,Troller,57,T-4 TX4 4x4 3.2 20V Cap.RÌg Diesel Aut.,8970
 5450,Volvo,58,440 Turbo 1.8,2296
 5451,Volvo,58,460 GLT 2.0/ Turbo 1.8,2297
 5452,Volvo,58,850 GLE 2.5 20V,2298
@@ -5467,7 +5467,7 @@
 5465,Volvo,58,C30 T-5 2.5 230cv Mec.,4418
 5466,Volvo,58,C30 T-5 R-DESIGN 2.5 230cv Aut.,5475
 5467,Volvo,58,C70 Cabriolet,2308
-5468,Volvo,58,C70 Cup√™,2309
+5468,Volvo,58,C70 CupÍ,2309
 5469,Volvo,58,S40 1.8 Aut.,2310
 5470,Volvo,58,S40 1.8 Mec.,2311
 5471,Volvo,58,S40 2.0 Aut.,2312
@@ -5496,8 +5496,8 @@
 5494,Volvo,58,S60 T-6 3.0 304cv AWD 4p,5493
 5495,Volvo,58,S60 T-6 R-DESIGN 2.0 306cv FWD 4p,7362
 5496,Volvo,58,S60 T-6 R-DESIGN 3.0 AWD 4p,5653
-5497,Volvo,58,S60 T8 POLESTAR 2.0 4p H√≠brido,8971
-5498,Volvo,58,S60 T-8 R-DESIGN 2.0 407cv 4p H√≠brido,8876
+5497,Volvo,58,S60 T8 POLESTAR 2.0 4p HÌbrido,8971
+5498,Volvo,58,S60 T-8 R-DESIGN 2.0 407cv 4p HÌbrido,8876
 5499,Volvo,58,S70 2.5,2326
 5500,Volvo,58,S70 2.5 Aut.,2327
 5501,Volvo,58,S70 R,2328
@@ -5511,7 +5511,7 @@
 5509,Volvo,58,S80 T6 2.8 BI-Turbo ARM,2334
 5510,Volvo,58,S80 T-6 Executive 2.8,2335
 5511,Volvo,58,S80 T-6 Executive ARM 2.8 24v,2336
-5512,Volvo,58,S90 T-8  INSCRIPT 2.0 AWD 407cv H√≠brido,8530
+5512,Volvo,58,S90 T-8  INSCRIPT 2.0 AWD 407cv HÌbrido,8530
 5513,Volvo,58,V40 1.8 Aut.,2337
 5514,Volvo,58,V40 1.8 Mec.,2338
 5515,Volvo,58,V40 2.0,2339
@@ -5548,9 +5548,9 @@
 5546,Volvo,58,XC 40 T-4 2.0 190cv FWD,8368
 5547,Volvo,58,XC 40 T-4 INSCRIPTION 2.0 190cv FWD,9066
 5548,Volvo,58,XC 40 T-4 MOMENTUM 2.0 190cv FWD,9067
-5549,Volvo,58,XC 40 T-5 H√çBRIDO INSCRIPTION 1.5 FWD,9294
-5550,Volvo,58,XC 40 T-5 H√çBRIDO MOMENTUM 1.5 262cv FWD,9295
-5551,Volvo,58,XC 40 T-5 H√çBRIDO R-DESIGN 1.5 262CV FWD,9068
+5549,Volvo,58,XC 40 T-5 HÕBRIDO INSCRIPTION 1.5 FWD,9294
+5550,Volvo,58,XC 40 T-5 HÕBRIDO MOMENTUM 1.5 262cv FWD,9295
+5551,Volvo,58,XC 40 T-5 HÕBRIDO R-DESIGN 1.5 262CV FWD,9068
 5552,Volvo,58,XC 40 T-5 MOMENT FIRST ED. 2.0 252cv AWD,8253
 5553,Volvo,58,XC 40 T-5 MOMENTUM 2.0 252cv AWD,8254
 5554,Volvo,58,XC 40 T-5 R-DESIGN 2.0 252cv AWD,8255
@@ -5572,10 +5572,10 @@
 5570,Volvo,58,XC 60 T-5 R-DESIGN 2.0 FWD 5p,6131
 5571,Volvo,58,XC 60 T-6  R-DESIGN 2.0 306cv FWD 5p,7319
 5572,Volvo,58,XC 60 T-6 INSCRIPTION 2.0 FWD 5p,7291
-5573,Volvo,58,XC 60 T-8 H√çBRIDO INSCRIPTION 2.0 5p,8639
-5574,Volvo,58,XC 60 T-8 H√çBRIDO MOMENTUM 2.0 5p,9027
-5575,Volvo,58,XC 60 T-8 H√çBRIDO R-DESIGN 2.0 5p,8486
-5576,Volvo,58,XC 60 T-8 POLESTAR 2.0 4p H√≠brido,8995
+5573,Volvo,58,XC 60 T-8 HÕBRIDO INSCRIPTION 2.0 5p,8639
+5574,Volvo,58,XC 60 T-8 HÕBRIDO MOMENTUM 2.0 5p,9027
+5575,Volvo,58,XC 60 T-8 HÕBRIDO R-DESIGN 2.0 5p,8486
+5576,Volvo,58,XC 60 T-8 POLESTAR 2.0 4p HÌbrido,8995
 5577,Volvo,58,XC 90 2.5T 210cv AWD 5p,2356
 5578,Volvo,58,XC 90 3.2 238cv AWD 5p,4450
 5579,Volvo,58,XC 90 4.4 V8 315cv AWD 5p,2357
@@ -5585,10 +5585,10 @@
 5583,Volvo,58,XC 90 T-6 FIRST EDITION 2.0 320cv 5p,7292
 5584,Volvo,58,XC 90 T-6 INSCRIPTION 2.0 320CV 5p,7293
 5585,Volvo,58,XC 90 T-6 MOMENTUM 2.0 320cv 5P,7294
-5586,Volvo,58,XC 90 T-8 H√çBRIDO EXCELLENCE 2.0  5p,7892
-5587,Volvo,58,XC 90 T-8 H√çBRIDO INSCRIPT 2.0 5p,7893
-5588,Volvo,58,XC 90 T-8 H√çBRIDO MOMENTUM 2.0 5p,9028
-5589,Volvo,58,XC 90 T-8 H√çBRIDO R-DESIGN 2.0 5p,8675
+5586,Volvo,58,XC 90 T-8 HÕBRIDO EXCELLENCE 2.0  5p,7892
+5587,Volvo,58,XC 90 T-8 HÕBRIDO INSCRIPT 2.0 5p,7893
+5588,Volvo,58,XC 90 T-8 HÕBRIDO MOMENTUM 2.0 5p,9028
+5589,Volvo,58,XC 90 T-8 HÕBRIDO R-DESIGN 2.0 5p,8675
 5590,VW - VolksWagen,59,AMAROK CD2.0 16V/S CD2.0 16V TDI 4x2 Die,5585
 5591,VW - VolksWagen,59,AMAROK CD2.0 16V/S CD2.0 16V TDI 4x4 Die,5586
 5592,VW - VolksWagen,59,AMAROK Comfor. CD 2.0 TDI 4x4 Dies. Aut.,8531
@@ -5652,9 +5652,9 @@
 5650,VW - VolksWagen,59,Fox Route 1.6 Mi Total Flex 8V 3p,4351
 5651,VW - VolksWagen,59,Fox Route 1.6 Mi Total Flex 8V 5p,4352
 5652,VW - VolksWagen,59,Fox RUN 1.6 Flex 8V 5p,7637
-5653,VW - VolksWagen,59,Fox SELE√á√ÉO 1.0 Total Flex 8V 5p,6667
-5654,VW - VolksWagen,59,Fox SELE√á√ÉO 1.6 Total Flex 8V 5p,6668
-5655,VW - VolksWagen,59,Fox SELE√á√ÉO IMOTION 1.6 Mi T. Flex 8V 5p,6784
+5653,VW - VolksWagen,59,Fox SELE«√O 1.0 Total Flex 8V 5p,6667
+5654,VW - VolksWagen,59,Fox SELE«√O 1.6 Total Flex 8V 5p,6668
+5655,VW - VolksWagen,59,Fox SELE«√O IMOTION 1.6 Mi T. Flex 8V 5p,6784
 5656,VW - VolksWagen,59,Fox Sportline/Sports 1.0 Tot.Flex 8V 4p,2379
 5657,VW - VolksWagen,59,Fox Sportline/Sports 1.0/1.0 Tot.Flex 3p,2376
 5658,VW - VolksWagen,59,Fox Sportline/Sports 1.6/1.6 Tot.Flex 3p,2377
@@ -5738,7 +5738,7 @@
 5736,VW - VolksWagen,59,Gol ECOMOTION  1.0 Mi Total Flex 8V 4p,5218
 5737,VW - VolksWagen,59,Gol ECOMOTION 1.0 Mi Total Flex 8V 2p,5219
 5738,VW - VolksWagen,59,Gol Furgao 1.0 mi,2422
-5739,VW - VolksWagen,59,Gol Furg√£o 1.6 Mi/ 1.6i/ 1.6,2423
+5739,VW - VolksWagen,59,Gol Furg„o 1.6 Mi/ 1.6i/ 1.6,2423
 5740,VW - VolksWagen,59,Gol GL 1.6 Mi/Star 1.6 e 1.8/Atlanta 1.6,2424
 5741,VW - VolksWagen,59,Gol GL 1.8 Mi 2p e 4p,2425
 5742,VW - VolksWagen,59,Gol GLi / GL/ Atlanta 1.8,2426
@@ -5753,9 +5753,9 @@
 5751,VW - VolksWagen,59,Gol Rallye 1.6 T. Flex 16V 5p,6795
 5752,VW - VolksWagen,59,Gol Rallye I MOTION 1.6 T. Flex 16V 5p,6793
 5753,VW - VolksWagen,59,Gol Rock in Rio 1.0 Mi Total Flex 8V 5p,5600
-5754,VW - VolksWagen,59,Gol SELE√á√ÉO 1.0 Mi Total Flex 8V 5p,5220
-5755,VW - VolksWagen,59,Gol SELE√á√ÉO 1.6 I MOTION T.Flex 8V 5p,6669
-5756,VW - VolksWagen,59,Gol SELE√á√ÉO 1.6 Total Flex 8V 5p,6670
+5754,VW - VolksWagen,59,Gol SELE«√O 1.0 Mi Total Flex 8V 5p,5220
+5755,VW - VolksWagen,59,Gol SELE«√O 1.6 I MOTION T.Flex 8V 5p,6669
+5756,VW - VolksWagen,59,Gol SELE«√O 1.6 Total Flex 8V 5p,6670
 5757,VW - VolksWagen,59,Gol Special 1.0 Mi 4p,2432
 5758,VW - VolksWagen,59,Gol Special 1.0 Total Flex 8V 3p,7049
 5759,VW - VolksWagen,59,Gol Special 1.0 Total Flex 8V 5p,7050
@@ -5796,7 +5796,7 @@
 5794,VW - VolksWagen,59,Golf GLX 2.0 4p,2445
 5795,VW - VolksWagen,59,Golf GT 2.0 Mi T. Flex 8V 4p Tiptronic,4835
 5796,VW - VolksWagen,59,Golf GT 2.0 Mi Total Flex 8V 4p,4703
-5797,VW - VolksWagen,59,Golf GTE TSI 1.4 16V H√≠brido Aut.,8943
+5797,VW - VolksWagen,59,Golf GTE TSI 1.4 16V HÌbrido Aut.,8943
 5798,VW - VolksWagen,59,Golf GTi 1.8 Mi 180/193cv Turbo 4p Mec.,2446
 5799,VW - VolksWagen,59,Golf GTi 1.8 Mi 180/193cv Turbo 4p Tip.,2447
 5800,VW - VolksWagen,59,Golf GTi 1.8 Mi 20V 2p Turbo Mec.,2448
@@ -5843,16 +5843,16 @@
 5841,VW - VolksWagen,59,Kombi Carat,2458
 5842,VW - VolksWagen,59,Kombi Escolar 1.6 MPi,2459
 5843,VW - VolksWagen,59,Kombi Escolar/50 anos 1.4 Mi Total Flex,3980
-5844,VW - VolksWagen,59,Kombi Furg√£o,2460
-5845,VW - VolksWagen,59,Kombi Furg√£o 1.4 Mi Total Flex 8V,3915
-5846,VW - VolksWagen,59,Kombi Furg√£o Diesel,2461
+5844,VW - VolksWagen,59,Kombi Furg„o,2460
+5845,VW - VolksWagen,59,Kombi Furg„o 1.4 Mi Total Flex 8V,3915
+5846,VW - VolksWagen,59,Kombi Furg„o Diesel,2461
 5847,VW - VolksWagen,59,Kombi LAST EDITION 56 1.4 Mi Total Flex,6618
-5848,VW - VolksWagen,59,Kombi Lota√ß√£o 1.4 Mi Total Flex 8V,3981
-5849,VW - VolksWagen,59,Kombi Lota√ß√£o 1.6 MPi,2462
+5848,VW - VolksWagen,59,Kombi LotaÁ„o 1.4 Mi Total Flex 8V,3981
+5849,VW - VolksWagen,59,Kombi LotaÁ„o 1.6 MPi,2462
 5850,VW - VolksWagen,59,Kombi Pick-Up,2463
 5851,VW - VolksWagen,59,Kombi Pick-Up Diesel,2464
 5852,VW - VolksWagen,59,Kombi Standard 1.4 Mi Total Flex 8V,3916
-5853,VW - VolksWagen,59,Kombi Standard/ Luxo/ S√©rie Prata,2465
+5853,VW - VolksWagen,59,Kombi Standard/ Luxo/ SÈrie Prata,2465
 5854,VW - VolksWagen,59,Logus 1.6 / CLi / CL/ GL,2466
 5855,VW - VolksWagen,59,Logus 1.8 / CLi / CL,2467
 5856,VW - VolksWagen,59,Logus GLi / GL 1.8,2468
@@ -6071,7 +6071,7 @@
 6069,VW - VolksWagen,59,up! take 1.0 Total Flex 12V 5p,6718
 6070,VW - VolksWagen,59,up! track 1.0 Total Flex 12V 5p,7818
 6071,VW - VolksWagen,59,up! Xtreme 1.0 TSI Total Flex 12V 5p,8704
-6072,VW - VolksWagen,59,Van 1.6 Mi (furg√£o),2570
+6072,VW - VolksWagen,59,Van 1.6 Mi (furg„o),2570
 6073,VW - VolksWagen,59,VIRTUS 1.6 MSI Flex 16V 4p Aut.,8427
 6074,VW - VolksWagen,59,VIRTUS 1.6 MSI Flex 16V 5p Mec.,8184
 6075,VW - VolksWagen,59,VIRTUS Comfort. 200 TSI 1.0 Flex 12V Aut,8185
@@ -6098,9 +6098,9 @@
 6096,VW - VolksWagen,59,VOYAGE I MOTION Evidence 1.6 T.Flex 8V,6813
 6097,VW - VolksWagen,59,VOYAGE I MOTION TREND 1.6 Mi T. Flex 8V,5118
 6098,VW - VolksWagen,59,VOYAGE L/LS/Plus/GLS/S/Sport/Super L.Ang,2575
-6099,VW - VolksWagen,59,VOYAGE SELE√á√ÉO 1.0 Mi Total Flex 8V 4p,6671
-6100,VW - VolksWagen,59,VOYAGE SELE√á√ÉO 1.6 I MOTION T.Flex 8V 4p,6672
-6101,VW - VolksWagen,59,VOYAGE SELE√á√ÉO 1.6 Total Flex 8V 4p,6673
+6099,VW - VolksWagen,59,VOYAGE SELE«√O 1.0 Mi Total Flex 8V 4p,6671
+6100,VW - VolksWagen,59,VOYAGE SELE«√O 1.6 I MOTION T.Flex 8V 4p,6672
+6101,VW - VolksWagen,59,VOYAGE SELE«√O 1.6 Total Flex 8V 4p,6673
 6102,VW - VolksWagen,59,VOYAGE TREND 1.6 Mi Total Flex 8V 4p,4755
 6103,VW - VolksWagen,59,VOYAGE Trendline 1.0 T.Flex 12V 4p,7524
 6104,VW - VolksWagen,59,VOYAGE Trendline 1.6 T.Flex 8V 4p,6809

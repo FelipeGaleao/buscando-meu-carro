@@ -3,10 +3,16 @@ def transform_shopcar_dataset():
     import numpy as np 
     from datetime import date
     
+    from fuzzywuzzy import fuzz
+    from fuzzywuzzy import process
+    from fuzzymatcher import link_table, fuzzy_left_join
+
+
+
     today = date.today()
     d1 = today.strftime("%d/%m/%Y")
 
-    dataset = pd.read_csv('./raw/scrapping_anuncios_shopcar.csv')
+    dataset = pd.read_csv('./raw/scrapping_anuncios_shopcar.csv', encoding='latin')
 
     ## geração de id do shop car
 
@@ -57,4 +63,14 @@ def transform_shopcar_dataset():
     dataset['Marca'] = marca.str.partition('/')[2].str.partition('/')[2].str.partition('/')[2].str.partition('/')[0]
     dataset['Data_Extracao_Dados'] = d1
 
-    dataset.to_csv(f'./staging/anuncios_shopcar.csv', mode='a', header=False)
+    df_anuncios = dataset
+    df_anuncios.to_csv(f'./staging/anuncios_shopcar2.csv',header=True, encoding='latin')
+    
+    df_marca_modelo = pd.read_csv('./staging/scrapping_marcas_modelos_fipe.csv')
+    # df_marca_modelo
+    # df_anuncios = df_anuncios.drop_duplicates(subset= ['modelo', 'marca'])[['modelo', 'marca']]
+    df_fuzzy = fuzzy_left_join(df_anuncios, df_marca_modelo, 'Modelo', 'nome_modelo')
+    df_fuzzy = df_fuzzy.drop(labels= ['__id_left', '__id_right'], axis=1)
+    df_fuzzy.sort_values(by= 'best_match_score')
+    df_fuzzy.to_csv(f'./staging/anuncios_shopcar_fuzzy.csv', mode='a', header=False, encoding='latin')
+    df_fuzzy.head(10)
