@@ -1,5 +1,5 @@
 def extract_olx_veiculos(pagina):
-    import pandas 
+    import pandas as pd
     import json 
     import requests
     from bs4 import BeautifulSoup
