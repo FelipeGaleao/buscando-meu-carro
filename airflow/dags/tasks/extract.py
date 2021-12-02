@@ -1,4 +1,8 @@
 def extract_olx_veiculos(pagina):
+    import pandas 
+    import json 
+    import requests
+    from bs4 import BeautifulSoup
     url = f"https://ms.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios?o={pagina}&re=39"
     request_headers = {
         'User-Agent':
