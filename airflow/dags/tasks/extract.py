@@ -29,8 +29,15 @@ def extract_olx_veiculos(pagina):
         df_propriedades_veiculos['id'] = 1
         df_propriedades_veiculos['anuncio_id_olx'] = data['listId']
         df_propriedades_veiculos['link_anuncio_olx'] = anuncio['href']
+        df_propriedades_veiculos['preco_anuncio'] = data['priceValue']
+        df_propriedades_veiculos['anunciante'] = data['user']['name']
+        df_propriedades_veiculos['preco_anterior'] = data['old_price']
+        df_propriedades_veiculos['bairro'] = data['location']['neighbourhood']
+        df_propriedades_veiculos['cidade'] = data['location']['municipality']
+        df_propriedades_veiculos['uf'] = data['location']['uf']
+        df_propriedades_veiculos['regiao'] = data['location']['region']
         df_propriedades_veiculos = df_propriedades_veiculos.reset_index().groupby('id').agg("first")
-        df_propriedades_veiculos.to_csv('./raw/scrapping_olx_veiculos_ms.csv', mode='a', header=False, encoding='latin')
+        df_propriedades_veiculos.to_csv(f'./raw/olx_anuncios/{data["listId"]}.csv', mode='w+', header=True, encoding='latin')
         
 def extract_shopcar_page(pagina):
     import pandas 
