@@ -31,7 +31,7 @@ def extract_olx_veiculos(pagina):
         df_propriedades_veiculos['link_anuncio_olx'] = anuncio['href']
         df_propriedades_veiculos['preco_anuncio'] = data['priceValue']
         df_propriedades_veiculos['anunciante'] = data['user']['name']
-        df_propriedades_veiculos['preco_anterior'] = data['old_price']
+        df_propriedades_veiculos['preco_anterior'] = data['oldPrice']
         df_propriedades_veiculos['bairro'] = data['location']['neighbourhood']
         df_propriedades_veiculos['cidade'] = data['location']['municipality']
         df_propriedades_veiculos['uf'] = data['location']['uf']

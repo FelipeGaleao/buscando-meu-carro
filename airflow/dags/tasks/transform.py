@@ -1,51 +1,95 @@
+
+import pandas as pd
+from fuzzymatcher import link_table, fuzzy_left_join
+from fuzzywuzzy import process
+from fuzzywuzzy import fuzz
+
+
+def transform_olx_dataset():
+    from glob import iglob
+
+    path = r'./../airflow/raw/olx_anuncios/*.csv'
+
+    all_rec = iglob(path, recursive=True)
+    dataframes = (pd.read_csv(f, encoding='latin') for f in all_rec)
+    big_dataframe = pd.concat(dataframes, ignore_index=True)
+
+
+    df_olx_veiculos = big_dataframe.copy()
+    df_olx_veiculos = df_olx_veiculos.drop(labels=['id', 'index', 'car_features', 'cartype', 'category', 'doors',
+                                                'end_tag', 'exchange', 'owner', 'motorpower', 'gearbox', 'car_steering', 'preco_anterior', 'financial', 'carcolor',
+                                                'fuel'], axis=1)
+    df_olx_veiculos = df_olx_veiculos.rename(columns={'mileage': 'KM', 'regdate': 'Ano_Fabricacao',
+                                                    'vehicle_brand': 'Marca', 'vehicle_model': 'Modelo', 'preco_anuncio': 'Preco', 'anunciante': 'vendedor'})
+    df_olx_veiculos['Preco'] = df_olx_veiculos['Preco'].str.replace('R', '')
+    df_olx_veiculos['Preco'] = df_olx_veiculos['Preco'].str.replace('$', '')
+    df_olx_veiculos['Preco'] = df_olx_veiculos['Preco'].str.replace('.', '')
+    df_olx_veiculos['Preco'] = df_olx_veiculos['Preco'].str.replace(',00', '')
+    df_olx_veiculos['Preco'] = pd.to_numeric(
+        df_olx_veiculos['Preco'], errors='coerce')
+    df_olx_veiculos
+
+
+    df_marca_modelo = pd.read_csv(
+        '../airflow/raw/scrapping_marcas_modelos_fipe.csv', encoding='latin').drop('Unnamed: 0', axis=1)
+    df_fuzzy = fuzzy_left_join(
+        df_olx_veiculos, df_marca_modelo, 'Modelo', 'nome_modelo')
+    df_fuzzy = df_fuzzy.drop(labels=['__id_left', '__id_right'], axis=1)
+    df_fuzzy.sort_values(by='best_match_score')
+    df_fuzzy.to_csv(f'../airflow/staging/anuncios_olx_fuzzy.csv',
+                    mode='a', header=False, encoding='latin')
+    df_fuzzy.head(10)
+
 def transform_shopcar_dataset():
-    import pandas as pd 
-    import numpy as np 
+    import pandas as pd
+    import numpy as np
     from datetime import date
-    
+
     from fuzzywuzzy import fuzz
     from fuzzywuzzy import process
     from fuzzymatcher import link_table, fuzzy_left_join
 
-
-
     today = date.today()
     d1 = today.strftime("%d/%m/%Y")
 
-    dataset = pd.read_csv('./raw/scrapping_anuncios_shopcar.csv', encoding='latin')
+    dataset = pd.read_csv(
+        './raw/scrapping_anuncios_shopcar.csv', encoding='latin')
 
-    ## geração de id do shop car
+    # geração de id do shop car
 
-    dataset['Id_Anuncio_ShopCar'] = pd.Series(dataset['Link']).str.slice(start=-7)
+    dataset['Id_Anuncio_ShopCar'] = pd.Series(
+        dataset['Link']).str.slice(start=-7)
     dataset.reset_index()
     dataset.set_index('Id_Anuncio_ShopCar', inplace=True)
     dataset.drop(labels=['Unnamed: 0'], axis=1)
 
-    ## correção do campo data ano/modelo
+    # correção do campo data ano/modelo
 
     ano_fabricacao = pd.Series(dataset['Ano']).str.slice(stop=2)
     dataset['Ano_Fabricacao'] = pd.to_numeric(ano_fabricacao)
-    dataset['Ano_Fabricacao'] = np.where(dataset['Ano_Fabricacao'] < 22, 2000 + dataset['Ano_Fabricacao'], 1900 + dataset['Ano_Fabricacao'])
+    dataset['Ano_Fabricacao'] = np.where(
+        dataset['Ano_Fabricacao'] < 22, 2000 + dataset['Ano_Fabricacao'], 1900 + dataset['Ano_Fabricacao'])
 
     ano_modelo = pd.Series(dataset['Ano']).str.slice(start=3, stop=5)
     dataset['Ano_Modelo'] = pd.to_numeric(ano_modelo)
-    dataset['Ano_Modelo'] = np.where(dataset['Ano_Modelo'] < 22, 2000 + dataset['Ano_Modelo'], 1900 + dataset['Ano_Modelo'])
+    dataset['Ano_Modelo'] = np.where(
+        dataset['Ano_Modelo'] < 22, 2000 + dataset['Ano_Modelo'], 1900 + dataset['Ano_Modelo'])
     dataset = dataset.drop(labels=['Ano'], axis=1)
     dataset = dataset.drop(labels=['Unnamed: 0'], axis=1)
 
-    ## correção do campo KM
+    # correção do campo KM
     dataset['KM'] = dataset['KM'].str.replace('Km', '')
     dataset['KM'] = dataset['KM'].str.replace('.', '')
     dataset['KM'] = pd.to_numeric(dataset['KM'], errors='coerce')
 
-    ## correção do campo KM
+    # correção do campo PREÇO
     dataset['Preco'] = dataset['Preco'].str.replace('R', '')
     dataset['Preco'] = dataset['Preco'].str.replace('$', '')
     dataset['Preco'] = dataset['Preco'].str.replace('.', '')
     dataset['Preco'] = dataset['Preco'].str.replace(',00', '')
     dataset['Preco'] = pd.to_numeric(dataset['Preco'], errors='coerce')
 
-    ## endereços 
+    # endereços
     enderecos = pd.Series(dataset['Cidade'])
     dataset['Estado_Anuncio'] = enderecos.str.partition('/')[2]
     dataset['Endereco_Anuncio'] = enderecos.str.partition('-')[0]
@@ -58,19 +102,24 @@ def transform_shopcar_dataset():
     enderecos = enderecos.str.partition('/')
     dataset['Cidade_Anuncio'] = enderecos[0]
 
-    ## marca 
+    # marca
     marca = dataset['Link'].str.partition('/')[2]
-    dataset['Marca'] = marca.str.partition('/')[2].str.partition('/')[2].str.partition('/')[2].str.partition('/')[0]
+    dataset['Marca'] = marca.str.partition(
+        '/')[2].str.partition('/')[2].str.partition('/')[2].str.partition('/')[0]
     dataset['Data_Extracao_Dados'] = d1
 
     df_anuncios = dataset
-    df_anuncios.to_csv(f'./staging/anuncios_shopcar2.csv',header=True, encoding='latin')
-    
-    df_marca_modelo = pd.read_csv('./staging/scrapping_marcas_modelos_fipe.csv')
+    df_anuncios.to_csv(f'./staging/anuncios_shopcar2.csv',
+                       header=True, encoding='latin')
+
+    df_marca_modelo = pd.read_csv(
+        './staging/scrapping_marcas_modelos_fipe.csv')
     # df_marca_modelo
     # df_anuncios = df_anuncios.drop_duplicates(subset= ['modelo', 'marca'])[['modelo', 'marca']]
-    df_fuzzy = fuzzy_left_join(df_anuncios, df_marca_modelo, 'Modelo', 'nome_modelo')
-    df_fuzzy = df_fuzzy.drop(labels= ['__id_left', '__id_right'], axis=1)
-    df_fuzzy.sort_values(by= 'best_match_score')
-    df_fuzzy.to_csv(f'./staging/anuncios_shopcar_fuzzy.csv', mode='a', header=False, encoding='latin')
+    df_fuzzy = fuzzy_left_join(
+        df_anuncios, df_marca_modelo, 'Modelo', 'nome_modelo')
+    df_fuzzy = df_fuzzy.drop(labels=['__id_left', '__id_right'], axis=1)
+    df_fuzzy.sort_values(by='best_match_score')
+    df_fuzzy.to_csv(f'./staging/anuncios_shopcar_fuzzy.csv',
+                    mode='a', header=False, encoding='latin')
     df_fuzzy.head(10)
