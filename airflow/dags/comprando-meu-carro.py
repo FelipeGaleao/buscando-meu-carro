@@ -47,6 +47,14 @@ end_olx = DummyOperator(
     task_id="end_olx",
     dag=dag
 )
+begin_fipe = DummyOperator(
+    task_id="begin_fipe",
+    dag=dag
+)
+end_fipe = DummyOperator(
+    task_id="end_fipe",
+    dag=dag
+)
 begin_shopcar = DummyOperator(
     task_id="begin_shopcar",
     dag=dag
@@ -55,12 +63,30 @@ end_shopcar = DummyOperator(
     task_id="end_shopcar",
     dag=dag
 )
+begin_transform = DummyOperator(
+    task_id="begin_transform",
+    dag=dag
+)
+end_transform = DummyOperator(
+    task_id="end_transform",
+    dag=dag
+)
 
 end_extract = DummyOperator(
     task_id="end_extract",
     dag=dag
 )
-for i in range(1, 101):
+
+
+extract_fipe_marca_modelos = PythonOperator(
+    task_id="EXTRACT_FIPE_DATASET",
+    python_callable=extract.extract_marcas_modelo_fipe,
+    dag=dag
+)
+
+begin_extract >> begin_fipe >> extract_fipe_marca_modelos >> end_fipe >> end_extract
+
+for i in range(1, 3): # 1, 101
     extract_olx_veiculos = PythonOperator(
         task_id="EXTRACT_DATA_OLX_PAGE_{}".format(i),
         python_callable=extract.extract_olx_veiculos,
@@ -68,9 +94,11 @@ for i in range(1, 101):
             "pagina": i,
         },
         dag=dag)
-    begin_extract >> begin_olx >> [extract_olx_veiculos] >> end_olx >> end_extract
+    begin_extract >> begin_olx >> [
+        extract_olx_veiculos] >> end_olx >> end_extract
 
-for i in range(1, 592):
+
+for i in range(1, 3): # 1, 592
     # scrapping_webmotors = PythonOperator(
     #             task_id="EXTRACT_DATA_WEBMOTORS_PAGE_{}".format(i),
     #             python_callable = extract_webmotors_page,
@@ -92,4 +120,12 @@ for i in range(1, 592):
         python_callable=transform.transform_shopcar_dataset,
         dag=dag)
 
-    begin_extract >> begin_shopcar >> [extract_shopcar_page] >> end_shopcar >> end_extract >> [transform_shopcar_dataset]
+    begin_extract >> begin_shopcar >> [extract_shopcar_page] >> end_shopcar >> end_extract >> begin_transform >> [transform_shopcar_dataset] >> end_transform
+
+transform_olx_dataset = PythonOperator(
+    task_id="TRANSFORM_OLX_DATASET",
+    python_callable=transform.transform_olx_dataset,
+    dag=dag)
+
+end_extract >> begin_transform
+begin_transform >> transform_olx_dataset >> end_transform

@@ -1,3 +1,52 @@
+def extract_marcas_modelo_fipe():
+    import pandas as pd 
+    import numpy as np 
+    from datetime import date
+    import requests
+    import json
+
+    def buscarMarca():
+        url = "https://veiculos.fipe.org.br/api/veiculos//ConsultarMarcas?codigoTabelaReferencia=267&codigoTipoVeiculo=1"
+
+        payload = "{\r\n    \r\n}"
+        headers = {
+        'Content-Type': 'text/plain',
+        'Cookie': 'ROUTEID=.3'
+        }
+        response = requests.request("POST", url, headers=headers, data=payload)
+        return pd.DataFrame(json.loads(response.content))
+
+    def buscarCarros(marcas):
+        modelos = pd.DataFrame()
+        for marca in marcas:
+            url = f"https://veiculos.fipe.org.br/api/veiculos//ConsultarModelos?codigoTipoVeiculo=1&codigoTabelaReferencia=267&codigoMarca={marca}"
+            payload = "{\r\n    \r\n}"
+            headers = {
+            'Content-Type': 'text/plain',
+            'Cookie': 'ROUTEID=.3'
+            }
+            response = requests.request("POST", url, headers=headers, data=payload)
+            try:
+                veiculos = json.loads(response.content)
+            except:
+                print('')
+            df_temp = pd.DataFrame(veiculos['Modelos'])
+            df_temp['id_marca'] = f"{marca}"
+            modelos = pd.concat([df_temp, modelos])
+        return modelos
+
+    marcas_df = buscarMarca()
+    marcas_df.columns = ['nome_marca', 'id_marca']
+    marcas_df
+
+    modelos_df = buscarCarros(marcas_df['id_marca'])
+
+    df = pd.DataFrame(modelos_df)
+    df.columns = ['nome_modelo', 'id_modelo', 'id_marca']
+    df
+    dataset_final = marcas_df.merge(modelos_df, how='inner')
+    dataset_final.to_csv('./raw/scrapping_marcas_modelos_fipe.csv', encoding='latin')
+
 def extract_olx_veiculos(pagina):
     import pandas as pd
     import json 

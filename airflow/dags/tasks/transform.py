@@ -8,7 +8,7 @@ from fuzzywuzzy import fuzz
 def transform_olx_dataset():
     from glob import iglob
 
-    path = r'./../airflow/raw/olx_anuncios/*.csv'
+    path = r'./raw/olx_anuncios/*.csv'
 
     all_rec = iglob(path, recursive=True)
     dataframes = (pd.read_csv(f, encoding='latin') for f in all_rec)
@@ -31,13 +31,13 @@ def transform_olx_dataset():
 
 
     df_marca_modelo = pd.read_csv(
-        '../airflow/raw/scrapping_marcas_modelos_fipe.csv', encoding='latin').drop('Unnamed: 0', axis=1)
+        './raw/scrapping_marcas_modelos_fipe.csv', encoding='latin').drop('Unnamed: 0', axis=1)
     df_fuzzy = fuzzy_left_join(
         df_olx_veiculos, df_marca_modelo, 'Modelo', 'nome_modelo')
     df_fuzzy = df_fuzzy.drop(labels=['__id_left', '__id_right'], axis=1)
     df_fuzzy.sort_values(by='best_match_score')
-    df_fuzzy.to_csv(f'../airflow/staging/anuncios_olx_fuzzy.csv',
-                    mode='a', header=False, encoding='latin')
+    df_fuzzy.to_csv(f'./staging/anuncios_olx_fuzzy.csv',
+                    mode='w+', header=True, encoding='latin')
     df_fuzzy.head(10)
 
 def transform_shopcar_dataset():
@@ -56,9 +56,9 @@ def transform_shopcar_dataset():
         './raw/scrapping_anuncios_shopcar.csv', encoding='latin')
 
     # geração de id do shop car
+    dataset.columns = ['Unnamed: 0', 'Modelo', 'Ano', 'Cor', 'Combustivel', 'KM', 'Preco', 'Link', 'Vendedor', 'Cidade']
 
-    dataset['Id_Anuncio_ShopCar'] = pd.Series(
-        dataset['Link']).str.slice(start=-7)
+    dataset['Id_Anuncio_ShopCar'] = dataset['Link'].str.slice(start=-7)
     dataset.reset_index()
     dataset.set_index('Id_Anuncio_ShopCar', inplace=True)
     dataset.drop(labels=['Unnamed: 0'], axis=1)
@@ -113,7 +113,7 @@ def transform_shopcar_dataset():
                        header=True, encoding='latin')
 
     df_marca_modelo = pd.read_csv(
-        './staging/scrapping_marcas_modelos_fipe.csv')
+        './raw/scrapping_marcas_modelos_fipe.csv', encoding='latin')
     # df_marca_modelo
     # df_anuncios = df_anuncios.drop_duplicates(subset= ['modelo', 'marca'])[['modelo', 'marca']]
     df_fuzzy = fuzzy_left_join(
@@ -121,5 +121,5 @@ def transform_shopcar_dataset():
     df_fuzzy = df_fuzzy.drop(labels=['__id_left', '__id_right'], axis=1)
     df_fuzzy.sort_values(by='best_match_score')
     df_fuzzy.to_csv(f'./staging/anuncios_shopcar_fuzzy.csv',
-                    mode='a', header=False, encoding='latin')
+                    mode='w+', header=True, encoding='latin')
     df_fuzzy.head(10)
