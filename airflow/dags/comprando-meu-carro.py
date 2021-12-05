@@ -63,6 +63,14 @@ end_shopcar = DummyOperator(
     task_id="end_shopcar",
     dag=dag
 )
+begin_mastertable = DummyOperator(
+    task_id="begin_mastertable",
+    dag=dag
+)
+end_mastertable = DummyOperator(
+    task_id="end_mastertable",
+    dag=dag
+)
 begin_transform = DummyOperator(
     task_id="begin_transform",
     dag=dag
@@ -127,5 +135,10 @@ transform_olx_dataset = PythonOperator(
     python_callable=transform.transform_olx_dataset,
     dag=dag)
 
+mastertable_olx_shopcar = PythonOperator(
+    task_id="MASTERTABLE_OLX_SHOPCAR",
+    python_callable=transform.transform_mastertable,
+    dag=dag)
+
 end_extract >> begin_transform
-begin_transform >> transform_olx_dataset >> end_transform
+begin_transform >> transform_olx_dataset >> end_transform >> begin_mastertable >> mastertable_olx_shopcar >> end_mastertable

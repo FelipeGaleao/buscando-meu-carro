@@ -5,6 +5,18 @@ from fuzzywuzzy import process
 from fuzzywuzzy import fuzz
 
 
+def transform_mastertable():
+    df_olx = pd.read_csv('../airflow/staging/anuncios_olx_fuzzy.csv', encoding='latin').drop(labels=['Unnamed: 0'], axis=1).rename(columns={'vendedor': 'Vendedor', 'bairro': 'Bairro_Anuncio',
+                                                                                                                                            'cidade': 'Cidade_Anuncio', 'link_anuncio_olx': 'Link', 'regiao': 'Estado_Anuncio'})
+
+    df_shopcar = pd.read_csv('../airflow/staging/anuncios_shopcar_fuzzy.csv',
+                            encoding='latin').drop(labels=['Unnamed: 0'], axis=1)
+    df_olx['Cidade'] = df_olx['Cidade_Anuncio']
+    df_final = pd.concat([df_olx, df_shopcar])
+    df_final['Marca'] = df_final['nome_marca']
+    df_final.to_csv('./staging/mastertable-olx-shopcar.csv')
+
+
 def transform_olx_dataset():
     from glob import iglob
 
@@ -14,13 +26,12 @@ def transform_olx_dataset():
     dataframes = (pd.read_csv(f, encoding='latin') for f in all_rec)
     big_dataframe = pd.concat(dataframes, ignore_index=True)
 
-
     df_olx_veiculos = big_dataframe.copy()
     df_olx_veiculos = df_olx_veiculos.drop(labels=['id', 'index', 'car_features', 'cartype', 'category', 'doors',
-                                                'end_tag', 'exchange', 'owner', 'motorpower', 'gearbox', 'car_steering', 'preco_anterior', 'financial', 'carcolor',
-                                                'fuel'], axis=1)
+                                                   'end_tag', 'exchange', 'owner', 'motorpower', 'gearbox', 'car_steering', 'preco_anterior', 'financial', 'carcolor',
+                                                   'fuel'], axis=1)
     df_olx_veiculos = df_olx_veiculos.rename(columns={'mileage': 'KM', 'regdate': 'Ano_Fabricacao',
-                                                    'vehicle_brand': 'Marca', 'vehicle_model': 'Modelo', 'preco_anuncio': 'Preco', 'anunciante': 'vendedor'})
+                                                      'vehicle_brand': 'Marca', 'vehicle_model': 'Modelo', 'preco_anuncio': 'Preco', 'anunciante': 'vendedor'})
     df_olx_veiculos['Preco'] = df_olx_veiculos['Preco'].str.replace('R', '')
     df_olx_veiculos['Preco'] = df_olx_veiculos['Preco'].str.replace('$', '')
     df_olx_veiculos['Preco'] = df_olx_veiculos['Preco'].str.replace('.', '')
@@ -28,7 +39,6 @@ def transform_olx_dataset():
     df_olx_veiculos['Preco'] = pd.to_numeric(
         df_olx_veiculos['Preco'], errors='coerce')
     df_olx_veiculos
-
 
     df_marca_modelo = pd.read_csv(
         './raw/scrapping_marcas_modelos_fipe.csv', encoding='latin').drop('Unnamed: 0', axis=1)
@@ -39,6 +49,7 @@ def transform_olx_dataset():
     df_fuzzy.to_csv(f'./staging/anuncios_olx_fuzzy.csv',
                     mode='w+', header=True, encoding='latin')
     df_fuzzy.head(10)
+
 
 def transform_shopcar_dataset():
     import pandas as pd
@@ -56,7 +67,8 @@ def transform_shopcar_dataset():
         './raw/scrapping_anuncios_shopcar.csv', encoding='latin')
 
     # geração de id do shop car
-    dataset.columns = ['Unnamed: 0', 'Modelo', 'Ano', 'Cor', 'Combustivel', 'KM', 'Preco', 'Link', 'Vendedor', 'Cidade']
+    dataset.columns = ['Unnamed: 0', 'Modelo', 'Ano', 'Cor',
+                       'Combustivel', 'KM', 'Preco', 'Link', 'Vendedor', 'Cidade']
 
     dataset['Id_Anuncio_ShopCar'] = dataset['Link'].str.slice(start=-7)
     dataset.reset_index()
