@@ -3,10 +3,11 @@ import pandas as pd
 from fuzzymatcher import link_table, fuzzy_left_join
 from fuzzywuzzy import process
 from fuzzywuzzy import fuzz
-from datetime import datetime
 
 
 def transform_mastertable():
+    from datetime import date
+
     df_olx = pd.read_csv('../airflow/staging/anuncios_olx_fuzzy.csv', encoding='latin').drop(labels=['Unnamed: 0'], axis=1).rename(columns={'vendedor': 'Vendedor', 'bairro': 'Bairro_Anuncio',
                                                                                                                                             'cidade': 'Cidade_Anuncio', 'link_anuncio_olx': 'Link', 'regiao': 'Estado_Anuncio'})
 
