@@ -3,6 +3,7 @@ import pandas as pd
 from fuzzymatcher import link_table, fuzzy_left_join
 from fuzzywuzzy import process
 from fuzzywuzzy import fuzz
+from datetime import datetime
 
 
 def transform_mastertable():
@@ -14,6 +15,7 @@ def transform_mastertable():
     df_olx['Cidade'] = df_olx['Cidade_Anuncio']
     df_final = pd.concat([df_olx, df_shopcar])
     df_final['Marca'] = df_final['nome_marca']
+    df_final['Data_Extracao_Dados'] =  date.today().strftime("%d/%m/%Y")
     df_final.to_csv('./staging/mastertable-olx-shopcar.csv')
 
 
