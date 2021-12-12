@@ -17,7 +17,7 @@ def transform_mastertable():
     df_final = pd.concat([df_olx, df_shopcar])
     df_final['Marca'] = df_final['nome_marca']
     df_final['Data_Extracao_Dados'] =  date.today().strftime("%d/%m/%Y")
-    df_final.to_csv('./staging/mastertable-olx-shopcar.csv')
+    df_final.to_csv('./staging/mastertable-olx-shopcar.csv', mode='a+', encoding='latin', header=False)
 
 
 def transform_olx_dataset():
