@@ -16,7 +16,6 @@ dag_id = 'CMC-extract-data-from-portals'
 
 default_args = {
     'owner': 'CMC @felipegaleao',
-    'start_date': datetime(2021, 12, 2),
     "email": ["maycon.mota@ufms.br"],
     'description': 'Dag to extract info from Shopcar and Webmotors',
     "email_on_failure": True,
@@ -32,7 +31,7 @@ dag = DAG(
     default_args=default_args,
     max_active_runs=128,
     concurrency=128,
-    schedule_interval="0 2 * * *"
+    schedule_interval="0 0/6 * * *"
 )
 
 begin_extract = DummyOperator(
