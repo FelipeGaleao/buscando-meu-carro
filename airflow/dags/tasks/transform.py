@@ -129,12 +129,9 @@ def transform_shopcar_dataset():
 
     df_marca_modelo = pd.read_csv(
         './raw/scrapping_marcas_modelos_fipe.csv', encoding='latin')
-    # df_marca_modelo
-    # df_anuncios = df_anuncios.drop_duplicates(subset= ['modelo', 'marca'])[['modelo', 'marca']]
     df_fuzzy = fuzzy_left_join(
         df_anuncios, df_marca_modelo, 'Modelo', 'nome_modelo')
     df_fuzzy = df_fuzzy.drop(labels=['__id_left', '__id_right'], axis=1)
     df_fuzzy.sort_values(by='best_match_score')
     df_fuzzy.to_csv(f'./staging/anuncios_shopcar_fuzzy.csv',
                     mode='w+', header=True, encoding='latin')
-    df_fuzzy.head(10)
