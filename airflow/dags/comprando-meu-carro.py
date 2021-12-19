@@ -26,12 +26,13 @@ default_args = {
 
 
 dag = DAG(
-    start_date=None,
+    start_date=datetime(2021, 12, 18),
     dag_id=dag_id,
     default_args=default_args,
     max_active_runs=128,
     concurrency=128,
-    schedule_interval="0 0/6 * * *"
+    schedule_interval="0 0/6 * * *",
+    catchup=False
 )
 
 begin_extract = DummyOperator(

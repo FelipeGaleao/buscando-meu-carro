@@ -1,5 +1,5 @@
 /airflow/logs
 /airflow/.local/
 /airflow/.cache/
-/airflow/raw/*
+/airflow/raw/olx_anuncios/*
 *.pyc
