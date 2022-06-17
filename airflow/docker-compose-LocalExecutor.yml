@@ -25,9 +25,7 @@ services:
                 max-file: "3"
         volumes:
             - ./dags:/usr/local/airflow/dags
-            - ./staging:/usr/local/airflow/staging
-            - ./raw:/usr/local/airflow/raw
-            - ./trusted:/usr/local/airflow/trusted
+            - ./output_data:/usr/local/airflow/output_data
             - ./requirements.txt:/requirements.txt
 
 

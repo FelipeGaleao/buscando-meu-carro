@@ -3,3 +3,4 @@
 /airflow/.cache/
 /airflow/raw/olx_anuncios/*
 *.pyc
+airflow/output_data/raw/olx_anuncios/*

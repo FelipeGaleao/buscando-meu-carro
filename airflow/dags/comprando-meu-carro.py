@@ -3,6 +3,7 @@ from datetime import datetime
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from airflow.operators.dummy_operator import DummyOperator
+from airflow.operators.bash_operator import BashOperator
 import logging
 import os
 import sys
@@ -85,6 +86,18 @@ end_extract = DummyOperator(
     dag=dag
 )
 
+setup_folders = DummyOperator(
+    task_id = "setup_folders",
+    dag=dag
+)
+
+make_dirs = BashOperator(
+    task_id="make_dirs",
+    bash_command="mkdir -p output_data/raw output_data/staging output_data/trusted",
+    dag=dag
+)
+
+setup_folders >> make_dirs >> begin_extract 
 
 extract_fipe_marca_modelos = PythonOperator(
     task_id="EXTRACT_FIPE_DATASET",
@@ -94,7 +107,7 @@ extract_fipe_marca_modelos = PythonOperator(
 
 begin_extract >> begin_fipe >> extract_fipe_marca_modelos >> end_fipe >> end_extract
 
-for i in range(1, 101): # 1, 101
+for i in range(1, 5): # 1, 101
     extract_olx_veiculos = PythonOperator(
         task_id="EXTRACT_DATA_OLX_PAGE_{}".format(i),
         python_callable=extract.extract_olx_veiculos,
@@ -106,7 +119,7 @@ for i in range(1, 101): # 1, 101
         extract_olx_veiculos] >> end_olx >> end_extract
 
 
-for i in range(1, 592): # 1, 592
+for i in range(1, 5): # 1, 592
     # scrapping_webmotors = PythonOperator(
     #             task_id="EXTRACT_DATA_WEBMOTORS_PAGE_{}".format(i),
     #             python_callable = extract_webmotors_page,

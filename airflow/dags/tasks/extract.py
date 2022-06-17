@@ -45,7 +45,7 @@ def extract_marcas_modelo_fipe():
     df.columns = ['nome_modelo', 'id_modelo', 'id_marca']
     df
     dataset_final = marcas_df.merge(modelos_df, how='inner')
-    dataset_final.to_csv('./raw/scrapping_marcas_modelos_fipe.csv', encoding='latin')
+    dataset_final.to_csv('./output_data/raw/scrapping_marcas_modelos_fipe.csv', encoding='latin')
 
 def extract_olx_veiculos(pagina):
     import pandas as pd
@@ -86,7 +86,7 @@ def extract_olx_veiculos(pagina):
         df_propriedades_veiculos['uf'] = data['location']['uf']
         df_propriedades_veiculos['regiao'] = data['location']['region']
         df_propriedades_veiculos = df_propriedades_veiculos.reset_index().groupby('id').agg("first")
-        df_propriedades_veiculos.to_csv(f'./raw/olx_anuncios/{data["listId"]}.csv', mode='w+', header=True, encoding='latin')
+        df_propriedades_veiculos.to_csv(f'./output_data/raw/olx_anuncios/{data["listId"]}.csv', mode='w+', header=True, encoding='latin')
         
 def extract_shopcar_page(pagina):
     import pandas 
@@ -96,56 +96,38 @@ def extract_shopcar_page(pagina):
     
     print(f"Iniciando scrapping ...... {pagina}")
     url = f"https://www.shopcar.com.br/busca.php?tipo=1&marca=&string=&ordenar=valor_asc&pagina={pagina}"
-    res = requests.get(url)
-    soup = BeautifulSoup(res.text)
+    header_request = { "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"}
+    res = requests.get(url, headers= header_request)
+    soup = BeautifulSoup(res.content, "html.parser")
     index = 0
     carro_dados = []
-    
-    for carro in soup.find_all(class_='destaque-lista'):
-        try:
-            carro_modelo = carro('li')[1]('div')[0].get_text()
-            anoModelo_anoFabricacao = carro('li')[1]('div')[2].get_text()
-            corCarro = carro('li')[1]('div')[3].get_text()
-            combustivelCarro = carro('li')[1]('div')[4].get_text()
-            preco = carro(class_='preco')[0].get_text()
-            try:
-                kmCarro = carro(class_='caract-km')[0].get_text()
-            except:
-                kmCarro = 'Não disponível'
-            link_veiculo = carro('a')[1].get('href')
-            url = link_veiculo
-            res = requests.get(url)
-            soup = BeautifulSoup(res.text)
-            vendedor = soup.find_all(class_='dados1')[0].find_all(class_='nome')[0].get_text()
-            cidade = soup.find_all(class_='dados1')[0].find_all(class_='endereco')[0].get_text()
-            index += 1
-            carro_dados.append([carro_modelo, anoModelo_anoFabricacao, corCarro, combustivelCarro, kmCarro, preco, link_veiculo, vendedor, cidade])
-            print(f"Já foram incluídos {index} carros")
-        except:
-            pass
+
     for carro in soup.find_all(class_='itens'):
+        carro_detalhes = carro.select(".coluna-2")
         try:
-            carro_modelo = carro('li')[1]('div')[0].get_text()
-            anoModelo_anoFabricacao = carro('li')[1]('div')[2].get_text()
-            corCarro = carro('li')[1]('div')[3].get_text()
-            combustivelCarro = carro('li')[1]('div')[4].get_text()
-            preco = carro(class_='preco')[0].get_text()
+            carro_modelo = carro_detalhes[0]('div')[0].get_text()
+            anoModelo_anoFabricacao = carro_detalhes[0]('div')[2].get_text()
+            corCarro = carro_detalhes[0]('div')[3].get_text()
+            combustivelCarro = carro_detalhes[0]('div')[4].get_text()
+            preco = carro_detalhes[0]('div')[7].get_text()
             try:
-                kmCarro = carro(class_='caract-km')[0].get_text()
+                kmCarro = carro[0]('div')[5].get_text()
             except:
                 kmCarro = 'Não disponível'
             link_veiculo = carro('a')[1].get('href')
             url = link_veiculo
-            res = requests.get(url)
+            res = requests.get(url, headers=header_request)
             soup = BeautifulSoup(res.text)
             vendedor = soup.find_all(class_='dados1')[0].find_all(class_='nome')[0].get_text()
             cidade = soup.find_all(class_='dados1')[0].find_all(class_='endereco')[0].get_text()
             carro_dados.append([carro_modelo, anoModelo_anoFabricacao, corCarro, combustivelCarro, kmCarro, preco, link_veiculo, vendedor, cidade])
         except:
             pass
+        
     carros_df = pandas.DataFrame(carro_dados)
+    carros_df
     carros_df.columns = ['Modelo', 'Ano', 'Cor',' Combustível','KM', 'Preco', 'Link', 'Vendedor', 'Cidade']
-    carros_df.to_csv('./raw/scrapping_anuncios_shopcar.csv', mode='a', header=False, encoding='latin')
+    carros_df.to_csv('./output_data/raw/shopcar/scrapping_anuncios_shopcar.csv', mode='a', header=False, encoding='latin')
 
     # if(pagina > 2):
     #     carros_df.to_csv('./raw/scrapping_anuncios_shopcar.csv', mode='a', header=False, encoding='latin')
