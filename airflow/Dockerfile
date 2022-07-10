@@ -28,6 +28,7 @@ ENV LC_MESSAGES en_US.UTF-8
 # Disable noisy "Handling signal" log messages:
 # ENV GUNICORN_CMD_ARGS --log-level WARNING
 
+
 RUN set -ex \
     && buildDeps=' \
         freetds-dev \
@@ -40,6 +41,10 @@ RUN set -ex \
     ' \
     && apt-get update -yqq \
     && apt-get upgrade -yqq \
+     && apt-get -y install gcc \
+  && apt-get -y install g++ \
+  && apt-get -y install unixodbc unixodbc-dev \
+  && apt-get clean \ 
     && apt-get install -yqq --no-install-recommends \
         $buildDeps \
         freetds-bin \
@@ -61,6 +66,13 @@ RUN set -ex \
     && pip install pyasn1 \ 
     && pip install beautifulsoup4 \
     && pip install fuzzywuzzy \
+    && pip install pyodbc \
+    && pip install markupsafe==2.0.1 \
+    && pip install wtforms==2.3.3 \
+    && pip install Werkzeug==0.16.0 \
+    && pip install SQLAlchemy==1.3.15  \
+    && pip install flask_sqlalchemy  \
+    && pip install pyodbc  \
     && pip install apache-airflow[crypto,celery,postgres,hive,jdbc,mysql,ssh${AIRFLOW_DEPS:+,}${AIRFLOW_DEPS}]==${AIRFLOW_VERSION} \
     && pip install 'redis==3.2' \
     && if [ -n "${PYTHON_DEPS}" ]; then pip install ${PYTHON_DEPS}; fi \

@@ -12,29 +12,43 @@ services:
                 max-file: "3"
 
     webserver:
-        image: puckel/docker-airflow:1.10.9
+        # image: puckel/docker-airflow:1.10.9
+        build:
+            context: https://github.com/puckel/docker-airflow.git#1.10.4
+            dockerfile: Dockerfile
+            args:
+                AIRFLOW_DEPS: g
         restart: always
         depends_on:
             - postgres
         environment:
             - LOAD_EX=n
             - EXECUTOR=Local
+            - EXTERNAL_DB_HOSTNAME=${DB_HOSTNAME}
+            - EXTERNAL_DB_USER=${DB_USER}
+            - EXTERNAL_DB_PASSWORD=${DB_PASSWORD}
+            - EXTERNAL_DB_DBNAME=${DB_NAME}
+            - EXTERNAL_DB_DBTABLE=${DB_TABLE}
+
         logging:
             options:
                 max-size: 10m
                 max-file: "3"
         volumes:
+
             - ./dags:/usr/local/airflow/dags
             - ./output_data:/usr/local/airflow/output_data
             - ./requirements.txt:/requirements.txt
-
-
             # - ./plugins:/usr/local/airflow/plugins
         ports:
             - "8080:8080"
         command: webserver
         healthcheck:
-            test: ["CMD-SHELL", "[ -f /usr/local/airflow/airflow-webserver.pid ]"]
+            test:
+                [
+                    "CMD-SHELL",
+                    "[ -f /usr/local/airflow/airflow-webserver.pid ]"
+                ]
             interval: 30s
             timeout: 30s
             retries: 3

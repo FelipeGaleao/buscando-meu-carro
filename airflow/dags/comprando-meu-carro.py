@@ -1,4 +1,4 @@
-from tasks import extract, transform
+from tasks import extract, transform, load
 from datetime import datetime
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
@@ -153,5 +153,14 @@ mastertable_olx_shopcar = PythonOperator(
     python_callable=transform.transform_mastertable,
     dag=dag)
 
+begin_load = DummyOperator(
+    task_id="begin_load",       
+    dag=dag)
+
+load_to_sql = PythonOperator(
+    task_id="LOAD_TO_SQL",
+    python_callable=load.load_to_sql,
+    dag=dag)
+
 end_extract >> begin_transform
-begin_transform >> transform_olx_dataset >> end_transform >> begin_mastertable >> mastertable_olx_shopcar >> end_mastertable
+begin_transform >> transform_olx_dataset >> end_transform >> begin_mastertable >> mastertable_olx_shopcar >> end_mastertable >> begin_load >> load_to_sql
