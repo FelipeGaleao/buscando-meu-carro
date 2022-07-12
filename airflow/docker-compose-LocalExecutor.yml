@@ -14,10 +14,10 @@ services:
     webserver:
         # image: puckel/docker-airflow:1.10.9
         build:
-            context: https://github.com/puckel/docker-airflow.git#1.10.4
             dockerfile: Dockerfile
             args:
-                AIRFLOW_DEPS: g
+                AIRFLOW_DEPS: 
+                PYTHON_DEPS: pyodbc
         restart: always
         depends_on:
             - postgres
@@ -35,7 +35,7 @@ services:
                 max-size: 10m
                 max-file: "3"
         volumes:
-
+            - ./logs:/users/local/airflow/logs
             - ./dags:/usr/local/airflow/dags
             - ./output_data:/usr/local/airflow/output_data
             - ./requirements.txt:/requirements.txt

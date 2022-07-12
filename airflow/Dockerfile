@@ -4,7 +4,7 @@
 # BUILD: docker build --rm -t puckel/docker-airflow .
 # SOURCE: https://github.com/puckel/docker-airflow
 
-FROM python:3.7-slim-buster
+FROM tiangolo/meinheld-gunicorn:python3.7
 LABEL maintainer="Puckel_"
 
 # Never prompt the user for choices on installation/configuration of packages
@@ -27,8 +27,7 @@ ENV LC_MESSAGES en_US.UTF-8
 
 # Disable noisy "Handling signal" log messages:
 # ENV GUNICORN_CMD_ARGS --log-level WARNING
-
-
+ 
 RUN set -ex \
     && buildDeps=' \
         freetds-dev \
@@ -40,10 +39,12 @@ RUN set -ex \
         git \
     ' \
     && apt-get update -yqq \
-    && apt-get upgrade -yqq \
+    && apt-get upgrade -yqq \ 
      && apt-get -y install gcc \
   && apt-get -y install g++ \
-  && apt-get -y install unixodbc unixodbc-dev \
+    && apt-get install python3-dev -y\
+    && apt-get install unixodbc-dev -y\
+    && pip3 install pyodbc \
   && apt-get clean \ 
     && apt-get install -yqq --no-install-recommends \
         $buildDeps \
@@ -72,7 +73,7 @@ RUN set -ex \
     && pip install Werkzeug==0.16.0 \
     && pip install SQLAlchemy==1.3.15  \
     && pip install flask_sqlalchemy  \
-    && pip install pyodbc  \
+    && pip install pymssql  \
     && pip install apache-airflow[crypto,celery,postgres,hive,jdbc,mysql,ssh${AIRFLOW_DEPS:+,}${AIRFLOW_DEPS}]==${AIRFLOW_VERSION} \
     && pip install 'redis==3.2' \
     && if [ -n "${PYTHON_DEPS}" ]; then pip install ${PYTHON_DEPS}; fi \
@@ -86,6 +87,15 @@ RUN set -ex \
         /usr/share/man \
         /usr/share/doc \
         /usr/share/doc-base
+
+# Add SQL Server ODBC Driver 17 for Ubuntu 18.04
+RUN curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add -
+RUN curl https://packages.microsoft.com/config/ubuntu/20.04/prod.list  > /etc/apt/sources.list.d/mssql-release.list
+RUN apt-get update
+RUN ACCEPT_EULA=Y apt-get install -y  --allow-unauthenticated msodbcsql17 
+RUN ACCEPT_EULA=Y apt-get install -y --allow-unauthenticated mssql-tools
+RUN echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bash_profile
+RUN echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
 
 COPY script/entrypoint.sh /entrypoint.sh
 COPY config/airflow.cfg ${AIRFLOW_USER_HOME}/airflow.cfg
