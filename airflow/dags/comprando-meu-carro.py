@@ -107,7 +107,7 @@ extract_fipe_marca_modelos = PythonOperator(
 
 begin_extract >> begin_fipe >> extract_fipe_marca_modelos >> end_fipe >> end_extract
 
-for i in range(1, 5): # 1, 101
+for i in range(1, 101): # 1, 101
     extract_olx_veiculos = PythonOperator(
         task_id="EXTRACT_DATA_OLX_PAGE_{}".format(i),
         python_callable=extract.extract_olx_veiculos,
@@ -119,7 +119,7 @@ for i in range(1, 5): # 1, 101
         extract_olx_veiculos] >> end_olx >> end_extract
 
 
-for i in range(1, 5): # 1, 592
+for i in range(1, 592): # 1, 592
     # scrapping_webmotors = PythonOperator(
     #             task_id="EXTRACT_DATA_WEBMOTORS_PAGE_{}".format(i),
     #             python_callable = extract_webmotors_page,

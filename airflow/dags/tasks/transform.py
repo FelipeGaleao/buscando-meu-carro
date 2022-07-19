@@ -78,6 +78,7 @@ def transform_shopcar_dataset():
     dataset.reset_index()
     dataset.set_index('Id_Anuncio_ShopCar', inplace=True)
     dataset.drop(labels=['Unnamed: 0'], axis=1)
+    dataset = dataset[dataset.Preco != 'DETALHES']
 
     # correção do campo data ano/modelo
 
@@ -96,7 +97,7 @@ def transform_shopcar_dataset():
     # correção do campo KM
     dataset['KM'] = dataset['KM'].str.replace('Km', '')
     dataset['KM'] = dataset['KM'].str.replace('.', '')
-    dataset['KM'] = pd.to_numeric(dataset['KM'], errors='coerce')
+    dataset['KM'] = pd.to_numeric(dataset['KM'], errors='ignore')
 
     # correção do campo PREÇO
     dataset['Preco'] = dataset['Preco'].str.replace('R', '')
