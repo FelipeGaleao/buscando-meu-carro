@@ -8,10 +8,10 @@ from fuzzywuzzy import fuzz
 def transform_mastertable():
     from datetime import date
 
-    df_olx = pd.read_csv('./output_data/staging/anuncios_olx_fuzzy.csv', encoding='latin').drop(labels=['Unnamed: 0'], axis=1).rename(columns={'vendedor': 'Vendedor', 'bairro': 'Bairro_Anuncio',
+    df_olx = pd.read_csv('../airflow/output_data/staging/anuncios_olx_fuzzy.csv', encoding='latin').drop(labels=['Unnamed: 0'], axis=1).rename(columns={'vendedor': 'Vendedor', 'bairro': 'Bairro_Anuncio',
                                                                                                                                             'cidade': 'Cidade_Anuncio', 'link_anuncio_olx': 'Link', 'regiao': 'Estado_Anuncio'})
     df_olx['Fonte'] = 'olx-v1'
-    df_shopcar = pd.read_csv('./output_data/staging/anuncios_shopcar_fuzzy.csv',
+    df_shopcar = pd.read_csv('../airflow/output_data/staging/anuncios_shopcar_fuzzy.csv',
                             encoding='latin').drop(labels=['Unnamed: 0'], axis=1)
     df_shopcar['Fonte'] = 'shopcar-v1'
     df_olx['Cidade'] = df_olx['Cidade_Anuncio']
