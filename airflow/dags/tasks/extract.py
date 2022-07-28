@@ -93,12 +93,35 @@ def extract_shopcar_page(pagina):
     import json 
     import requests
     from bs4 import BeautifulSoup
-    
+    import cloudscraper
+    from selenium import webdriver
+    from selenium import webdriver
+    from selenium.webdriver.chrome.service import Service as ChromeService
+    from webdriver_manager.chrome import ChromeDriverManager
+    from fake_useragent import UserAgent
+
+    ua = UserAgent()
+    userAgent = ua.random
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_argument("start-maximized")
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--window-size=1920,1080')
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--disable-gpu')
+    chrome_options.add_argument(f'user-agent={userAgent}')
+    chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+    chrome_options.add_argument('--disable-dev-shm-usage')        
+
     print(f"Iniciando scrapping ...... {pagina}")
     url = f"https://www.shopcar.com.br/busca.php?tipo=1&marca=&string=&ordenar=valor_asc&pagina={pagina}"
-    header_request = { "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"}
-    res = requests.get(url, headers= header_request)
-    soup = BeautifulSoup(res.content, "html.parser")
+    driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), chrome_options=chrome_options)
+
+    driver.get(url)
+
+    res = driver.page_source
+   # print(res)
+
+    soup = BeautifulSoup(res, "html.parser")
     index = 0
     carro_dados = []
 
@@ -116,8 +139,9 @@ def extract_shopcar_page(pagina):
                 kmCarro = 'Não disponível'
             link_veiculo = carro('a')[1].get('href')
             url = link_veiculo
-            res = requests.get(url, headers=header_request)
-            soup = BeautifulSoup(res.text)
+            driver.get(url)
+            res = driver.page_source
+            soup = BeautifulSoup(res)
             vendedor = soup.find_all(class_='dados1')[0].find_all(class_='nome')[0].get_text()
             cidade = soup.find_all(class_='dados1')[0].find_all(class_='endereco')[0].get_text()
             carro_dados.append([carro_modelo, anoModelo_anoFabricacao, corCarro, combustivelCarro, kmCarro, preco, link_veiculo, vendedor, cidade])
@@ -125,7 +149,7 @@ def extract_shopcar_page(pagina):
             pass
         
     carros_df = pandas.DataFrame(carro_dados)
-    carros_df
+    print(carro_dados)
     carros_df.columns = ['Modelo', 'Ano', 'Cor',' Combustível','KM', 'Preco', 'Link', 'Vendedor', 'Cidade']
     carros_df.to_csv('./output_data/raw/shopcar/scrapping_anuncios_shopcar.csv', mode='a', header=False, encoding='latin')
 

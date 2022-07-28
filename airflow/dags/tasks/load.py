@@ -48,7 +48,7 @@ def load_to_sql():
     #                       server+';DATABASE='+database+';UID='+username+';PWD=' + password + ';')
 
     engine = sqlalchemy.create_engine(f"mssql+pyodbc://{username}:{password}@{server}:1433/{database}?driver=ODBC+Driver+17+for+SQL+Server", fast_executemany=True)                    
-    df.to_sql('mastertable', con=engine, if_exists='append', index=False)
+    df.to_sql('mastertable', con=engine, if_exists='replace', index=False, chunksize=5000)
 
     # cursor = cnxn.cursor()
     # # Insert Dataframe into SQL Server:
