@@ -2,5 +2,13 @@
 /airflow/.local/
 /airflow/.cache/
 /airflow/raw/olx_anuncios/*
+/airflow/output_data/raw/olx_anuncios/*
+
+
+/airflow2/logs
+/airflow2/.local/
+/airflow2/.cache/
+/airflow2/raw/olx_anuncios/*
+/airflow2/output_data/raw/olx_anuncios/*
+
 *.pyc
-airflow/output_data/raw/olx_anuncios/*
