@@ -45,7 +45,7 @@ def extract_marcas_modelo_fipe():
     df.columns = ['nome_modelo', 'id_modelo', 'id_marca']
     df
     dataset_final = marcas_df.merge(modelos_df, how='inner')
-    dataset_final.to_csv('./output_data/raw/scrapping_marcas_modelos_fipe.csv', encoding='latin', mode='w')
+    dataset_final.to_csv('./output_data/raw/scrapping_marcas_modelos_fipe.csv', encoding='utf8', mode='w')
 
 def extract_olx_veiculos(pagina):
     import pandas as pd
@@ -86,7 +86,7 @@ def extract_olx_veiculos(pagina):
         df_propriedades_veiculos['uf'] = data['location']['uf']
         df_propriedades_veiculos['regiao'] = data['location']['region']
         df_propriedades_veiculos = df_propriedades_veiculos.reset_index().groupby('id').agg("first")
-        df_propriedades_veiculos.to_csv(f'./output_data/raw/olx_anuncios/{data["listId"]}.csv', mode='w+', header=True, encoding='latin')
+        df_propriedades_veiculos.to_csv(f'./output_data/raw/olx_anuncios/{data["listId"]}.csv', mode='w+', header=True, encoding='utf8')
         
 def extract_shopcar_page(pagina):
     import pandas 

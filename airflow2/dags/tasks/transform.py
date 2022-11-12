@@ -4,10 +4,10 @@ import pandas as pd
 def transform_mastertable():
     from datetime import date
 
-    df_olx = pd.read_csv('../airflow/staging/anuncios_olx_fuzzy.csv', encoding='latin').drop(labels=['Unnamed: 0'], axis=1).rename(columns={'vendedor': 'Vendedor', 'bairro': 'Bairro_Anuncio',
+    df_olx = pd.read_csv('./output_data/staging/anuncios_olx_fuzzy.csv', encoding='latin').drop(labels=['Unnamed: 0'], axis=1).rename(columns={'vendedor': 'Vendedor', 'bairro': 'Bairro_Anuncio',
                                                                                                                                             'cidade': 'Cidade_Anuncio', 'link_anuncio_olx': 'Link', 'regiao': 'Estado_Anuncio'})
 
-    df_shopcar = pd.read_csv('../airflow/staging/anuncios_shopcar_fuzzy.csv',
+    df_shopcar = pd.read_csv('./output_data/staging/anuncios_shopcar_fuzzy.csv',
                             encoding='latin').drop(labels=['Unnamed: 0'], axis=1)
     df_olx['Cidade'] = df_olx['Cidade_Anuncio']
     df_final = pd.concat([df_olx, df_shopcar])
@@ -41,13 +41,13 @@ def transform_olx_dataset():
     df_olx_veiculos
 
     df_marca_modelo = pd.read_csv(
-        './output_data/raw/scrapping_marcas_modelos_fipe.csv', encoding='latin').drop('Unnamed: 0', axis=1)
+        './output_data/raw/scrapping_marcas_modelos_fipe.csv', encoding='utf8').drop('Unnamed: 0', axis=1)
     df_fuzzy = fuzzy_left_join(
         df_olx_veiculos, df_marca_modelo, 'Modelo', 'nome_modelo')
     df_fuzzy = df_fuzzy.drop(labels=['__id_left', '__id_right'], axis=1)
     df_fuzzy.sort_values(by='best_match_score')
     df_fuzzy.to_csv(f'./output_data/staging/anuncios_olx_fuzzy.csv',
-                    mode='w+', header=True, encoding='latin')
+                    mode='w+', header=True, encoding='utf8')
     df_fuzzy.head(10)
 
 
@@ -120,13 +120,13 @@ def transform_shopcar_dataset():
 
     df_anuncios = dataset
     df_anuncios.to_csv(f'./output_data/staging/anuncios_shopcar2.csv',
-                       header=True, encoding='latin')
+                       header=True, encoding='utf8')
 
     df_marca_modelo = pd.read_csv(
-        './output_data/raw/scrapping_marcas_modelos_fipe.csv', encoding='latin')
+        './output_data/raw/scrapping_marcas_modelos_fipe.csv', encoding='utf8')
     df_fuzzy = fuzzy_left_join(
         df_anuncios, df_marca_modelo, 'Modelo', 'nome_modelo')
     df_fuzzy = df_fuzzy.drop(labels=['__id_left', '__id_right'], axis=1)
     df_fuzzy.sort_values(by='best_match_score')
     df_fuzzy.to_csv(f'./output_data/staging/anuncios_shopcar_fuzzy.csv',
-                    mode='w+', header=True, encoding='latin')
+                    mode='w+', header=True, encoding='utf8')
