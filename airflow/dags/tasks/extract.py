@@ -45,7 +45,7 @@ def extract_marcas_modelo_fipe():
     df.columns = ['nome_modelo', 'id_modelo', 'id_marca']
     df
     dataset_final = marcas_df.merge(modelos_df, how='inner')
-    dataset_final.to_csv('./output_data/raw/scrapping_marcas_modelos_fipe.csv', encoding='latin')
+    dataset_final.to_csv('./output_data/raw/scrapping_marcas_modelos_fipe.csv', encoding='utf8')
 
 def extract_olx_veiculos(pagina):
     import pandas as pd
@@ -86,7 +86,7 @@ def extract_olx_veiculos(pagina):
         df_propriedades_veiculos['uf'] = data['location']['uf']
         df_propriedades_veiculos['regiao'] = data['location']['region']
         df_propriedades_veiculos = df_propriedades_veiculos.reset_index().groupby('id').agg("first")
-        df_propriedades_veiculos.to_csv(f'./output_data/raw/olx_anuncios/{data["listId"]}.csv', mode='w+', header=True, encoding='latin')
+        df_propriedades_veiculos.to_csv(f'./output_data/raw/olx_anuncios/{data["listId"]}.csv', mode='w+', header=True, encoding='utf8')
         
 def extract_shopcar_page(pagina):
     import pandas 
@@ -100,15 +100,15 @@ def extract_shopcar_page(pagina):
     from webdriver_manager.chrome import ChromeDriverManager
     from fake_useragent import UserAgent
 
-    ua = UserAgent()
-    userAgent = ua.random
+    # ua = UserAgent(verify_ssl=False)
+    # userAgent = ua.random
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument("start-maximized")
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--window-size=1920,1080')
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--disable-gpu')
-    chrome_options.add_argument(f'user-agent={userAgent}')
+    chrome_options.add_argument(f'user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36')
     chrome_options.add_argument("--disable-blink-features=AutomationControlled")
     chrome_options.add_argument('--disable-dev-shm-usage')        
 
@@ -151,7 +151,7 @@ def extract_shopcar_page(pagina):
     carros_df = pandas.DataFrame(carro_dados)
     print(carro_dados)
     carros_df.columns = ['Modelo', 'Ano', 'Cor',' Combustível','KM', 'Preco', 'Link', 'Vendedor', 'Cidade']
-    carros_df.to_csv('./output_data/raw/shopcar/scrapping_anuncios_shopcar.csv', mode='a', header=False, encoding='latin')
+    carros_df.to_csv('./output_data/raw/shopcar/scrapping_anuncios_shopcar.csv', mode='a', header=False, encoding='utf8')
 
     # if(pagina > 2):
     #     carros_df.to_csv('./raw/scrapping_anuncios_shopcar.csv', mode='a', header=False, encoding='latin')

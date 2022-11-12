@@ -1,11 +1,10 @@
 
-import pandas as pd
-from fuzzymatcher import link_table, fuzzy_left_join
-from fuzzywuzzy import process
-from fuzzywuzzy import fuzz
-
-
 def transform_mastertable():
+    import pandas as pd
+    from fuzzymatcher import link_table, fuzzy_left_join
+    from fuzzywuzzy import process
+    from fuzzywuzzy import fuzz
+
     from datetime import date
 
     df_olx = pd.read_csv('../airflow/output_data/staging/anuncios_olx_fuzzy.csv', encoding='latin').drop(labels=['Unnamed: 0'], axis=1).rename(columns={'vendedor': 'Vendedor', 'bairro': 'Bairro_Anuncio',
@@ -23,7 +22,11 @@ def transform_mastertable():
 
 def transform_olx_dataset():
     from glob import iglob
-
+    from fuzzymatcher import link_table, fuzzy_left_join
+    from fuzzywuzzy import process
+    from fuzzywuzzy import fuzz
+    import pandas as pd 
+    
     path = r'./output_data/raw/olx_anuncios/*.csv'
 
     all_rec = iglob(path, recursive=True)

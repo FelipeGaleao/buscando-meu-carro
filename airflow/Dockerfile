@@ -63,6 +63,7 @@ RUN set -ex \
     && locale-gen \
     && update-locale LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 \
     && useradd -ms /bin/bash -d ${AIRFLOW_USER_HOME} airflow \
+    && pip install --upgrade pip \
     && pip install -U pip setuptools wheel \
     && pip install pytz \
     && pip install pyOpenSSL \
@@ -70,12 +71,13 @@ RUN set -ex \
     && pip install pyasn1 \ 
     && pip install beautifulsoup4 \
     && pip install fuzzywuzzy \
+    && pip install fuzzymatcher \
     && pip install pyodbc \
     && pip install markupsafe==2.0.1 \
     && pip install wtforms==2.3.3 \
     && pip install Werkzeug==0.16.0 \
     && pip install SQLAlchemy==1.3.15  \
-    && pip install flask_sqlalchemy  \
+    && pip install flask_sqlalchemy===2.4.4  \
     && pip install pymssql  \
     && pip install selenium  \
     && pip install webdriver-manager  \
@@ -83,6 +85,8 @@ RUN set -ex \
     && pip install fake_useragent  \
     && pip install apache-airflow[crypto,celery,postgres,hive,jdbc,mysql,ssh${AIRFLOW_DEPS:+,}${AIRFLOW_DEPS}]==${AIRFLOW_VERSION} \
     && pip install 'redis==3.2' \
+    && pip install markupsafe==2.0.1 \
+    && pip install pandas \ 
     && if [ -n "${PYTHON_DEPS}" ]; then pip install ${PYTHON_DEPS}; fi \
     && apt-get purge --auto-remove -yqq $buildDeps \
     && apt-get autoremove -yqq --purge \
