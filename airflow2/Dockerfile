@@ -21,6 +21,8 @@ RUN apt-get install -yqq unzip \
 && unzip /tmp/chromedriver.zip chromedriver -d /usr/local/bin/ \
 && apt-get -y --purge autoremove
 
+RUN chmod -R 777 /opt/airflow/logs
+ARG AIRFLOW_UID=50000
 COPY requirements.txt requirements.txt
 USER airflow
 RUN pip install --upgrade pip

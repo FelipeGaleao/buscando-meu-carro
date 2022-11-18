@@ -3,3 +3,4 @@ numpy
 fuzzymatcher
 selenium
 webdriver-manager
+cloudscraper
