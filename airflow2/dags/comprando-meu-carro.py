@@ -61,6 +61,7 @@ begin_shopcar = DummyOperator(
 )
 end_shopcar = DummyOperator(
     task_id="end_shopcar",
+    trigger_rule="one_failed"
     dag=dag
 )
 begin_mastertable = DummyOperator(

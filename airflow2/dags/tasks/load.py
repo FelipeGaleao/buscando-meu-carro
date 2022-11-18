@@ -12,7 +12,7 @@ def load_to_sql():
     import pandas as pd
 
     df = pd.read_csv(
-        '../airflow/output_data/trusted/mastertable-olx-shopcar.csv', encoding='latin')
+        './output_data/trusted/mastertable-olx-shopcar.csv', encoding='latin')
     df.columns = df.columns.str.replace(' ', '')
     columns = ['Ano_Fabricacao',
                'Ano_Modelo',
