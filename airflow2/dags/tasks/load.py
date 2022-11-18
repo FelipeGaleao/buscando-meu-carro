@@ -12,37 +12,11 @@ def load_to_sql():
     import pandas as pd
 
     df = pd.read_csv(
-        './output_data/trusted/mastertable-olx-shopcar.csv', encoding='latin')
-    df.columns = df.columns.str.replace(' ', '')
-    columns = ['Ano_Fabricacao',
-               'Ano_Modelo',
-               'Bairro_Anuncio',
-               'Cidade',
-               'Cidade_Anuncio',
-               'Combustivel',
-               'Cor',
-               'Data_Extracao_Dados',
-               'Endereco_Anuncio',
-               'Estado_Anuncio',
-               'Fonte',
-               'KM',
-               'Link',
-               'Marca',
-               'Modelo',
-               'Preco',
-               'Vendedor',
-               'anuncio_id_olx',
-               'best_match_score',
-               'gnv_kit',
-               'id_marca',
-               'id_modelo',
-               'nome_marca',
-               'nome_modelo',
-               'uf'
-               ]
-    df = df[columns]
+        './output_data/trusted/mastertable-olx-shopcar.csv', encoding='utf-8')
+    df.columns = df.columns.str.replace(" ", "")
+    df.columns = df.columns.str.replace('\n       ', '')
     df.columns = df.columns.str.strip()
-
+    df.columns = df.columns.str.lstrip()
 
     # create engine mysql sql alchemy
     engine = sqlalchemy.create_engine(

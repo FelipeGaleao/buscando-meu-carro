@@ -45,7 +45,7 @@ def extract_marcas_modelo_fipe():
     df.columns = ['nome_modelo', 'id_modelo', 'id_marca']
     df
     dataset_final = marcas_df.merge(modelos_df, how='inner')
-    dataset_final.to_csv('./output_data/raw/scrapping_marcas_modelos_fipe.csv', encoding='utf8', mode='w')
+    dataset_final.to_csv('./output_data/raw/scrapping_marcas_modelos_fipe.csv', encoding='utf-8', mode='w')
 
 def extract_olx_veiculos(pagina):
     import pandas as pd
@@ -86,7 +86,7 @@ def extract_olx_veiculos(pagina):
         df_propriedades_veiculos['uf'] = data['location']['uf']
         df_propriedades_veiculos['regiao'] = data['location']['region']
         df_propriedades_veiculos = df_propriedades_veiculos.reset_index().groupby('id').agg("first")
-        df_propriedades_veiculos.to_csv(f'./output_data/raw/olx_anuncios/{data["listId"]}.csv', mode='w+', header=True, encoding='utf8')
+        df_propriedades_veiculos.to_csv(f'./output_data/raw/olx_anuncios/{data["listId"]}.csv', mode='w+', header=True, encoding='utf-8')
         
 def extract_shopcar_page(pagina):
     import pandas 
@@ -158,8 +158,8 @@ def extract_shopcar_page(pagina):
 
     carros_df = pandas.DataFrame(carro_dados)
     carros_df.columns = ['Modelo', 'Ano', 'Cor',' Combustível','KM', 'Preco', 'Link', 'Vendedor', 'Cidade']
-    carros_df.to_csv('./output_data/raw/shopcar/scrapping_anuncios_shopcar.csv', mode='a', header=False, encoding='utf8')
+    carros_df.to_csv('./output_data/raw/shopcar/scrapping_anuncios_shopcar.csv', mode='a', header=False, encoding='utf-8')
     if(pagina > 2):
-        carros_df.to_csv('./output_data/raw/shopcar/scrapping_anuncios_shopcar.csv', mode='a', header=False, encoding='utf8')
+        carros_df.to_csv('./output_data/raw/shopcar/scrapping_anuncios_shopcar.csv', mode='a', header=False, encoding='utf-8')
     else:
-        carros_df.to_csv('./output_data/raw/shopcar/scrapping_anuncios_shopcar.csv', header=True,  encoding='utf8')
+        carros_df.to_csv('./output_data/raw/shopcar/scrapping_anuncios_shopcar.csv', header=True,  encoding='utf-8')

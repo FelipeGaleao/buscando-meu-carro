@@ -4,16 +4,16 @@ import pandas as pd
 def transform_mastertable():
     from datetime import date
 
-    df_olx = pd.read_csv('./output_data/staging/anuncios_olx_fuzzy.csv', encoding='latin').drop(labels=['Unnamed: 0'], axis=1).rename(columns={'vendedor': 'Vendedor', 'bairro': 'Bairro_Anuncio',
+    df_olx = pd.read_csv('./output_data/staging/anuncios_olx_fuzzy.csv', encoding='utf-8').drop(labels=['Unnamed: 0'], axis=1).rename(columns={'vendedor': 'Vendedor', 'bairro': 'Bairro_Anuncio',
                                                                                                                                             'cidade': 'Cidade_Anuncio', 'link_anuncio_olx': 'Link', 'regiao': 'Estado_Anuncio'})
 
     df_shopcar = pd.read_csv('./output_data/staging/anuncios_shopcar_fuzzy.csv',
-                            encoding='latin').drop(labels=['Unnamed: 0'], axis=1)
+                            encoding='utf-8').drop(labels=['Unnamed: 0'], axis=1)
     df_olx['Cidade'] = df_olx['Cidade_Anuncio']
     df_final = pd.concat([df_olx, df_shopcar])
     df_final['Marca'] = df_final['nome_marca']
     df_final['Data_Extracao_Dados'] =  date.today().strftime("%d/%m/%Y")
-    df_final.to_csv('./output_data/trusted/mastertable-olx-shopcar.csv', mode='a+', encoding='latin', header=False)
+    df_final.to_csv('./output_data/trusted/mastertable-olx-shopcar.csv', mode='a+', encoding='utf-8', header=True)
 
 
 def transform_olx_dataset():
@@ -23,7 +23,7 @@ def transform_olx_dataset():
     path = r'./output_data/raw/olx_anuncios/*.csv'
 
     all_rec = iglob(path, recursive=True)
-    dataframes = (pd.read_csv(f, encoding='latin') for f in all_rec)
+    dataframes = (pd.read_csv(f, encoding='utf-8') for f in all_rec)
     big_dataframe = pd.concat(dataframes, ignore_index=True)
 
     df_olx_veiculos = big_dataframe.copy()
@@ -41,13 +41,13 @@ def transform_olx_dataset():
     df_olx_veiculos
 
     df_marca_modelo = pd.read_csv(
-        './output_data/raw/scrapping_marcas_modelos_fipe.csv', encoding='utf8').drop('Unnamed: 0', axis=1)
+        './output_data/raw/scrapping_marcas_modelos_fipe.csv', encoding='utf-8').drop('Unnamed: 0', axis=1)
     df_fuzzy = fuzzy_left_join(
         df_olx_veiculos, df_marca_modelo, 'Modelo', 'nome_modelo')
     df_fuzzy = df_fuzzy.drop(labels=['__id_left', '__id_right'], axis=1)
     df_fuzzy.sort_values(by='best_match_score')
     df_fuzzy.to_csv(f'./output_data/staging/anuncios_olx_fuzzy.csv',
-                    mode='w+', header=True, encoding='utf8')
+                    mode='w+', header=True, encoding='utf-8')
     df_fuzzy.head(10)
 
 
@@ -62,7 +62,7 @@ def transform_shopcar_dataset():
     d1 = today.strftime("%d/%m/%Y")
 
     dataset = pd.read_csv(
-        './output_data/raw/scrapping_anuncios_shopcar.csv', encoding='latin')
+        './output_data/raw/scrapping_anuncios_shopcar.csv', encoding='utf-8')
 
     # geração de id do shop car
     dataset.columns = ['Unnamed: 0', 'Modelo', 'Ano', 'Cor',
@@ -120,13 +120,13 @@ def transform_shopcar_dataset():
 
     df_anuncios = dataset
     df_anuncios.to_csv(f'./output_data/staging/anuncios_shopcar2.csv',
-                       header=True, encoding='utf8')
+                       header=True, encoding='utf-8')
 
     df_marca_modelo = pd.read_csv(
-        './output_data/raw/scrapping_marcas_modelos_fipe.csv', encoding='utf8')
+        './output_data/raw/scrapping_marcas_modelos_fipe.csv', encoding='utf-8')
     df_fuzzy = fuzzy_left_join(
         df_anuncios, df_marca_modelo, 'Modelo', 'nome_modelo')
     df_fuzzy = df_fuzzy.drop(labels=['__id_left', '__id_right'], axis=1)
     df_fuzzy.sort_values(by='best_match_score')
     df_fuzzy.to_csv(f'./output_data/staging/anuncios_shopcar_fuzzy.csv',
-                    mode='w+', header=True, encoding='utf8')
+                    mode='w+', header=True, encoding='utf-8')
