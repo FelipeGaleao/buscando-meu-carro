@@ -1,4 +1,4 @@
-from tasks import extract, transform
+from tasks import extract, transform, load
 from datetime import datetime
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
@@ -29,8 +29,8 @@ dag = DAG(
     start_date=datetime(2021, 12, 18),
     dag_id=dag_id,
     default_args=default_args,
-    max_active_runs=128,
-    concurrency=128,
+    max_active_runs=1,
+    concurrency=32,
     schedule_interval="0 0/6 * * *",
     catchup=False
 )
@@ -85,6 +85,14 @@ end_extract = DummyOperator(
     dag=dag
 )
 
+begin_load = DummyOperator(
+    task_id="begin_load",
+    dag=dag
+)
+end_load = DummyOperator(
+    task_id="end_load",
+    dag=dag
+)
 
 extract_fipe_marca_modelos = PythonOperator(
     task_id="EXTRACT_FIPE_DATASET",
@@ -106,7 +114,7 @@ for i in range(1, 101): # 1, 101
         extract_olx_veiculos] >> end_olx >> end_extract
 
 
-for i in range(0, 592): # 1, 592
+for i in range(1, 592): # 1, 592
     # scrapping_webmotors = PythonOperator(
     #             task_id="EXTRACT_DATA_WEBMOTORS_PAGE_{}".format(i),
     #             python_callable = extract_webmotors_page,
@@ -142,5 +150,10 @@ mastertable_olx_shopcar = PythonOperator(
     python_callable=transform.transform_mastertable,
     dag=dag)
 
+load_to_sql = PythonOperator(
+task_id="LOAD_TO_SQL",
+python_callable=load.load_to_sql,
+dag=dag)
+
 end_extract >> begin_transform
-begin_transform >> transform_olx_dataset >> end_transform >> begin_mastertable >> mastertable_olx_shopcar >> end_mastertable
+begin_transform >> transform_olx_dataset >> end_transform >> begin_mastertable >> mastertable_olx_shopcar >> end_mastertable >> begin_load >> load_to_sql >> end_load

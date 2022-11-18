@@ -49,6 +49,11 @@ x-airflow-common:
     dockerfile: Dockerfile
   environment:
     &airflow-common-env
+    EXTERNAL_DB_HOSTNAME: ${DB_HOSTNAME}
+    EXTERNAL_DB_USER: ${DB_USER}
+    EXTERNAL_DB_PASSWORD: ${DB_PASSWORD}
+    EXTERNAL_DB_DBNAME: ${DB_NAME}
+    EXTERNAL_DB_DBTABLE: ${DB_TABLE}
     AIRFLOW__CORE__EXECUTOR: CeleryExecutor
     AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
     # For backward compatibility, with Airflow <2.3

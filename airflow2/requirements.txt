@@ -4,3 +4,4 @@ fuzzymatcher
 selenium
 webdriver-manager
 cloudscraper
+pymysql

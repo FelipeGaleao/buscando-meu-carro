@@ -21,6 +21,9 @@ RUN apt-get install -yqq unzip \
 && unzip /tmp/chromedriver.zip chromedriver -d /usr/local/bin/ \
 && apt-get -y --purge autoremove
 
+RUN apt-get install -y default-libmysqlclient-dev && apt-get install -y mysql-client 
+
+
 RUN chmod -R 777 /opt/airflow/logs
 ARG AIRFLOW_UID=50000
 COPY requirements.txt requirements.txt
